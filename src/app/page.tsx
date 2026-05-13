@@ -1,0 +1,50 @@
+import { HeroSection }         from '@/components/sections/HeroSection'
+import { StatStrip }           from '@/components/sections/StatStrip'
+import { DefinitionSection }   from '@/components/sections/DefinitionSection'
+import { QuickAnswersSection } from '@/components/sections/QuickAnswersSection'
+import { ProofSection }        from '@/components/sections/ProofSection'
+import { ValueSection }        from '@/components/sections/ValueSection'
+import { ServicesSection }     from '@/components/sections/ServicesSection'
+import { ProcessSection }      from '@/components/sections/ProcessSection'
+import { GuideSection }        from '@/components/sections/GuideSection'
+import { WhySection }          from '@/components/sections/WhySection'
+import { CTASection }          from '@/components/sections/CTASection'
+
+export default function HomePage() {
+  return (
+    <>
+      {/* 1. Full-bleed video hero */}
+      <HeroSection />
+
+      {/* 2. Proof stats strip */}
+      <StatStrip />
+
+      {/* 3. "What is a film fixer?" definition */}
+      <DefinitionSection />
+
+      {/* 4. FAQ / Quick answers for producers */}
+      <QuickAnswersSection />
+
+      {/* 5. Social proof — quote + client list */}
+      <ProofSection />
+
+      {/* 6. Value proposition + deliverables list */}
+      <ValueSection />
+
+      {/* 7. Service cards (6 featured) */}
+      <ServicesSection />
+
+      {/* 8. 4-step process */}
+      <ProcessSection />
+
+      {/* 9. Ethiopia filming guide cards */}
+      <GuideSection />
+
+      {/* 10. Why choose Sawla Films */}
+      <WhySection />
+
+      {/* 11. Final CTA — feasibility check */}
+      <CTASection />
+    </>
+  )
+}
