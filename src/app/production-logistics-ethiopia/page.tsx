@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { ServicePageLayout } from '@/components/shared/ServicePageLayout'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'Production Logistics in Ethiopia | Field-Tested Movement Planning',
   description: 'Field-tested movement planning for distance, terrain, timing, and changing conditions. 4x4 transport, routing, accommodation, and on-ground coordination across Ethiopia.',
@@ -8,6 +12,9 @@ export const metadata: Metadata = {
 }
 
 export default function ProductionLogisticsPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'camp');
+
   return (
     <ServicePageLayout
       slug="production-logistics-ethiopia"
@@ -18,6 +25,19 @@ export default function ProductionLogisticsPage() {
           <p>Filming in Ethiopia can involve long regional drives, mountain roads, desert corridors, high-altitude locations, internal flights, tight call times, and remote accommodation realities. A strong production plan must work beyond the spreadsheet. It has to hold when weather, access, ceremonies, road conditions, or local timing changes the day.</p>
           <p>Sawla Films provides production logistics in Ethiopia for international crews that need practical movement planning, reliable field coordination, and calm operational judgment. We align transport, accommodation, routing, airport handling, remote field support, and daily coordination so your shoot remains functional when conditions shift.</p>
           <p>We do not treat logistics as simple bookings. We treat logistics as the structure that protects your filming time, crew energy, equipment movement, and field decision-making.</p>
+          
+          {imageRecord && (
+            <div className="mt-8 w-full aspect-video md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-lg border border-black/[0.05]">
+              <PremiumImage
+                assets={imageRecord.assets}
+                altText={imageRecord.seoDescription || imageRecord.altText}
+                dominantColor={imageRecord.dominantColors[0]}
+                className="w-full h-full object-cover"
+                useFullResolution={false}
+                sizes="(max-width: 768px) 100vw, 800px"
+              />
+            </div>
+          )}
         </>
       }
       trustLine="4x4 transport, routing, accommodation, airport handling, field coordination, and contingency planning for productions filming across Ethiopia."

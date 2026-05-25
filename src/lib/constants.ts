@@ -215,6 +215,7 @@ export const NAV_LINKS = [
   { label: 'Home',            href: '/' },
   { label: 'Services',        href: '/ethiopia-film-fixer-services' },
   { label: 'Filming Guide',   href: '/ethiopia-filming-guide' },
+  { label: 'Gallery',         href: '/gallery' },
   { label: 'Our Work',        href: '/case-studies' },
   { label: 'About',           href: '/about' },
   { label: 'FAQ',             href: '/faq' },

@@ -3,6 +3,10 @@ import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE, SERVICES } from '@/lib/constants'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'Film Fixer Services in Ethiopia | Sawla Films',
   description: 'Full-service Ethiopia film fixer for international productions: permits, drone, customs, logistics, scouting, crew, security, on-ground fixing, and VIP handling.',
@@ -28,12 +32,15 @@ const STEPS = [
 ]
 
 export default function ServicesHubPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+
   return (
     <div className="min-h-screen">
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage:'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize:'48px 48px' }} aria-hidden="true" />
+        <div className="absolute inset-0 pointer-events-none z-0" style={{ backgroundImage:'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize:'48px 48px' }} aria-hidden="true" />
+        
         <div className="relative z-10 max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
           <Eyebrow className="mb-5">All services</Eyebrow>
           <h1 className="font-serif font-light text-white leading-[1.08] tracking-[-0.02em] mb-4 max-w-[620px]" style={{ fontSize:'clamp(34px,5vw,58px)' }}>
@@ -100,6 +107,22 @@ export default function ServicesHubPage() {
           </div>
         </div>
       </section>
+
+      {/* Embedded Landscape Image */}
+      {records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30') && (
+        <section className="bg-charcoal px-[clamp(20px,4vw,48px)] py-12">
+          <div className="max-w-[1240px] mx-auto w-full aspect-[21/9] rounded-[4px] overflow-hidden shadow-2xl border border-white/[0.05]">
+            <PremiumImage
+              assets={records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30')!.assets}
+              altText={records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30')!.seoDescription || records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30')!.altText}
+              dominantColor={records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30')!.dominantColors[0]}
+              className="w-full h-full object-cover"
+              useFullResolution={true}
+              sizes="100vw"
+            />
+          </div>
+        </section>
+      )}
 
       {/* HOW WE WORK */}
       <section className="bg-ash py-16">

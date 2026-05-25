@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { ServicePageLayout } from '@/components/shared/ServicePageLayout'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'Location Scouting in Ethiopia | Feasibility-First Recce Support',
   description: 'Feasibility-first location scouting and recce for international productions filming in Ethiopia. Access checks, permission mapping, recce packs, and producer-ready recommendations.',
@@ -8,6 +12,9 @@ export const metadata: Metadata = {
 }
 
 export default function LocationScoutingPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-39');
+
   return (
     <ServicePageLayout
       slug="location-scouting-ethiopia"
@@ -19,6 +26,19 @@ export default function LocationScoutingPage() {
           <p>Ethiopia offers extraordinary filming environments: ancient cities, highland plateaus, desert basins, Rift Valley landscapes, remote communities, sacred sites, modern streets, and expedition routes that feel almost impossible to stage. But a strong visual location is not automatically a viable filming location.</p>
           <p>Access, timing, cultural protocol, security conditions, weather, altitude, authority requirements, privacy concerns, and production movement all affect whether a location can support the shoot.</p>
           <p>Sawla Films provides location scouting and recce support in Ethiopia with feasibility at the centre. We help producers, directors, agencies, and documentary teams identify strong visual options, understand what is realistic, and move toward locations that can be permitted, reached, respected, and filmed with confidence.</p>
+        
+          {imageRecord && (
+            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
+              <PremiumImage
+                assets={imageRecord.assets}
+                altText={imageRecord.seoDescription || imageRecord.altText}
+                dominantColor={imageRecord.dominantColors[0]}
+                className="w-full h-full object-cover"
+                useFullResolution={false}
+                sizes="(max-width: 768px) 100vw, 800px"
+              />
+            </div>
+          )}
         </>
       }
       trustLine="Scouting should protect the story, the schedule, and the relationship with the place being filmed."

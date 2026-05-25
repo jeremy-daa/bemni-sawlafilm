@@ -190,3 +190,65 @@ body {
   height: 1px;
   background: rgba(0,0,0,0.07);
 }
+
+/* ─── Navbar Height Adjustments (80px) ──────────────── */
+.pt-\[80px\] {
+  padding-top: 100px !important;
+}
+.pt-\[60px\] {
+  padding-top: 80px !important;
+}
+
+/* ─── Global Contrast and Typography Boosts ─────────── */
+
+/* 1. Boost low-contrast text opacities globally */
+.text-white\/15 { color: rgba(255, 255, 255, 0.45) !important; }
+.text-white\/18 { color: rgba(255, 255, 255, 0.48) !important; }
+.text-white\/22 { color: rgba(255, 255, 255, 0.52) !important; }
+.text-white\/28 { color: rgba(255, 255, 255, 0.58) !important; }
+.text-white\/30 { color: rgba(255, 255, 255, 0.60) !important; }
+.text-white\/40 { color: rgba(255, 255, 255, 0.70) !important; }
+.text-white\/45 { color: rgba(255, 255, 255, 0.75) !important; }
+.text-white\/50 { color: rgba(255, 255, 255, 0.80) !important; }
+.text-white\/55 { color: rgba(255, 255, 255, 0.82) !important; }
+.text-white\/60 { color: rgba(255, 255, 255, 0.85) !important; }
+.text-white\/65 { color: rgba(255, 255, 255, 0.88) !important; }
+
+/* 2. Boost tiny font sizes globally for legibility */
+.text-\[9px\]   { font-size: 11px !important; }
+.text-\[10px\]  { font-size: 12px !important; }
+.text-\[11px\]  { font-size: 13px !important; }
+.text-\[12px\]  { font-size: 14px !important; }
+.text-\[13px\]  { font-size: 15px !important; }
+.text-\[14px\]  { font-size: 16px !important; }
+.text-\[15px\]  { font-size: 17px !important; }
+
+/* 3. Enhance font-weight for light subtexts to improve visibility */
+.font-light.text-white\/55,
+.font-light.text-white\/50,
+.font-light.text-white\/45,
+.font-light.text-white\/40,
+.font-light.text-white\/30 {
+  font-weight: 400 !important;
+}
+
+/* ─── Premium Watermark Logo for Subpage Heroes ──────── */
+@media (min-width: 1024px) {
+  .bg-ink.pt-\[80px\].relative.overflow-hidden::after {
+    content: '';
+    position: absolute;
+    right: clamp(40px, 8vw, 120px);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 280px;
+    height: 280px;
+    background-image: url('/brand/sawla-films-logo-bgremoved.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.32; /* Increased opacity for better visibility while maintaining a premium feel */
+    pointer-events: none;
+    z-index: 1;
+    filter: brightness(0.8) contrast(1.1);
+  }
+}

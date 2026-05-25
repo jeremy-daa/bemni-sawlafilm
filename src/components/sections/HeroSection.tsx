@@ -1,13 +1,43 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { SITE } from '@/lib/constants'
 
 export function HeroSection() {
+  // Simulated camera timecode ticking at 24fps
+  const [timecode, setTimecode] = useState('00:04:12:00')
+
+  useEffect(() => {
+    let frames = 0
+    let seconds = 12
+    let minutes = 4
+    let hours = 0
+
+    const interval = setInterval(() => {
+      frames++
+      if (frames >= 24) {
+        frames = 0
+        seconds++
+        if (seconds >= 60) {
+          seconds = 0
+          minutes++
+          if (minutes >= 60) {
+            minutes = 0
+            hours++
+          }
+        }
+      }
+      const pad = (n: number) => String(n).padStart(2, '0')
+      setTimecode(`${pad(hours)}:${pad(minutes)}:${pad(seconds)}:${pad(frames)}`)
+    }, 41.67) // 24 fps
+
+    return () => clearInterval(interval)
+  }, [])
   return (
     <section
-      className="relative min-h-screen flex items-center overflow-hidden bg-ink"
+      className="relative h-screen max-h-[102vh] min-h-[600px] flex items-center overflow-hidden bg-ink"
       aria-label="Hero — Ethiopia Film Fixer"
     >
       {/* ── Background video ── */}
@@ -33,24 +63,43 @@ export function HeroSection() {
       <div className="grain-overlay" aria-hidden="true" />
 
       {/* ── Camera corners ── */}
-      <div className="absolute inset-5 z-20 pointer-events-none camera-corners">
+      <div className="absolute inset-5 z-20 pointer-events-none camera-corners hidden md:block">
         <div className="camera-corner-br absolute bottom-0 right-0" />
         <div className="camera-corner-bl absolute bottom-0 left-0" />
       </div>
 
-      {/* ── REC indicator ── */}
-      <div className="absolute top-[76px] left-6 z-20 flex items-center gap-1.5 bg-ember/12 border border-ember/35 px-3 py-1 rounded-[1px]" aria-label="Recording indicator">
-        <span className="w-1.5 h-1.5 rounded-full bg-ember rec-blink" aria-hidden="true" />
-        <span className="text-[9px] font-medium tracking-[0.15em] uppercase text-ember">REC</span>
+      {/* ── Top-right Camera HUD ── */}
+      <div className="absolute top-[76px] right-[96px] z-20 flex flex-col items-end gap-2 pointer-events-none hidden md:flex" aria-label="Camera Viewfinder HUD">
+        {/* REC & Timecode Row */}
+        <div className="flex items-center gap-3 bg-ink/30 backdrop-blur-[2px] border border-white/10 px-3 py-1.5 rounded-[2px]">
+          {/* Blinking REC indicator */}
+          <div className="flex items-center gap-1.5 border-r border-white/10 pr-3">
+            <span className="w-2 h-2 rounded-full bg-ember rec-blink" aria-hidden="true" />
+            <span className="text-[10px] font-semibold tracking-[0.12em] text-ember uppercase">REC</span>
+          </div>
+          {/* Ticking Timecode */}
+          <span className="font-mono text-[10px] font-medium tracking-[0.08em] text-white/70">
+            TC {timecode}
+          </span>
+        </div>
+
+        {/* Camera settings row */}
+        <div className="flex items-center gap-2.5 text-[8px] font-mono tracking-[0.05em] text-white/35 uppercase">
+          <span>4K RAW</span>
+          <span>•</span>
+          <span>23.98 fps</span>
+          <span>•</span>
+          <span>ISO 800</span>
+        </div>
       </div>
 
       {/* ── Location caption ── */}
-      <p className="absolute bottom-6 right-6 z-20 text-[9px] font-light text-white/22 tracking-[0.12em] uppercase">
+      <p className="absolute bottom-[38px] right-[38px] z-20 text-[9px] font-light text-white/22 tracking-[0.12em] uppercase hidden md:block">
         Ethiopia · On location
       </p>
 
       {/* ── Hero content ── */}
-      <div className="relative z-10 w-full max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)] pt-20 pb-16">
+      <div className="relative z-10 w-full max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)] pt-[100px] md:pt-[120px] pb-10 md:pb-16">
         <div className="max-w-[620px]">
 
           {/* Logo above fold */}
@@ -76,17 +125,17 @@ export function HeroSection() {
 
           {/* H1 */}
           <h1
-            className="font-serif font-light text-white leading-[1.08] tracking-[-0.02em] mb-5 animate-fade-up"
-            style={{ fontSize: 'clamp(36px,5.5vw,64px)', animationDelay: '0.32s' }}
+            className="font-serif font-light text-white leading-[1.1] tracking-[-0.02em] mb-5 animate-fade-up"
+            style={{ fontSize: 'clamp(30px,5.5vw,64px)', animationDelay: '0.32s' }}
           >
             Ethiopia Film Fixer<br />
-            for <em className="text-gold not-italic">Permits, Logistics</em><br />
+            for <em className="text-gold not-italic">Permits, Logistics</em><br className="hidden sm:inline" />{' '}
             and Production Support
           </h1>
 
           {/* Entity definition */}
           <p
-            className="text-[12px] font-light text-white/45 leading-[1.75] italic border-l-2 border-ember pl-4 mb-5 max-w-[460px] animate-fade-up"
+            className="text-[12px] font-light text-white/45 leading-[1.75] italic border-l-2 border-ember pl-4 mb-5 max-w-[460px] animate-fade-up hidden md:block"
             style={{ animationDelay: '0.44s' }}
           >
             Sawla Films is an Ethiopia-based film fixer and production support company helping international crews with permits, access, logistics, customs, drone coordination, local crew, and on-ground fixing across all 12 regional states. Seven working languages.
@@ -113,7 +162,7 @@ export function HeroSection() {
             </Link>
             <Link
               href="/ethiopia-film-fixer-services"
-              className="inline-flex items-center gap-2 bg-transparent text-white/80 border border-white/22 text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3.5 rounded-[2px] hover:border-white/50 hover:text-white transition-all duration-250 hover:-translate-y-px"
+              className="inline-flex items-center gap-2 bg-transparent text-white/80 border border-white/22 text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3.5 rounded-[2px] hover:border-white/50 hover:text-white transition-all duration-250 hover:-translate-y-px hidden sm:inline-flex"
             >
               Explore Services
             </Link>
@@ -132,18 +181,13 @@ export function HeroSection() {
               WhatsApp {SITE.whatsapp1}
             </a>
           </div>
-          <p className="text-[10px] text-white/18 italic mt-1.5 animate-fade-up text-gray-50" style={{ animationDelay: '0.82s' }}>
+          <p className="text-[10px] text-white/18 italic mt-1.5 animate-fade-up text-gray-50 hidden md:block" style={{ animationDelay: '0.82s' }}>
             Trusted production support for international broadcast, documentary, commercial and factual teams. NDA-safe by default.
           </p>
 
         </div>
       </div>
 
-      {/* ── Scroll indicator ── */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2">
-        <span className="text-[9px] font-light text-white/22 tracking-[0.14em] uppercase">Scroll</span>
-        <div className="w-px h-8 bg-gradient-to-b from-white/22 to-transparent" />
-      </div>
     </section>
   )
 }

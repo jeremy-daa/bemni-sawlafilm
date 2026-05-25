@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { ServicePageLayout } from '@/components/shared/ServicePageLayout'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'Filming Security and Access Coordination in Ethiopia | Sawla Films',
   description: 'Practical planning for sensitive locations, controlled access, public-facing shoots, and changing field conditions. Movement coordination and local liaison for productions filming in Ethiopia.',
@@ -8,6 +12,9 @@ export const metadata: Metadata = {
 }
 
 export default function SecurityAccessPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-59-6');
+
   return (
     <ServicePageLayout
       slug="filming-security-access-ethiopia"
@@ -19,6 +26,19 @@ export default function SecurityAccessPage() {
           <p>Some filming locations in Ethiopia require more than a permit and a vehicle. Border corridors, remote regions, protected areas, religious or heritage sites, public spaces, sensitive subjects, and high-visibility productions can all require careful access planning and realistic movement coordination.</p>
           <p>Sawla Films helps international productions plan clearer, safer, and more practical field movement in Ethiopia. We review access constraints, align route logic with permits and local protocol, coordinate with relevant field contacts where appropriate, and support on-ground communication so crews are not forced to solve complex access issues under pressure.</p>
           <p>We do not promise unlimited access or risk-free movement. We provide preparation, local judgment, clear communication, and practical coordination based on current permissions, field conditions, and local authority guidance.</p>
+        
+          {imageRecord && (
+            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
+              <PremiumImage
+                assets={imageRecord.assets}
+                altText={imageRecord.seoDescription || imageRecord.altText}
+                dominantColor={imageRecord.dominantColors[0]}
+                className="w-full h-full object-cover"
+                useFullResolution={false}
+                sizes="(max-width: 768px) 100vw, 800px"
+              />
+            </div>
+          )}
         </>
       }
       heroCautionTitle="Access and safety are never automatic."

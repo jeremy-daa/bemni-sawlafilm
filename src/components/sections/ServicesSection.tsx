@@ -1,8 +1,15 @@
 import Link from 'next/link'
 import { SERVICES } from '@/lib/constants'
 import { SectionHeader } from '@/components/ui/SectionHeader'
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
 
 export function ServicesSection() {
+  const record = (metadataJson as { records: FullMediaRecord[] }).records.find(
+    (item) => item.slug === 'film-crew-gear-at-camp'
+  );
+
   return (
     <section
       className="bg-cream py-[clamp(56px,8vw,100px)]"
@@ -22,6 +29,20 @@ export function ServicesSection() {
             subtitle="Core services in Ethiopia — each one an operational discipline, not just a line item."
           />
         </div>
+
+        {/* Panoramic Inject */}
+        {record && (
+          <div className="reveal w-full h-[240px] md:h-[320px] rounded-[4px] overflow-hidden mb-10 shadow-md border border-black/[0.05]">
+            <PremiumImage
+              assets={record.assets}
+              altText={record.seoDescription || record.altText}
+              dominantColor={record.dominantColors[0]}
+              className="w-full h-full object-cover"
+              useFullResolution={false}
+              sizes="(max-width: 1240px) 100vw, 1240px"
+            />
+          </div>
+        )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
           {SERVICES.map((svc, i) => (

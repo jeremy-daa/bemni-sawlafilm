@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { ServicePageLayout } from '@/components/shared/ServicePageLayout'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'Drone Permits in Ethiopia | Aerial Approval & Planning',
   description: 'Plan drone filming in Ethiopia with permission support, restriction checks, import coordination, aerial logistics, and practical shoot-day planning.',
@@ -8,6 +12,9 @@ export const metadata: Metadata = {
 }
 
 export default function DronePermitsPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'erta-ale');
+
   return (
     <ServicePageLayout
       slug="drone-permits-ethiopia"
@@ -19,6 +26,19 @@ export default function DronePermitsPage() {
           <p>But drone work in Ethiopia should never be treated as a last-minute add-on. Aerial filming may require permissions beyond standard filming permits, and restrictions can vary by location, subject matter, airspace sensitivity, import status, security context, community setting, and current authority guidance.</p>
           <p>Sawla Films supports international productions with drone permit planning, documentation coordination, location restriction checks, import considerations, and on-ground aerial workflow support.</p>
           <p>We do not promise shortcuts or guaranteed approvals. We help you build a compliant, realistic, and production-friendly aerial plan.</p>
+        
+          {imageRecord && (
+            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
+              <PremiumImage
+                assets={imageRecord.assets}
+                altText={imageRecord.seoDescription || imageRecord.altText}
+                dominantColor={imageRecord.dominantColors[0]}
+                className="w-full h-full object-cover"
+                useFullResolution={false}
+                sizes="(max-width: 768px) 100vw, 800px"
+              />
+            </div>
+          )}
         </>
       }
       heroCautionTitle="Important producer note:"

@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { ServicePageLayout } from '@/components/shared/ServicePageLayout'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'VIP & Celebrity Handling in Ethiopia | Discreet Production Support',
   description: 'Discreet movements, privacy-first logistics, controlled arrivals, and high-touch on-ground support for VIP talent and sensitive productions filming in Ethiopia.',
@@ -8,6 +12,9 @@ export const metadata: Metadata = {
 }
 
 export default function VIPPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-41-05-16');
+
   return (
     <ServicePageLayout
       slug="vip-celebrity-handling-ethiopia"
@@ -19,6 +26,19 @@ export default function VIPPage() {
           <p>VIP-led productions need more than transport and accommodation. They need controlled timing, careful communication, privacy awareness, and a team that understands how small details can become production risks.</p>
           <p>Sawla Films supports VIP talent, public figures, executives, high-profile guests, and sensitive productions filming in Ethiopia. We coordinate movements, arrivals, accommodation flows, location access, local communication, and shoot-day handling with a low-profile, security-aware approach.</p>
           <p>We do not promise invisibility or guaranteed isolation. We reduce exposure through planning, timing, discretion, controlled information flow, and respectful local coordination.</p>
+        
+          {imageRecord && (
+            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
+              <PremiumImage
+                assets={imageRecord.assets}
+                altText={imageRecord.seoDescription || imageRecord.altText}
+                dominantColor={imageRecord.dominantColors[0]}
+                className="w-full h-full object-cover"
+                useFullResolution={false}
+                sizes="(max-width: 768px) 100vw, 800px"
+              />
+            </div>
+          )}
         </>
       }
       trustLine="Handled quietly, planned tightly, executed calmly. Built for producers who cannot afford noise, delays, or unnecessary attention."

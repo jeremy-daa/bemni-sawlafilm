@@ -4,6 +4,10 @@ import Image from 'next/image'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'About Sawla Films | Ethiopia Film Fixer & Production Partner',
   description: 'Sawla Films is an Ethiopia-based film fixer and production support company with over a decade of field experience supporting international documentary, broadcast, and commercial productions.',
@@ -34,12 +38,16 @@ const REGIONS = [
 ]
 
 export default function AboutPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const portraitRecord = records.find(item => item.slug === 'camp');
+
   return (
     <div className="min-h-screen">
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+        <div className="absolute inset-0 pointer-events-none z-0" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+        
         <div className="relative z-10 max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-2 text-[10px] text-white/30 uppercase tracking-[0.1em]">
@@ -71,17 +79,21 @@ export default function AboutPage() {
                 </Link>
               </div>
             </div>
-            {/* Logo / visual */}
+            
+            {/* Visual Column */}
             <div className="flex items-center justify-center lg:justify-end">
-              <div className="relative">
-                <Image
-                  src="/brand/sawla-films-logo.jpg"
-                  alt="Sawla Films Ethiopia film fixer"
-                  width={260}
-                  height={234}
-                  className="rounded-[6px] opacity-90"
-                />
-              </div>
+              {portraitRecord && (
+                <div className="relative w-full max-w-[400px] aspect-[4/5] rounded-[4px] overflow-hidden shadow-2xl border border-white/[0.05]">
+                  <PremiumImage
+                    assets={portraitRecord.assets}
+                    altText={portraitRecord.seoDescription || portraitRecord.altText}
+                    dominantColor={portraitRecord.dominantColors[0]}
+                    className="w-full h-full object-cover"
+                    useFullResolution={false}
+                    sizes="(max-width: 1024px) 100vw, 33vw"
+                  />
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -139,6 +151,38 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Cinematic Showcase Row */}
+      {(() => {
+        const img1 = records.find(r => r.slug === 'whatsapp-image-2026-05-18-at-16-40-52-1');
+        const img2 = records.find(r => r.slug === 'whatsapp-image-2026-05-18-at-16-40-52-2');
+        const img3 = records.find(r => r.slug === 'whatsapp-image-2026-05-18-at-16-40-52-3');
+        if (!img1 || !img2 || !img3) return null;
+
+        return (
+          <section className="bg-ink py-16 border-b border-white/[0.06]">
+            <div className="max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
+              <h2 className="font-serif font-light text-white text-display-sm mb-8 tracking-[-0.015em] italic">
+                On location with international crews
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                {[img1, img2, img3].map((img) => (
+                  <div key={img.slug} className="relative aspect-[4/3] rounded-[4px] overflow-hidden shadow-xl border border-white/[0.05]">
+                    <PremiumImage
+                      assets={img.assets}
+                      altText={img.seoDescription || img.altText}
+                      dominantColor={img.dominantColors[0]}
+                      className="w-full h-full object-cover hover:scale-[1.025] transition-transform duration-700 ease-out-expo"
+                      useFullResolution={false}
+                      sizes="(max-width: 768px) 100vw, 400px"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       {/* SAWLA TOURS */}
       <section className="bg-warm py-14">

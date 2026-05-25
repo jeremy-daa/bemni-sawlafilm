@@ -34,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       className={`scroll-smooth ${cormorant.variable} ${dmSans.variable}`}
+      suppressHydrationWarning
     >
       <head>
         {/* DNS prefetch for analytics */}

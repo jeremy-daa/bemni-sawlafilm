@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { ServicePageLayout } from '@/components/shared/ServicePageLayout'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'Local Crew, Translators & Cultural Liaisons in Ethiopia | Sawla Films',
   description: 'Handpicked regional support for crews that need more than translation. Trusted translators, cultural liaisons, fixers, and production assistants across Ethiopia.',
@@ -8,6 +12,9 @@ export const metadata: Metadata = {
 }
 
 export default function LocalCrewPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-59-10');
+
   return (
     <ServicePageLayout
       slug="local-crew-translators-ethiopia"
@@ -19,6 +26,19 @@ export default function LocalCrewPage() {
           <p>Filming in Ethiopia depends on people who can understand the language, read the context, and keep communication respectful under real production pressure. A good translator does not only repeat words. A good cultural liaison understands who should be approached, how to ask, when to pause, what may be sensitive, and how the filming process affects the people and places involved.</p>
           <p>Sawla Films works with a carefully selected network of translators, cultural liaisons, fixers, production assistants, and local crew from different regions of Ethiopia. Many have worked across multiple filming projects and bring far more than language support. They understand local cultures, regional protocol, community expectations, contributor sensitivity, and the practical rhythm of filming on location.</p>
           <p>Our role is to match the right people to the right project, region, subject matter, crew style, and filming environment.</p>
+        
+          {imageRecord && (
+            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
+              <PremiumImage
+                assets={imageRecord.assets}
+                altText={imageRecord.seoDescription || imageRecord.altText}
+                dominantColor={imageRecord.dominantColors[0]}
+                className="w-full h-full object-cover"
+                useFullResolution={false}
+                sizes="(max-width: 768px) 100vw, 800px"
+              />
+            </div>
+          )}
         </>
       }
       summaryItems={[

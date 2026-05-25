@@ -1,4 +1,7 @@
 import type { Metadata } from 'next'
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
 import { RequestForm }  from './RequestForm'
 import { SITE }        from '@/lib/constants'
 
@@ -10,6 +13,9 @@ export const metadata: Metadata = {
 }
 
 export default function RequestPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-44');
+
   return (
     <div className="min-h-screen bg-warm">
 

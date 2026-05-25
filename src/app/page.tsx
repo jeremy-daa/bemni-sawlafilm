@@ -5,6 +5,7 @@ import { QuickAnswersSection } from '@/components/sections/QuickAnswersSection'
 import { ProofSection }        from '@/components/sections/ProofSection'
 import { ValueSection }        from '@/components/sections/ValueSection'
 import { ServicesSection }     from '@/components/sections/ServicesSection'
+import { CinematicGallerySection } from '@/components/sections/CinematicGallerySection'
 import { ProcessSection }      from '@/components/sections/ProcessSection'
 import { GuideSection }        from '@/components/sections/GuideSection'
 import { WhySection }          from '@/components/sections/WhySection'
@@ -33,6 +34,9 @@ export default function HomePage() {
 
       {/* 7. Service cards (6 featured) */}
       <ServicesSection />
+
+      {/* 7.5. Cinematic Gallery Showcase */}
+      <CinematicGallerySection />
 
       {/* 8. 4-step process */}
       <ProcessSection />

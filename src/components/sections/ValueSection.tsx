@@ -1,7 +1,14 @@
 import { DELIVERABLES } from '@/lib/constants'
 import { SectionHeader } from '@/components/ui/SectionHeader'
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
 
 export function ValueSection() {
+  const record = (metadataJson as { records: FullMediaRecord[] }).records.find(
+    (item) => item.slug === 'erta-ale'
+  );
+
   return (
     <section
       className="bg-warm py-[clamp(56px,8vw,100px)]"
@@ -32,11 +39,25 @@ export function ValueSection() {
               the moving parts so your crew can stay focused on story, performance, and visuals.
             </p>
             {/* Outcome callout */}
-            <div className="reveal reveal-delay-200 bg-ink rounded-[3px] px-5 py-5">
+            <div className="reveal reveal-delay-200 bg-ink rounded-[3px] px-5 py-5 mb-8">
               <p className="font-serif font-light text-gold text-[16px] italic leading-[1.5]">
                 Outcome: a production that feels controlled, even when the environment is dramatic.
               </p>
             </div>
+
+            {/* Injected Premium Image */}
+            {record && (
+              <div className="reveal reveal-delay-300 w-full h-[320px] rounded-[4px] overflow-hidden shadow-2xl relative">
+                <PremiumImage
+                  assets={record.assets}
+                  altText={record.seoDescription || record.altText}
+                  dominantColor={record.dominantColors[0]}
+                  className="w-full h-full object-cover"
+                  useFullResolution={false}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+            )}
           </div>
 
           {/* Right — deliverables */}

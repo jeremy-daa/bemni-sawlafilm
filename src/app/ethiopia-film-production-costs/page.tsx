@@ -1,4 +1,7 @@
 import type { Metadata } from 'next'
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
 import { GuidePageLayout } from '@/components/shared/GuidePageLayout'
 
 export const metadata: Metadata = {
@@ -9,6 +12,9 @@ export const metadata: Metadata = {
 }
 
 export default function ProductionCostsPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-38-3');
+
   return (
     <GuidePageLayout
       eyebrow="Ethiopia filming guide"
@@ -30,6 +36,19 @@ export default function ProductionCostsPage() {
             Instead, it explains what determines cost so you can build a realistic budget
             framework before your first planning call.
           </p>
+        
+          {imageRecord && (
+            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
+              <PremiumImage
+                assets={imageRecord.assets}
+                altText={imageRecord.seoDescription || imageRecord.altText}
+                dominantColor={imageRecord.dominantColors[0]}
+                className="w-full h-full object-cover"
+                useFullResolution={false}
+                sizes="(max-width: 768px) 100vw, 800px"
+              />
+            </div>
+          )}
         </>
       }
       quickAnswer={

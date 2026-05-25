@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { ServicePageLayout } from '@/components/shared/ServicePageLayout'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'Customs Clearance for Film Equipment in Ethiopia | Sawla Films',
   description: 'Documentation and coordination that keeps your gear moving. Temporary import planning, equipment manifests, ATA Carnet review, and airport clearance support at Bole International.',
@@ -8,6 +12,9 @@ export const metadata: Metadata = {
 }
 
 export default function CustomsPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'img-20140101-040751');
+
   return (
     <ServicePageLayout
       slug="customs-clearance-film-equipment-ethiopia"
@@ -18,6 +25,19 @@ export default function CustomsPage() {
           <p>Professional film equipment can be delayed at the border when documents are incomplete, serial numbers are missing, values are unclear, or temporary import requirements are misunderstood. In Ethiopia, customs planning should start before the gear is packed, shipped, or carried on arrival.</p>
           <p>Sawla Films supports international productions with customs and equipment import planning for cameras, lenses, sound kits, lighting, drones, batteries, grip equipment, monitors, and other production gear. We review your equipment list, identify documentation gaps, coordinate airport-clearance support, and align gear release with production transport and shoot schedules.</p>
           <p>We do not promise shortcuts or guaranteed release times. We help your production enter Ethiopia with cleaner documents, fewer avoidable delays, and a realistic clearance plan.</p>
+        
+          {imageRecord && (
+            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
+              <PremiumImage
+                assets={imageRecord.assets}
+                altText={imageRecord.seoDescription || imageRecord.altText}
+                dominantColor={imageRecord.dominantColors[0]}
+                className="w-full h-full object-cover"
+                useFullResolution={false}
+                sizes="(max-width: 768px) 100vw, 800px"
+              />
+            </div>
+          )}
         </>
       }
       heroCautionTitle="Customs release is not automatic."
