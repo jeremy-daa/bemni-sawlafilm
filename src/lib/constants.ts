@@ -85,7 +85,7 @@ export const SERVICES = [
     num: '05',
     title: 'Customs and equipment handling',
     desc: 'ATA Carnet and temporary import support, manifest preparation, airport clearance planning, and local equipment rental connections.',
-    href: '/customs-film-equipment-ethiopia',
+    href: '/customs-clearance-film-equipment-ethiopia',
   },
   {
     num: '06',
@@ -251,7 +251,7 @@ export const FOOTER_SERVICES = [
   { label: 'Production logistics',href: '/production-logistics-ethiopia' },
   { label: 'Location scouting',   href: '/location-scouting-ethiopia' },
   { label: 'Drone permits',       href: '/drone-permits-ethiopia' },
-  { label: 'Customs support',     href: '/customs-film-equipment-ethiopia' },
+  { label: 'Customs support',     href: '/customs-clearance-film-equipment-ethiopia' },
   { label: 'Local crew',          href: '/local-crew-translators-ethiopia' },
   { label: 'On-ground fixing',    href: '/on-ground-fixing-ethiopia' },
   { label: 'VIP handling',        href: '/vip-celebrity-handling-ethiopia' },

@@ -24,6 +24,9 @@ export default function HomePage() {
       {/* 3. "What is a film fixer?" definition */}
       <DefinitionSection />
 
+      {/* 3.5. The Field Network (Interactive Map) */}
+      <InteractiveMap />
+
       {/* 4. FAQ / Quick answers for producers */}
       <QuickAnswersSection />
 
@@ -38,9 +41,6 @@ export default function HomePage() {
 
       {/* 7.5. Cinematic Gallery Showcase */}
       <CinematicGallerySection />
-
-      {/* 7.6. The Field Network (Interactive Map) */}
-      <InteractiveMap />
 
       {/* 8. 4-step process */}
       <ProcessSection />
