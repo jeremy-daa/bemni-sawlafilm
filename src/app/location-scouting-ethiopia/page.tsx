@@ -17,6 +17,7 @@ export default function LocationScoutingPage() {
 
   return (
     <ServicePageLayout
+      heroImageRecord={imageRecord}
       slug="location-scouting-ethiopia"
       h1="Location Scouting in Ethiopia"
       subhead="Feasibility-first recce support for locations that look right and work operationally."
@@ -27,18 +28,7 @@ export default function LocationScoutingPage() {
           <p>Access, timing, cultural protocol, security conditions, weather, altitude, authority requirements, privacy concerns, and production movement all affect whether a location can support the shoot.</p>
           <p>Sawla Films provides location scouting and recce support in Ethiopia with feasibility at the centre. We help producers, directors, agencies, and documentary teams identify strong visual options, understand what is realistic, and move toward locations that can be permitted, reached, respected, and filmed with confidence.</p>
         
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       trustLine="Scouting should protect the story, the schedule, and the relationship with the place being filmed."

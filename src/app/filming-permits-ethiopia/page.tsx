@@ -17,6 +17,7 @@ export default function FilmingPermitsPage() {
 
   return (
     <ServicePageLayout
+      heroImageRecord={imageRecord}
       slug="filming-permits-ethiopia"
       eyebrow="Film fixer services"
       h1="Filming Permits in Ethiopia"
@@ -27,18 +28,7 @@ export default function FilmingPermitsPage() {
           <p>Sawla Films supports international productions with permit mapping, documentation guidance, submission coordination, local follow-up, and on-ground preparation. We help you understand what is realistic before your crew, equipment, and schedule are committed.</p>
           <p>We do not promise shortcuts or guaranteed approvals. We provide clarity, preparation, compliance-focused coordination, and field judgment.</p>
           
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       trustLine="Permit planning for documentary, factual, commercial, branded, broadcast, NGO, and independent productions filming in Ethiopia, subject to current authority requirements and local conditions."

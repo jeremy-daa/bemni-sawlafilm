@@ -6,6 +6,7 @@ import { Navbar }           from '@/components/layout/Navbar'
 import { Footer }           from '@/components/layout/Footer'
 import { WhatsAppButton }   from '@/components/layout/WhatsAppButton'
 import { ScrollRevealInit } from '@/components/ScrollRevealInit'
+import { CustomCursor }     from '@/components/ui/CustomCursor'
 import '@/styles/globals.css'
 
 /* ── Fonts ─────────────────────────────────────────────────────────────────── */
@@ -53,6 +54,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-cream text-ink antialiased overflow-x-hidden">
         {/* Client-side scroll reveal observer */}
         <ScrollRevealInit />
+
+        {/* Global smooth cursor for non-touch devices */}
+        <CustomCursor />
 
         {/* Navigation */}
         <Navbar />

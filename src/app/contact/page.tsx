@@ -39,7 +39,7 @@ export default function ContactPage() {
           }}
           aria-hidden="true"
         />
-        <div className="absolute top-1/2 right-[-120px] -translate-y-1/2 w-[420px] h-[420px] rounded-full pointer-events-none" style={{ background: 'radial-gradient(circle,rgba(184,52,27,0.07) 0%,transparent 70%)' }} aria-hidden="true" />
+        <div className="absolute top-1/2 right-[-120px] -translate-y-1/2 w-[420px] h-[420px] rounded-full pointer-events-none" style={{ background: 'radial-gradient(circle,rgba(211,176,58,0.07) 0%,transparent 70%)' }} aria-hidden="true" />
         <div className="relative z-10 max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-2 text-[10px] text-white/30 uppercase tracking-[0.1em]">

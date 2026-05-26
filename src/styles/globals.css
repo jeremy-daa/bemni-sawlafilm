@@ -122,13 +122,13 @@ body {
 
 /* ─── Focus Ring ────────────────────────────────────── */
 :focus-visible {
-  outline: 2px solid #B8341B;
+  outline: 2px solid #D3B03A;
   outline-offset: 3px;
 }
 
 /* ─── Selection ─────────────────────────────────────── */
 ::selection {
-  background: rgba(184, 52, 27, 0.18);
+  background: #D3B03A;
   color: #0A0A0A;
 }
 
@@ -136,7 +136,13 @@ body {
 ::-webkit-scrollbar       { width: 6px; }
 ::-webkit-scrollbar-track { background: #111; }
 ::-webkit-scrollbar-thumb { background: #2A2A2A; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #B8341B; }
+::-webkit-scrollbar-thumb:hover { background: #D3B03A; }
+
+/* ─── Custom Cursor ─────────────────────────────────── */
+.hide-native-cursor,
+.hide-native-cursor * {
+  cursor: none !important;
+}
 
 /* ─── Video hero ────────────────────────────────────── */
 .hero-video {
@@ -168,7 +174,7 @@ body {
   left: 0;
   right: 0;
   height: 1px;
-  background: #B8341B;
+  background: #D3B03A;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.36s var(--ease-out-expo);

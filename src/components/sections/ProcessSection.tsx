@@ -10,7 +10,7 @@ export function ProcessSection() {
       {/* Ambient glow */}
       <div
         className="absolute top-1/2 left-[-100px] -translate-y-1/2 w-[400px] h-[400px] rounded-full pointer-events-none"
-        style={{ background: 'radial-gradient(circle, rgba(184,52,27,0.07) 0%, transparent 70%)' }}
+        style={{ background: 'radial-gradient(circle, rgba(211,176,58,0.07) 0%, transparent 70%)' }}
         aria-hidden="true"
       />
       <div

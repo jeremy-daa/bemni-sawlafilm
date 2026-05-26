@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
+import { PremiumImage } from '@/components/ui/PremiumImage'
 import { SITE } from '@/lib/constants'
 
 interface GuideSectionBlock {
@@ -17,6 +18,7 @@ interface GuidePageLayoutProps {
   subhead: string
   eyebrow?: string
   heroBody: React.ReactNode
+  heroImageRecord?: any // Used for the cinematic background
   quickAnswer?: React.ReactNode
   quickAnswerLabel?: string
   sections: GuideSectionBlock[]
@@ -32,6 +34,7 @@ export function GuidePageLayout({
   subhead,
   eyebrow = 'Ethiopia filming guide',
   heroBody,
+  heroImageRecord,
   quickAnswer,
   quickAnswerLabel = 'Quick answer for producers',
   sections,
@@ -45,8 +48,24 @@ export function GuidePageLayout({
     <div className="min-h-screen">
 
       {/* HERO */}
-      <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+      <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">
+        {heroImageRecord ? (
+          <div className="absolute inset-0 z-0">
+            <PremiumImage
+              assets={heroImageRecord.assets}
+              altText={heroImageRecord.seoDescription || heroImageRecord.altText}
+              dominantColor={heroImageRecord.dominantColors[0]}
+              className="w-full h-full object-cover"
+              useFullResolution={true}
+              sizes="100vw"
+              priority={true}
+            />
+            <div className="absolute inset-0 bg-ink/85 backdrop-saturate-[1.1]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
+          </div>
+        ) : (
+          <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+        )}
         <div className="relative z-10 max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-2 text-[10px] text-white/30 uppercase tracking-[0.1em]">

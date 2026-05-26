@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
 import { SITE } from '@/lib/constants'
 
 export const metadata: Metadata = {
@@ -67,12 +70,31 @@ const CASES = [
 ]
 
 export default function CaseStudiesPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const imageRecord = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-59-10');
+
   return (
     <div className="min-h-screen">
 
       {/* HERO */}
-      <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+      <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">
+        {imageRecord ? (
+          <div className="absolute inset-0 z-0">
+            <PremiumImage
+              assets={imageRecord.assets}
+              altText={imageRecord.seoDescription || imageRecord.altText}
+              dominantColor={imageRecord.dominantColors[0]}
+              className="w-full h-full object-cover"
+              useFullResolution={true}
+              sizes="100vw"
+              priority={true}
+            />
+            <div className="absolute inset-0 bg-ink/85 backdrop-saturate-[1.1]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
+          </div>
+        ) : (
+          <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+        )}
         <div className="relative z-10 max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-2 text-[10px] text-white/30 uppercase tracking-[0.1em]">

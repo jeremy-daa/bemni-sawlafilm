@@ -41,12 +41,30 @@ export default function AboutPage() {
   const records = (metadataJson as { records: FullMediaRecord[] }).records;
   const portraitRecord = records.find(item => item.slug === 'camp');
 
+  const backgroundRecord = records.find(item => item.slug === 'fiml-crew-in-action-upscaled-photogrid');
+
   return (
     <div className="min-h-screen">
 
       {/* HERO */}
-      <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none z-0" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+      <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">
+        {backgroundRecord ? (
+          <div className="absolute inset-0 z-0">
+            <PremiumImage
+              assets={backgroundRecord.assets}
+              altText={backgroundRecord.seoDescription || backgroundRecord.altText}
+              dominantColor={backgroundRecord.dominantColors[0]}
+              className="w-full h-full object-cover"
+              useFullResolution={true}
+              sizes="100vw"
+              priority={true}
+            />
+            <div className="absolute inset-0 bg-ink/85 backdrop-saturate-[1.1]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
+          </div>
+        ) : (
+          <div className="absolute inset-0 pointer-events-none z-0" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+        )}
         
         <div className="relative z-10 max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
           <nav aria-label="Breadcrumb" className="mb-6">
@@ -56,44 +74,26 @@ export default function AboutPage() {
               <li className="text-white/50">About</li>
             </ol>
           </nav>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <Eyebrow className="mb-4">About Sawla Films</Eyebrow>
-              <h1 className="font-serif font-light text-white leading-[1.08] tracking-[-0.02em] mb-4" style={{ fontSize: 'clamp(32px,4.5vw,52px)' }}>
-                Ethiopia-based.<br />
-                <em className="text-gold not-italic italic">Field-tested.</em><br />
-                Producer-first.
-              </h1>
-              <p className="text-[14px] font-light text-white/55 leading-[1.8] mb-4">
-                Sawla Films is an Ethiopia-based film fixer and production support company. We help international documentary, broadcast, factual, commercial, and independent production teams plan and execute shoots in Ethiopia with proper permits, practical logistics, respectful access, and calm on-ground coordination.
-              </p>
-              <p className="text-[14px] font-light text-white/40 leading-[1.8] mb-7 italic">
-                We are not the production company. We are the operation that makes your production possible on the ground.
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Link href="/request-a-quote" className="inline-flex items-center gap-2 bg-ember text-white text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3 rounded-[2px] hover:bg-ember-glow transition-all hover:-translate-y-px">
-                  Request a Fixer / Get a Quote
-                </Link>
-                <Link href="/ethiopia-film-fixer-services" className="inline-flex items-center gap-2 bg-transparent text-white/65 border border-white/20 text-[11px] font-medium uppercase px-5 py-3 rounded-[2px] hover:border-white/40 hover:text-white transition-all">
-                  Our Services
-                </Link>
-              </div>
-            </div>
-            
-            {/* Visual Column */}
-            <div className="flex items-center justify-center lg:justify-end">
-              {portraitRecord && (
-                <div className="relative w-full max-w-[400px] aspect-[4/5] rounded-[4px] overflow-hidden shadow-2xl border border-white/[0.05]">
-                  <PremiumImage
-                    assets={portraitRecord.assets}
-                    altText={portraitRecord.seoDescription || portraitRecord.altText}
-                    dominantColor={portraitRecord.dominantColors[0]}
-                    className="w-full h-full object-cover"
-                    useFullResolution={false}
-                    sizes="(max-width: 1024px) 100vw, 33vw"
-                  />
-                </div>
-              )}
+          <div className="max-w-[720px]">
+            <Eyebrow className="mb-4">About Sawla Films</Eyebrow>
+            <h1 className="font-serif font-light text-white leading-[1.08] tracking-[-0.02em] mb-4" style={{ fontSize: 'clamp(32px,4.5vw,52px)' }}>
+              Ethiopia-based.<br />
+              <em className="text-gold not-italic italic">Field-tested.</em><br />
+              Producer-first.
+            </h1>
+            <p className="text-[14px] font-light text-white/55 leading-[1.8] mb-4">
+              Sawla Films is an Ethiopia-based film fixer and production support company. We help international documentary, broadcast, factual, commercial, and independent production teams plan and execute shoots in Ethiopia with proper permits, practical logistics, respectful access, and calm on-ground coordination.
+            </p>
+            <p className="text-[14px] font-light text-white/40 leading-[1.8] mb-7 italic">
+              We are not the production company. We are the operation that makes your production possible on the ground.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/request-a-quote" className="inline-flex items-center gap-2 bg-ember text-white text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3 rounded-[2px] hover:bg-ember-glow transition-all hover:-translate-y-px">
+                Request a Fixer / Get a Quote
+              </Link>
+              <Link href="/ethiopia-film-fixer-services" className="inline-flex items-center gap-2 bg-transparent text-white/65 border border-white/20 text-[11px] font-medium uppercase px-5 py-3 rounded-[2px] hover:border-white/40 hover:text-white transition-all">
+                Our Services
+              </Link>
             </div>
           </div>
         </div>

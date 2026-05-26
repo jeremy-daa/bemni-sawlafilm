@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { SITE } from '@/lib/constants'
+import { StaggerContainer, StaggerItem } from '@/components/ui/FadeIn'
 
 export function HeroSection() {
   // Simulated camera timecode ticking at 24fps
@@ -93,10 +94,6 @@ export function HeroSection() {
         </div>
       </div>
 
-      {/* ── Location caption ── */}
-      <p className="absolute bottom-[38px] right-[38px] z-20 text-[9px] font-light text-white/22 tracking-[0.12em] uppercase hidden md:block">
-        Ethiopia · On location
-      </p>
 
       {/* ── Hero content ── */}
       <div className="relative z-10 w-full max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)] pt-[100px] md:pt-[120px] pb-10 md:pb-16">
@@ -114,76 +111,75 @@ export function HeroSection() {
             /> */}
           </div>
 
-          {/* Eyebrow */}
-          <div
-            className="flex items-center gap-2.5 text-[10px] font-medium tracking-[0.2em] uppercase text-ember mb-5 animate-fade-up"
-            style={{ animationDelay: '0.2s' }}
-          >
-            <span className="w-6 h-px bg-ember" aria-hidden="true" />
-            Ethiopia · Film Fixer · Production Support
-          </div>
+          <StaggerContainer>
+            {/* Eyebrow */}
+            <StaggerItem>
+              <div className="flex items-center gap-2.5 text-[10px] font-medium tracking-[0.2em] uppercase text-ember mb-5">
+                <span className="w-6 h-px bg-ember" aria-hidden="true" />
+                Ethiopia · Film Fixer · Production Support
+              </div>
+            </StaggerItem>
 
-          {/* H1 */}
-          <h1
-            className="font-serif font-light text-white leading-[1.1] tracking-[-0.02em] mb-5 animate-fade-up"
-            style={{ fontSize: 'clamp(30px,5.5vw,64px)', animationDelay: '0.32s' }}
-          >
-            Ethiopia Film Fixer<br />
-            for <em className="text-gold not-italic">Permits, Logistics</em><br className="hidden sm:inline" />{' '}
-            and Production Support
-          </h1>
+            {/* H1 */}
+            <StaggerItem>
+              <h1
+                className="font-serif font-light text-white leading-[1.1] tracking-[-0.02em] mb-5"
+                style={{ fontSize: 'clamp(30px,5.5vw,64px)' }}
+              >
+                Ethiopia Film Fixer<br />
+                for <em className="text-gold not-italic">Permits, Logistics</em><br className="hidden sm:inline" />{' '}
+                and Production Support
+              </h1>
+            </StaggerItem>
 
-          {/* Entity definition */}
-          <p
-            className="text-[12px] font-light text-white/45 leading-[1.75] italic border-l-2 border-ember pl-4 mb-5 max-w-[460px] animate-fade-up hidden md:block"
-            style={{ animationDelay: '0.44s' }}
-          >
-            Sawla Films is an Ethiopia-based film fixer and production support company helping international crews with permits, access, logistics, customs, drone coordination, local crew, and on-ground fixing across all 12 regional states. Seven working languages.
-          </p>
+            {/* Entity definition */}
+            <StaggerItem>
+              <p className="text-[12px] font-light text-white/45 leading-[1.75] italic border-l-2 border-ember pl-4 mb-5 max-w-[460px] hidden md:block">
+                Sawla Films is an Ethiopia-based film fixer and production support company helping international crews with permits, access, logistics, customs, drone coordination, local crew, and on-ground fixing across all 12 regional states. Seven working languages.
+              </p>
+            </StaggerItem>
 
-          {/* Subhead */}
-          <p
-            className="text-[14px] font-light text-white/65 leading-[1.75] max-w-[480px] mb-8 animate-fade-up"
-            style={{ animationDelay: '0.54s' }}
-          >
-            Built for international productions that need clarity, control, and calm execution.
-          </p>
+            {/* Subhead */}
+            <StaggerItem>
+              <p className="text-[14px] font-light text-white/65 leading-[1.75] max-w-[480px] mb-8">
+                Built for international productions that need clarity, control, and calm execution.
+              </p>
+            </StaggerItem>
 
-          {/* CTAs */}
-          <div
-            className="flex flex-wrap gap-3 mb-5 animate-fade-up"
-            style={{ animationDelay: '0.64s' }}
-          >
-            <Link
-              href="/request-a-quote"
-              className="inline-flex items-center gap-2 bg-ember text-white text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3.5 rounded-[2px] hover:bg-ember-glow transition-all duration-250 ease-out-expo hover:-translate-y-px"
-            >
-              Request a Fixer / Get a Quote
-            </Link>
-            <Link
-              href="/ethiopia-film-fixer-services"
-              className="inline-flex items-center gap-2 bg-transparent text-white/80 border border-white/22 text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3.5 rounded-[2px] hover:border-white/50 hover:text-white transition-all duration-250 hover:-translate-y-px hidden sm:inline-flex"
-            >
-              Explore Services
-            </Link>
-          </div>
+            {/* CTAs */}
+            <StaggerItem>
+              <div className="flex flex-wrap gap-3 mb-5">
+                <Link
+                  href="/request-a-quote"
+                  className="inline-flex items-center gap-2 bg-ember text-white text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3.5 rounded-[2px] hover:bg-ember-glow transition-all duration-250 ease-out-expo hover:-translate-y-px"
+                >
+                  Request a Fixer / Get a Quote
+                </Link>
+                <Link
+                  href="/ethiopia-film-fixer-services"
+                  className="inline-flex items-center gap-2 bg-transparent text-white/80 border border-white/22 text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3.5 rounded-[2px] hover:border-white/50 hover:text-white transition-all duration-250 hover:-translate-y-px hidden sm:inline-flex"
+                >
+                  Explore Services
+                </Link>
+              </div>
+            </StaggerItem>
 
-          {/* Contact micro-line */}
-          <div
-            className="text-[11px] text-white/30 leading-[1.8] animate-fade-up"
-            style={{ animationDelay: '0.74s' }}
-          >
-            <a href={`mailto:${SITE.email}`} className="text-white/55 hover:text-white/80 transition-colors">
-              {SITE.email}
-            </a>
-            <span className="mx-3 text-white/15">|</span>
-            <a href={`https://wa.me/${SITE.whatsapp1Raw}`} target="_blank" rel="noopener noreferrer" className="text-white/55 hover:text-white/80 transition-colors">
-              WhatsApp {SITE.whatsapp1}
-            </a>
-          </div>
-          <p className="text-[10px] text-white/18 italic mt-1.5 animate-fade-up text-gray-50 hidden md:block" style={{ animationDelay: '0.82s' }}>
-            Trusted production support for international broadcast, documentary, commercial and factual teams. NDA-safe by default.
-          </p>
+            {/* Contact micro-line */}
+            <StaggerItem>
+              <div className="text-[11px] text-white/30 leading-[1.8]">
+                <a href={`mailto:${SITE.email}`} className="text-white/55 hover:text-white/80 transition-colors">
+                  {SITE.email}
+                </a>
+                <span className="mx-3 text-white/15">|</span>
+                <a href={`https://wa.me/${SITE.whatsapp1Raw}`} target="_blank" rel="noopener noreferrer" className="text-white/55 hover:text-white/80 transition-colors">
+                  WhatsApp {SITE.whatsapp1}
+                </a>
+              </div>
+              <p className="text-[10px] text-white/18 italic mt-1.5 hidden md:block">
+                Trusted production support for international broadcast, documentary, commercial and factual teams. NDA-safe by default.
+              </p>
+            </StaggerItem>
+          </StaggerContainer>
 
         </div>
       </div>

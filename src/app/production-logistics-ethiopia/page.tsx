@@ -17,6 +17,7 @@ export default function ProductionLogisticsPage() {
 
   return (
     <ServicePageLayout
+      heroImageRecord={imageRecord}
       slug="production-logistics-ethiopia"
       h1="Production Logistics in Ethiopia"
       subhead="Field-tested movement planning for distance, terrain, timing, and changing conditions."
@@ -26,18 +27,7 @@ export default function ProductionLogisticsPage() {
           <p>Sawla Films provides production logistics in Ethiopia for international crews that need practical movement planning, reliable field coordination, and calm operational judgment. We align transport, accommodation, routing, airport handling, remote field support, and daily coordination so your shoot remains functional when conditions shift.</p>
           <p>We do not treat logistics as simple bookings. We treat logistics as the structure that protects your filming time, crew energy, equipment movement, and field decision-making.</p>
           
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-video md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-lg border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       trustLine="4x4 transport, routing, accommodation, airport handling, field coordination, and contingency planning for productions filming across Ethiopia."

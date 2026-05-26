@@ -1809,48 +1809,6 @@
       }
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-6",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-6",
-      "landmark": "Unknown",
-      "category": "film",
-      "subcategory": "Film",
-      "altText": "A black and white logo for a film production company with a stylized swirl design and the word 'Safari' in a scripted font.",
-      "mood": "serene",
-      "dominantColors": [
-        "#000000",
-        "#FFFFFF",
-        "#F5D700"
-      ],
-      "composition": "centered",
-      "flagForReview": false,
-      "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-6/whatsapp-image-2026-05-18-at-16-41-06-6-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-6/whatsapp-image-2026-05-18-at-16-41-06-6-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-6/whatsapp-image-2026-05-18-at-16-41-06-6-thumb.avif"
-      }
-    },
-    {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-7",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-7",
-      "landmark": "Unknown",
-      "category": "portrait",
-      "subcategory": "Film Crew",
-      "altText": "This image depicts a film crew at work, with one individual holding a camera and another standing in front of them.",
-      "mood": "serene",
-      "dominantColors": [
-        "#FFD700",
-        "#000000",
-        "#FFFFFF"
-      ],
-      "composition": "centered",
-      "flagForReview": false,
-      "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-7/whatsapp-image-2026-05-18-at-16-41-06-7-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-7/whatsapp-image-2026-05-18-at-16-41-06-7-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-7/whatsapp-image-2026-05-18-at-16-41-06-7-thumb.avif"
-      }
-    },
-    {
       "id": "whatsapp-image-2026-05-18-at-16-41-06-8",
       "slug": "whatsapp-image-2026-05-18-at-16-41-06-8",
       "landmark": "Unknown",

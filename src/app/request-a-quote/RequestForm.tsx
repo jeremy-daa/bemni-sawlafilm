@@ -5,11 +5,11 @@ import { useState, type FormEvent } from 'react'
 type FormState = 'idle' | 'submitting' | 'success' | 'error'
 
 const inputBase =
-  'w-full bg-white border border-black/12 rounded-[3px] px-3.5 py-2.5 text-[13px] font-light text-ink placeholder:text-silver/70 focus:outline-none focus:border-ember focus:ring-1 focus:ring-ember/20 transition-all duration-200'
+  'w-full bg-ash/[0.02] border border-black/10 rounded-[4px] px-4 py-3 text-[13px] font-light text-ink placeholder:text-silver/60 focus:outline-none focus:bg-white focus:border-ember focus:ring-2 focus:ring-ember/15 transition-all duration-250 hover:border-black/20'
 
-const selectBase = inputBase + ' appearance-none cursor-pointer'
+const selectBase = inputBase + ' appearance-none cursor-pointer bg-[url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3e%3cpolyline points=\'6 9 12 15 18 9\'%3e%3c/polyline%3e%3c/svg%3e")] bg-no-repeat bg-[position:right_1rem_center] bg-[length:1em] pr-10'
 
-const labelBase = 'block text-[11px] font-medium text-ink/70 tracking-[0.04em] uppercase mb-1.5'
+const labelBase = 'block text-[10px] font-semibold text-ink/80 tracking-[0.06em] uppercase mb-2'
 
 function Field({
   label, required, children,
@@ -51,14 +51,14 @@ export function RequestForm() {
 
   if (state === 'success') {
     return (
-      <div className="bg-ink rounded-[4px] p-8 text-center">
-        <div className="w-12 h-12 rounded-full bg-ember/15 flex items-center justify-center mx-auto mb-5">
-          <svg className="w-6 h-6 text-ember" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <div className="py-12 text-center">
+        <div className="w-16 h-16 rounded-full bg-ember/10 flex items-center justify-center mx-auto mb-6">
+          <svg className="w-7 h-7 text-ember" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
           </svg>
         </div>
-        <h3 className="font-serif font-light text-gold text-[22px] italic mb-3">Brief received.</h3>
-        <p className="text-[13px] font-light text-white/55 leading-[1.75] max-w-[380px] mx-auto">
+        <h3 className="font-serif font-light text-ink text-[26px] italic mb-4">Brief received.</h3>
+        <p className="text-[14px] font-light text-steel leading-[1.8] max-w-[420px] mx-auto">
           Sawla Films will review your dates, locations, crew size, equipment needs, drone plans,
           and access questions, then respond with initial feasibility notes and practical next steps.
           If your request is urgent, please also contact us directly on WhatsApp at +251 927 115 454.
@@ -71,10 +71,11 @@ export function RequestForm() {
     <form onSubmit={handleSubmit} noValidate className="space-y-5">
 
       {/* Group: Your details */}
-      <div className="text-[10px] font-medium text-ember tracking-[0.14em] uppercase mb-1 pb-2 border-b border-black/[0.07]">
+      <div className="text-[11px] font-semibold text-ember tracking-[0.16em] uppercase mb-2 mt-2 pb-3 border-b border-black/[0.06] flex items-center gap-2.5">
+        <span className="w-5 h-px bg-ember" aria-hidden="true" />
         Your details
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <Field label="Name and role" required>
           <input
             type="text"
@@ -113,10 +114,11 @@ export function RequestForm() {
       </div>
 
       {/* Group: Production */}
-      <div className="text-[10px] font-medium text-ember tracking-[0.14em] uppercase mt-2 mb-1 pb-2 border-b border-black/[0.07]">
+      <div className="text-[11px] font-semibold text-ember tracking-[0.16em] uppercase mt-6 mb-2 pb-3 border-b border-black/[0.06] flex items-center gap-2.5">
+        <span className="w-5 h-px bg-ember" aria-hidden="true" />
         Production details
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <Field label="Shoot dates or expected window" required>
           <input
             type="text"
@@ -178,7 +180,8 @@ export function RequestForm() {
       </Field>
 
       {/* Group: Logistics */}
-      <div className="text-[10px] font-medium text-ember tracking-[0.14em] uppercase mt-2 mb-1 pb-2 border-b border-black/[0.07]">
+      <div className="text-[11px] font-semibold text-ember tracking-[0.16em] uppercase mt-6 mb-2 pb-3 border-b border-black/[0.06] flex items-center gap-2.5">
+        <span className="w-5 h-px bg-ember" aria-hidden="true" />
         Equipment and logistics
       </div>
       <Field label="Equipment list (cameras, lighting, sound, specialist kit)">
@@ -189,7 +192,7 @@ export function RequestForm() {
           className={inputBase + ' resize-y min-h-[70px]'}
         />
       </Field>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
         <Field label="Drone filming planned?" required>
           <select name="drone" required className={selectBase}>
             <option value="">Select…</option>
@@ -217,10 +220,11 @@ export function RequestForm() {
       </div>
 
       {/* Group: Budget */}
-      <div className="text-[10px] font-medium text-ember tracking-[0.14em] uppercase mt-2 mb-1 pb-2 border-b border-black/[0.07]">
+      <div className="text-[11px] font-semibold text-ember tracking-[0.16em] uppercase mt-6 mb-2 pb-3 border-b border-black/[0.06] flex items-center gap-2.5">
+        <span className="w-5 h-px bg-ember" aria-hidden="true" />
         Budget indication
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <Field label="Budget range">
           <select name="budget_range" className={selectBase}>
             <option value="">Select range…</option>
@@ -278,13 +282,20 @@ export function RequestForm() {
       </p>
 
       {/* Submit */}
-      <button
-        type="submit"
-        disabled={state === 'submitting'}
-        className="w-full bg-ember text-white text-[12px] font-medium tracking-[0.08em] uppercase px-6 py-3.5 rounded-[2px] hover:bg-ember-glow transition-all duration-250 ease-out-expo disabled:opacity-60 disabled:cursor-not-allowed hover:-translate-y-px"
-      >
-        {state === 'submitting' ? 'Sending your brief…' : 'Send production brief'}
-      </button>
+      <div className="pt-4">
+        <button
+          type="submit"
+          disabled={state === 'submitting'}
+          className="group relative w-full bg-ember text-white text-[12px] font-medium tracking-[0.1em] uppercase px-6 py-4 rounded-[4px] hover:bg-ember-glow transition-all duration-300 ease-out-expo disabled:opacity-60 disabled:cursor-not-allowed hover:-translate-y-0.5 shadow-lg shadow-ember/25 overflow-hidden flex items-center justify-center gap-3"
+        >
+          <span className="relative z-10">{state === 'submitting' ? 'Sending brief…' : 'Send production brief'}</span>
+          {state !== 'submitting' && (
+            <svg className="w-4 h-4 relative z-10 transform group-hover:translate-x-1.5 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          )}
+        </button>
+      </div>
 
       {state === 'error' && (
         <p className="text-[12px] text-ember text-center">

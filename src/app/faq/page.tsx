@@ -4,6 +4,10 @@ import Script from 'next/script'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
 
+import { PremiumImage } from '@/components/ui/PremiumImage'
+import metadataJson from '@/data/metadata.json'
+import { FullMediaRecord } from '@/types/gallery'
+
 export const metadata: Metadata = {
   title: 'FAQ — Ethiopia Film Fixer Questions Answered | Sawla Films',
   description: 'Frequently asked questions about filming in Ethiopia: permits, drone approvals, customs, logistics, costs, timelines, local crew, access, and what a film fixer does.',
@@ -124,13 +128,32 @@ const faqSchema = {
 }
 
 export default function FAQPage() {
+  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const backgroundRecord = records.find(item => item.slug === 'fiml-crew-in-action-upscaled-photogrid');
+
   return (
     <div className="min-h-screen">
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+        {backgroundRecord ? (
+          <div className="absolute inset-0 z-0 pointer-events-none">
+            <PremiumImage
+              assets={backgroundRecord.assets}
+              altText={backgroundRecord.seoDescription || backgroundRecord.altText}
+              dominantColor={backgroundRecord.dominantColors[0]}
+              className="w-full h-full object-cover"
+              useFullResolution={true}
+              sizes="100vw"
+              priority={true}
+            />
+            <div className="absolute inset-0 bg-ink/85 backdrop-saturate-[1.1]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
+          </div>
+        ) : (
+          <div className="absolute inset-0 pointer-events-none z-0" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+        )}
         <div className="relative z-10 max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-2 text-[10px] text-white/30 uppercase tracking-[0.1em]">

@@ -21,7 +21,7 @@ export function CTASection() {
       {/* Right ambient glow */}
       <div
         className="absolute top-1/2 right-[-150px] -translate-y-1/2 w-[500px] h-[500px] rounded-full pointer-events-none"
-        style={{ background: 'radial-gradient(circle, rgba(184,52,27,0.08) 0%, transparent 70%)' }}
+        style={{ background: 'radial-gradient(circle, rgba(211,176,58,0.08) 0%, transparent 70%)' }}
         aria-hidden="true"
       />
 

@@ -16,6 +16,7 @@ export default function BringingEquipmentPage() {
 
   return (
     <GuidePageLayout
+      heroImageRecord={imageRecord}
       eyebrow="Ethiopia filming guide"
       h1="Bringing Film Equipment to Ethiopia"
       subhead="Customs, temporary import planning, documentation checks, and arrival coordination for productions bringing camera, sound, drone, and support equipment."
@@ -24,18 +25,7 @@ export default function BringingEquipmentPage() {
           <p>Professional film equipment can be delayed at the border when documents are incomplete, serial numbers are missing, values are unclear, or temporary import requirements are not well understood. In Ethiopia, customs planning should start before the gear is packed — not on arrival day.</p>
           <p>This guide covers what producers need to know about bringing film equipment to Ethiopia: what documents to prepare, how temporary import usually works, what can cause delays, drone-specific considerations, battery rules, and how to connect clearance planning to production logistics.</p>
         
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       quickAnswer={

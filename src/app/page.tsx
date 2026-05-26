@@ -6,6 +6,7 @@ import { ProofSection }        from '@/components/sections/ProofSection'
 import { ValueSection }        from '@/components/sections/ValueSection'
 import { ServicesSection }     from '@/components/sections/ServicesSection'
 import { CinematicGallerySection } from '@/components/sections/CinematicGallerySection'
+import InteractiveMap          from '@/components/sections/InteractiveMap'
 import { ProcessSection }      from '@/components/sections/ProcessSection'
 import { GuideSection }        from '@/components/sections/GuideSection'
 import { WhySection }          from '@/components/sections/WhySection'
@@ -37,6 +38,9 @@ export default function HomePage() {
 
       {/* 7.5. Cinematic Gallery Showcase */}
       <CinematicGallerySection />
+
+      {/* 7.6. The Field Network (Interactive Map) */}
+      <InteractiveMap />
 
       {/* 8. 4-step process */}
       <ProcessSection />

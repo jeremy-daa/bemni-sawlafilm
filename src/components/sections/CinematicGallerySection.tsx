@@ -1,6 +1,7 @@
 import { PremiumImage } from '@/components/ui/PremiumImage'
 import metadataJson from '@/data/metadata.json'
 import { FullMediaRecord } from '@/types/gallery'
+import { StaggerContainer, StaggerItem, FadeIn } from '@/components/ui/FadeIn'
 
 export function CinematicGallerySection() {
   const records = (metadataJson as { records: FullMediaRecord[] }).records;
@@ -59,13 +60,13 @@ export function CinematicGallerySection() {
         </div>
 
         {/* Asymmetrical Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
+        <StaggerContainer className="grid grid-cols-1 md:grid-cols-12 gap-5">
           {galleryItems.map((item, i) => {
             const r = item.record!;
             return (
-              <div
+              <StaggerItem
                 key={r.slug}
-                className={`reveal reveal-delay-${Math.min((i + 1) * 100, 500)} ${item.span} relative group rounded-[4px] overflow-hidden shadow-2xl border border-white/[0.05]`}
+                className={`${item.span} relative group rounded-[4px] overflow-hidden shadow-2xl border border-white/[0.05]`}
               >
                 {/* Image */}
                 <PremiumImage
@@ -89,10 +90,10 @@ export function CinematicGallerySection() {
                     {item.title}
                   </h3>
                 </div>
-              </div>
+              </StaggerItem>
             );
           })}
-        </div>
+        </StaggerContainer>
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
+import { PremiumImage } from '@/components/ui/PremiumImage'
 import { SITE } from '@/lib/constants'
 
 interface RelatedService {
@@ -20,6 +21,7 @@ interface ServicePageLayoutProps {
   h1: string
   subhead: string
   heroBody: React.ReactNode
+  heroImageRecord?: any // Used for the cinematic background
   trustLine?: string
   primaryCta?: string
   primaryCtaHref?: string
@@ -51,6 +53,7 @@ export function ServicePageLayout({
   h1,
   subhead,
   heroBody,
+  heroImageRecord,
   trustLine,
   primaryCta = 'Request a Fixer / Get a Quote',
   primaryCtaHref = '/request-a-quote',
@@ -69,10 +72,25 @@ export function ServicePageLayout({
     <div className="min-h-screen">
 
       {/* ── HERO ─────────────────────────────────────────── */}
-      <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
-        {/* Grid bg */}
-        <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
-        <div className="absolute top-1/2 left-[-120px] -translate-y-1/2 w-[420px] h-[420px] rounded-full pointer-events-none" style={{ background: 'radial-gradient(circle,rgba(184,52,27,0.07) 0%,transparent 70%)' }} aria-hidden="true" />
+      <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">
+        {heroImageRecord ? (
+          <div className="absolute inset-0 z-0">
+            <PremiumImage
+              assets={heroImageRecord.assets}
+              altText={heroImageRecord.seoDescription || heroImageRecord.altText}
+              dominantColor={heroImageRecord.dominantColors[0]}
+              className="w-full h-full object-cover"
+              useFullResolution={true}
+              sizes="100vw"
+              priority={true}
+            />
+            <div className="absolute inset-0 bg-ink/85 backdrop-saturate-[1.1]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
+          </div>
+        ) : (
+          <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize: '48px 48px' }} aria-hidden="true" />
+        )}
+        <div className="absolute top-1/2 left-[-120px] -translate-y-1/2 w-[420px] h-[420px] rounded-full pointer-events-none" style={{ background: 'radial-gradient(circle,rgba(211,176,58,0.07) 0%,transparent 70%)' }} aria-hidden="true" />
 
         <div className="relative z-10 max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
           {/* Breadcrumb */}

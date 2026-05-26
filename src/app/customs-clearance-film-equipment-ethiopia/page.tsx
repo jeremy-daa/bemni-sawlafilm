@@ -17,6 +17,7 @@ export default function CustomsPage() {
 
   return (
     <ServicePageLayout
+      heroImageRecord={imageRecord}
       slug="customs-clearance-film-equipment-ethiopia"
       h1="Customs Clearance for Film Equipment in Ethiopia"
       subhead="Documentation and coordination that keeps your gear moving."
@@ -26,18 +27,7 @@ export default function CustomsPage() {
           <p>Sawla Films supports international productions with customs and equipment import planning for cameras, lenses, sound kits, lighting, drones, batteries, grip equipment, monitors, and other production gear. We review your equipment list, identify documentation gaps, coordinate airport-clearance support, and align gear release with production transport and shoot schedules.</p>
           <p>We do not promise shortcuts or guaranteed release times. We help your production enter Ethiopia with cleaner documents, fewer avoidable delays, and a realistic clearance plan.</p>
         
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       heroCautionTitle="Customs release is not automatic."

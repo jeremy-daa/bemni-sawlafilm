@@ -16,6 +16,7 @@ export default function BestTimePage() {
 
   return (
     <GuidePageLayout
+      heroImageRecord={imageRecord}
       eyebrow="Ethiopia filming guide"
       h1="Best Time to Film in Ethiopia"
       subhead="Seasonal planning that protects the schedule — by region, production type, and access reality."
@@ -24,18 +25,7 @@ export default function BestTimePage() {
           <p>Ethiopia has multiple climate zones that don't follow a single national pattern. The best filming season for the Danakil is not the same as the best season for the Simien Mountains, the Omo Valley, or Lalibela. Planning a multi-region shoot requires understanding each location's seasonal window — not just Ethiopia in general.</p>
           <p>This guide covers the main filming seasons by region, what affects timing and access, festival and ceremony windows worth planning around, and what changes between the dry and rainy seasons for different production types.</p>
         
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       quickAnswer={

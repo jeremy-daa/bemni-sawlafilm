@@ -17,6 +17,7 @@ export default function DronePermitsPage() {
 
   return (
     <ServicePageLayout
+      heroImageRecord={imageRecord}
       slug="drone-permits-ethiopia"
       h1="Drone Permits in Ethiopia"
       subhead="Aerial permission planning and practical shoot-day coordination for productions filming in Ethiopia."
@@ -27,18 +28,7 @@ export default function DronePermitsPage() {
           <p>Sawla Films supports international productions with drone permit planning, documentation coordination, location restriction checks, import considerations, and on-ground aerial workflow support.</p>
           <p>We do not promise shortcuts or guaranteed approvals. We help you build a compliant, realistic, and production-friendly aerial plan.</p>
         
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       heroCautionTitle="Important producer note:"

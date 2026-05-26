@@ -17,6 +17,7 @@ export default function LocalCrewPage() {
 
   return (
     <ServicePageLayout
+      heroImageRecord={imageRecord}
       slug="local-crew-translators-ethiopia"
       h1="Local Crew, Translators & Cultural Liaisons in Ethiopia"
       subhead="Handpicked regional support for crews that need more than translation."
@@ -27,18 +28,7 @@ export default function LocalCrewPage() {
           <p>Sawla Films works with a carefully selected network of translators, cultural liaisons, fixers, production assistants, and local crew from different regions of Ethiopia. Many have worked across multiple filming projects and bring far more than language support. They understand local cultures, regional protocol, community expectations, contributor sensitivity, and the practical rhythm of filming on location.</p>
           <p>Our role is to match the right people to the right project, region, subject matter, crew style, and filming environment.</p>
         
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       summaryItems={[

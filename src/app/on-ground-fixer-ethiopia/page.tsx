@@ -17,6 +17,7 @@ export default function OnGroundFixerPage() {
 
   return (
     <ServicePageLayout
+      heroImageRecord={imageRecord}
       slug="on-ground-fixer-ethiopia"
       h1="On-Ground Fixer in Ethiopia"
       subhead="Calm shoot-day coordination when plans change."
@@ -27,18 +28,7 @@ export default function OnGroundFixerPage() {
           <p>Sawla Films provides on-ground fixer support for international productions filming in Ethiopia. We coordinate local liaison, call sheet updates, access timing, drivers, authorities, contributors, translators, and practical field decisions so your crew can stay focused on the story.</p>
           <p>We do not promise that every condition will stay fixed. We help your production stay clear, coordinated, and responsive when conditions shift.</p>
         
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       trustLine="Local liaison, call sheet coordination, contributor communication, access timing, translator support, and real-time field problem solving for productions filming across Ethiopia."

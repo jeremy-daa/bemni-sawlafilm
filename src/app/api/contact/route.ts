@@ -31,7 +31,7 @@ export async function POST(request: Request) {
     // Build the email body
     let emailHtml = `
       <div style="font-family: sans-serif; line-height: 1.6; color: #111; max-width: 600px; margin: 0 auto; border: 1px solid #eee; padding: 20px; border-radius: 8px;">
-        <h2 style="color: #B8341B; border-bottom: 2px solid #B8341B; padding-bottom: 10px;">${subject}</h2>
+        <h2 style="color: #D3B03A; border-bottom: 2px solid #D3B03A; padding-bottom: 10px;">${subject}</h2>
         
         <p><strong>Name/Role:</strong> ${name_role || name}</p>
         <p><strong>Email:</strong> ${email}</p>

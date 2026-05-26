@@ -16,6 +16,7 @@ export default function WhatToFilmPage() {
 
   return (
     <GuidePageLayout
+      heroImageRecord={imageRecord}
       eyebrow="Ethiopia filming guide"
       h1="What to Film in Ethiopia"
       subhead="Stories that are visually powerful and operationally realistic."
@@ -24,18 +25,7 @@ export default function WhatToFilmPage() {
           <p>Ethiopia offers an extraordinary range of filming environments: ancient stone cities built into mountain rock, volcanic desert basins, high-altitude highland plateaus, Rift Valley lake systems, remote pastoral communities, living religious traditions, modern urban energy, and some of the world's most extreme natural landscapes.</p>
           <p>This guide is built to help producers understand what is visually possible and operationally realistic. Every location described here has been filmed with international crews. Each comes with access context, timing notes, permit considerations, and production logistics realities.</p>
         
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       quickAnswer={

@@ -17,6 +17,7 @@ export default function SecurityAccessPage() {
 
   return (
     <ServicePageLayout
+      heroImageRecord={imageRecord}
       slug="filming-security-access-ethiopia"
       h1="Filming Security and Access Coordination in Ethiopia"
       subhead="Practical planning for sensitive locations, controlled access, public-facing shoots, and changing field conditions."
@@ -27,18 +28,7 @@ export default function SecurityAccessPage() {
           <p>Sawla Films helps international productions plan clearer, safer, and more practical field movement in Ethiopia. We review access constraints, align route logic with permits and local protocol, coordinate with relevant field contacts where appropriate, and support on-ground communication so crews are not forced to solve complex access issues under pressure.</p>
           <p>We do not promise unlimited access or risk-free movement. We provide preparation, local judgment, clear communication, and practical coordination based on current permissions, field conditions, and local authority guidance.</p>
         
-          {imageRecord && (
-            <div className="mt-8 w-full aspect-[16/7] md:aspect-[21/9] rounded-[4px] overflow-hidden shadow-md border border-black/[0.05]">
-              <PremiumImage
-                assets={imageRecord.assets}
-                altText={imageRecord.seoDescription || imageRecord.altText}
-                dominantColor={imageRecord.dominantColors[0]}
-                className="w-full h-full object-cover"
-                useFullResolution={false}
-                sizes="(max-width: 768px) 100vw, 800px"
-              />
-            </div>
-          )}
+          
         </>
       }
       heroCautionTitle="Access and safety are never automatic."
