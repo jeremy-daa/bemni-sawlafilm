@@ -97,7 +97,12 @@ export function Navbar() {
 
                 {item.dropdown === "services" && activeDD === "services" && (
                   <div
-                    className="absolute top-[calc(100%+8px)] left-1/2 -translate-x-1/2 w-[340px] bg-ink/75 border border-white/15 rounded-[4px] shadow-[0_20px_50px_rgba(0,0,0,0.4)] backdrop-blur-2xl backdrop-saturate-150 py-3 z-50"
+                    className={clsx(
+                      "absolute top-[calc(100%+8px)] left-1/2 -translate-x-1/2 w-[340px] border border-white/15 rounded-[4px] shadow-[0_20px_50px_rgba(0,0,0,0.4)] py-3 z-50 transition-all duration-300",
+                      scrolled
+                        ? "bg-[#0A0A0A]/95 backdrop-blur-none"
+                        : "bg-ink/75 backdrop-blur-2xl backdrop-saturate-150"
+                    )}
                     onMouseEnter={() => showDD("services")}
                     onMouseLeave={hideDD}
                     onClick={(e) => e.stopPropagation()}
@@ -135,7 +140,12 @@ export function Navbar() {
 
                 {item.dropdown === "guides" && activeDD === "guides" && (
                   <div
-                    className="absolute top-[calc(100%+8px)] left-1/2 -translate-x-1/2 w-[300px] bg-ink/75 border border-white/15 rounded-[4px] shadow-[0_20px_50px_rgba(0,0,0,0.4)] backdrop-blur-2xl backdrop-saturate-150 py-3 z-50"
+                    className={clsx(
+                      "absolute top-[calc(100%+8px)] left-1/2 -translate-x-1/2 w-[300px] border border-white/15 rounded-[4px] shadow-[0_20px_50px_rgba(0,0,0,0.4)] py-3 z-50 transition-all duration-300",
+                      scrolled
+                        ? "bg-[#0A0A0A]/95 backdrop-blur-none"
+                        : "bg-ink/75 backdrop-blur-2xl backdrop-saturate-150"
+                    )}
                     onMouseEnter={() => showDD("guides")}
                     onMouseLeave={hideDD}
                     onClick={(e) => e.stopPropagation()}
