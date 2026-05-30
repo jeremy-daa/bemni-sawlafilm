@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
+import { TestimonialsSection } from '@/components/sections/TestimonialsSection'
 
 export const metadata: Metadata = {
   title: 'Ethiopia Film Fixer Clients & Selected Credits | Sawla Films',
@@ -107,6 +108,9 @@ export default function ClientsPage() {
           </div>
         </div>
       </section>
+
+      {/* TESTIMONIALS */}
+      <TestimonialsSection />
 
       {/* CAPABILITIES GRID */}
       <section className="bg-warm py-14">

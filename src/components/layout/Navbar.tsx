@@ -15,6 +15,7 @@ const TOP_NAV = [
   { label: 'Our Work',      href: '/case-studies',                 dropdown: null },
   { label: 'About',         href: '/about',                        dropdown: null },
   { label: 'FAQ',           href: '/faq',                          dropdown: null },
+  { label: 'Blog',          href: '/blog',                         dropdown: null },
 ]
 
 export function Navbar() {
@@ -64,7 +65,7 @@ export function Navbar() {
             />
           </Link>
 
-          <ul className="hidden lg:flex items-center gap-6" role="list">
+          <ul className="hidden lg:flex items-center gap-4 xl:gap-6" role="list">
             {TOP_NAV.map((item) => (
               <li
                 key={item.href}
@@ -74,7 +75,7 @@ export function Navbar() {
               >
                 <Link
                   href={item.href}
-                  className="link-hover-slide text-[11px] font-normal text-white/60 tracking-[0.06em] uppercase hover:text-white transition-colors duration-200 flex items-center gap-1"
+                  className="link-hover-slide text-[10px] xl:text-[11px] font-normal text-white/60 tracking-[0.05em] xl:tracking-[0.06em] uppercase hover:text-white transition-colors duration-200 flex items-center gap-1"
                   onClick={() => setActiveDD(null)}
                 >
                   {item.label}
