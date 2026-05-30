@@ -68,14 +68,15 @@ export function CustomCursor() {
             classes.contains('bg-graphite') ||
             classes.contains('bg-charcoal') ||
             classes.contains('bg-steel') ||
-            classes.contains('bg-[#050505]')
+            classes.contains('bg-[#050505]') ||
+            classes.contains('bg-[#0A0A0A]')
           ) {
             foundDark = true;
             break;
           }
         }
 
-        // Fallback check for string inclusions
+        // Fallback check for string inclusions and specific elements
         const className = current.className || '';
         if (typeof className === 'string') {
           if (
@@ -91,7 +92,10 @@ export function CustomCursor() {
             className.includes('bg-ash') ||
             className.includes('bg-graphite') ||
             className.includes('bg-charcoal') ||
-            className.includes('bg-[#050505]')
+            className.includes('bg-[#050505]') ||
+            className.includes('bg-[#0A0A0A]') ||
+            current.tagName.toLowerCase() === 'nav' ||
+            current.id === 'mobile-nav'
           ) {
             foundDark = true;
             break;
