@@ -11,8 +11,9 @@ import { ProcessSection }      from '@/components/sections/ProcessSection'
 import { GuideSection }        from '@/components/sections/GuideSection'
 import { WhySection }          from '@/components/sections/WhySection'
 import { CTASection }          from '@/components/sections/CTASection'
+import { BlogPreviewSection }  from '@/components/sections/BlogPreviewSection'
 
-export default function HomePage() {
+export default async function HomePage() {
   return (
     <>
       {/* 1. Full-bleed video hero */}
@@ -51,7 +52,10 @@ export default function HomePage() {
       {/* 10. Why choose Sawla Films */}
       <WhySection />
 
-      {/* 11. Final CTA — feasibility check */}
+      {/* 11. Blog preview — 3 latest field notes */}
+      <BlogPreviewSection />
+
+      {/* 12. Final CTA — feasibility check */}
       <CTASection />
     </>
   )

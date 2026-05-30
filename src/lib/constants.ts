@@ -200,6 +200,58 @@ export const DELIVERABLES = [
   { n: '08', text: 'Integrated remote-field logistics through Sawla Tours: transport, mobile camps, and accommodation' },
 ] as const
 
+// ─── Testimonials ─────────────────────────────────────────────────────────────
+export const TESTIMONIALS = [
+  {
+    quote: "Sawla Films made filming in Ethiopia smooth, professional, and surprisingly calm.",
+    body: "Our Korean documentary crew worked across several locations in Ethiopia, and Sawla Films handled the production support with impressive precision. From permits and local coordination to transport, translators, and field logistics, their team stayed one step ahead of every challenge. What stood out most was their calm problem-solving on the ground. Ethiopia is visually extraordinary, but it requires serious local knowledge — and Sawla Films gave us exactly that.",
+    role: "Documentary Producer",
+    country: "South Korea",
+  },
+  {
+    quote: "A deeply reliable fixer team with exceptional cultural sensitivity.",
+    body: "For our Japan-based production, filming in Ethiopia required careful planning, respectful access, and strong communication with local communities. Sawla Films understood both the creative needs of our crew and the cultural importance of the places we filmed. Their team was patient, discreet, and highly professional. They helped us work respectfully, efficiently, and with confidence throughout the production.",
+    role: "Field Producer",
+    country: "Japan",
+  },
+  {
+    quote: "Professional, thoughtful, and incredibly well connected.",
+    body: "Sawla Films supported our small documentary crew with location scouting, local crew coordination, transport, translation, and day-to-day production logistics. Their field knowledge was excellent, especially when working in culturally sensitive environments. They did not simply arrange logistics — they helped us understand the rhythm of the place, the people, and the story. That made a major difference to the quality of our filming.",
+    role: "Documentary Director",
+    country: "Japan",
+  },
+  {
+    quote: "The kind of fixer team every international production hopes to find.",
+    body: "Sawla Films gave our U.S. production team the confidence to film in Ethiopia with clarity and control. They helped us understand the permit pathway, prepare our equipment lists, organise local transport, and coordinate access in the field. Their communication was direct, honest, and practical. When conditions changed, they adapted quickly without creating stress for the crew. We would gladly work with them again.",
+    role: "Executive Producer",
+    country: "USA",
+  },
+  {
+    quote: "Sawla Films turned a complex shoot into a well-managed production.",
+    body: "Our project involved multiple locations, tight timing, and sensitive cultural access. Sawla Films handled everything with professionalism — from early planning to on-the-ground execution. Their drivers, translators, local coordinators, and production support team were dependable throughout. Ethiopia gave us some of the most powerful visuals of our project, and Sawla Films made those filming days possible.",
+    role: "Documentary Production Manager",
+    country: "USA",
+  },
+  {
+    quote: "Efficient, precise, and very professional from the first email to the final shoot day.",
+    body: "As a German production team, we value clear planning and reliable execution. Sawla Films delivered both. They prepared realistic schedules, coordinated local support, advised us on access requirements, and helped us move efficiently between locations. Their team understood the pressure international crews work under and responded with calm, practical solutions. We felt supported at every stage.",
+    role: "Line Producer",
+    country: "Germany",
+  },
+  {
+    quote: "A trusted production partner for filming in Ethiopia.",
+    body: "Sawla Films combines strong local knowledge with an international production mindset. They understood our technical needs, our schedule, and the importance of respectful community access. Their support with logistics, translation, transport, and location coordination allowed our crew to focus on filming. We especially appreciated their honesty about what was realistic and what needed more preparation.",
+    role: "Documentary Filmmaker",
+    country: "Germany",
+  },
+  {
+    quote: "Professional, discreet, and highly capable in the field.",
+    body: "Our Israeli production team needed a fixer who could manage logistics quietly, solve problems quickly, and help us work respectfully in Ethiopia. Sawla Films exceeded our expectations. They were organised, responsive, and deeply familiar with the realities of filming in different regions. Their local network and calm field coordination helped us complete our shoot successfully.",
+    role: "Producer",
+    country: "Israel",
+  },
+] as const
+
 // ─── CTA Receives ─────────────────────────────────────────────────────────────
 export const CTA_RECEIVES = [
   'Initial permit and access considerations for your specific route',
@@ -267,6 +319,7 @@ export const FOOTER_GUIDES = [
 ] as const
 
 export const FOOTER_COMPANY = [
+  { label: 'Field Notes (Blog)',   href: '/blog' },
   { label: 'About Sawla Films',   href: '/about' },
   { label: 'Our Team',             href: '/team' },
   { label: 'How We Work',          href: '/how-we-work' },
