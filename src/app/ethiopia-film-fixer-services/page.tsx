@@ -4,7 +4,7 @@ import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE, SERVICES } from '@/lib/constants'
 
 import { PremiumImage } from '@/components/ui/PremiumImage'
-import metadataJson from '@/data/metadata.json'
+import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 
 export const metadata: Metadata = {
@@ -32,14 +32,45 @@ const STEPS = [
 ]
 
 export default function ServicesHubPage() {
-  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
+    .filter(r => !r.flaggedForDeletion)
+    .map(r => {
+      const activeSlug = r.labelName || r.slug;
+      return {
+        ...r,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
+
+  const record = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30' || item.labelName === 'whatsapp-image-2026-05-18-at-16-40-30') || records[0];
+  const heroRecord = records.find(item => item.slug === 'fiml-crew-in-action-upscaled-photogrid' || item.labelName === 'fiml-crew-in-action-upscaled-photogrid') || records[1];
 
   return (
     <div className="min-h-screen">
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none z-0" style={{ backgroundImage:'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize:'48px 48px' }} aria-hidden="true" />
+        {heroRecord ? (
+          <div className="absolute inset-0 z-0">
+            <PremiumImage
+              assets={heroRecord.assets}
+              altText={heroRecord.altDescription || heroRecord.seoDescription || heroRecord.altText}
+              dominantColor={heroRecord.dominantColors[0]}
+              className="w-full h-full object-cover"
+              useFullResolution={true}
+              sizes="100vw"
+              priority={true}
+            />
+            <div className="absolute inset-0 bg-ink/85 backdrop-saturate-[1.1]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
+          </div>
+        ) : (
+          <div className="absolute inset-0 pointer-events-none z-0" style={{ backgroundImage:'linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)', backgroundSize:'48px 48px' }} aria-hidden="true" />
+        )}
         
         <div className="relative z-10 max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
           <Eyebrow className="mb-5">All services</Eyebrow>
@@ -109,13 +140,13 @@ export default function ServicesHubPage() {
       </section>
 
       {/* Embedded Landscape Image */}
-      {records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30') && (
+      {record && (
         <section className="bg-charcoal px-[clamp(20px,4vw,48px)] py-12">
           <div className="max-w-[1240px] mx-auto w-full aspect-[21/9] rounded-[4px] overflow-hidden shadow-2xl border border-white/[0.05]">
             <PremiumImage
-              assets={records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30')!.assets}
-              altText={records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30')!.seoDescription || records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30')!.altText}
-              dominantColor={records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-30')!.dominantColors[0]}
+              assets={record.assets}
+              altText={record.altDescription || record.seoDescription || record.altText}
+              dominantColor={record.dominantColors[0]}
               className="w-full h-full object-cover"
               useFullResolution={true}
               sizes="100vw"

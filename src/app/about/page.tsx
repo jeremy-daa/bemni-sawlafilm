@@ -5,7 +5,7 @@ import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
 
 import { PremiumImage } from '@/components/ui/PremiumImage'
-import metadataJson from '@/data/metadata.json'
+import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 import InteractiveMap from "@/components/sections/InteractiveMap";
 
@@ -39,10 +39,22 @@ const REGIONS = [
 ]
 
 export default function AboutPage() {
-  const records = (metadataJson as { records: FullMediaRecord[] }).records;
-  const portraitRecord = records.find(item => item.slug === 'camp');
+  const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
+    .filter(r => !r.flaggedForDeletion)
+    .map(r => {
+      const activeSlug = r.labelName || r.slug;
+      return {
+        ...r,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
+  const portraitRecord = records.find(item => item.slug === 'camp' || item.labelName === 'camp') || records[0];
 
-  const backgroundRecord = records.find(item => item.slug === 'fiml-crew-in-action-upscaled-photogrid');
+  const backgroundRecord = records.find(item => item.slug === 'fiml-crew-in-action-upscaled-photogrid' || item.labelName === 'fiml-crew-in-action-upscaled-photogrid') || records[0];
 
   return (
     <div className="min-h-screen">

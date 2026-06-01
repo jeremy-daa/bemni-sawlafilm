@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { PremiumImage } from '@/components/ui/PremiumImage'
-import metadataJson from '@/data/metadata.json'
+import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 import { SITE } from '@/lib/constants'
 
@@ -70,8 +70,20 @@ const CASES = [
 ]
 
 export default function CaseStudiesPage() {
-  const records = (metadataJson as { records: FullMediaRecord[] }).records;
-  const imageRecord = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-59-10');
+  const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
+    .filter(r => !r.flaggedForDeletion)
+    .map(r => {
+      const activeSlug = r.labelName || r.slug;
+      return {
+        ...r,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
+  const imageRecord = records.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-59-10' || item.labelName === 'whatsapp-image-2026-05-18-at-16-40-59-10') || records[0];
 
   return (
     <div className="min-h-screen">

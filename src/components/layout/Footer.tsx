@@ -103,7 +103,7 @@ export function Footer() {
           {/* Brand column — spans both rows on lg */}
           <div className="lg:row-span-2 lg:border-r lg:border-white/[0.04] lg:pr-8">
             <Link href="/" className="flex items-center" aria-label="Sawla Films home">
-              <Image src="/brand/sawla-films-logo-bgremoved.png" alt="Sawla Films logo" width={160} height={160} className="object-contain" />
+              <Image src="/brand/sawla-films-logo-bgremoved.png" alt="Sawla Films logo" width={160} height={160} className="object-contain w-auto h-auto" />
             </Link>
             <p className="text-[12px] font-light text-white/55 leading-[1.7] mb-5">
               Ethiopia film fixer and production support for international documentaries, factual series, commercials, and independent films. Based in Addis Ababa.

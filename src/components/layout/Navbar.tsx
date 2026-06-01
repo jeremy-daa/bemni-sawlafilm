@@ -60,7 +60,7 @@ export function Navbar() {
               alt="Sawla Films logo"
               width={60}
               height={60}
-              className="object-contain"
+              className="object-contain w-auto h-auto"
               priority
             />
           </Link>

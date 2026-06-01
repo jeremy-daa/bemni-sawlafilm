@@ -5,7 +5,7 @@ import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
 
 import { PremiumImage } from '@/components/ui/PremiumImage'
-import metadataJson from '@/data/metadata.json'
+import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 
 export const metadata: Metadata = {
@@ -128,8 +128,20 @@ const faqSchema = {
 }
 
 export default function FAQPage() {
-  const records = (metadataJson as { records: FullMediaRecord[] }).records;
-  const backgroundRecord = records.find(item => item.slug === 'fiml-crew-in-action-upscaled-photogrid');
+  const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
+    .filter(r => !r.flaggedForDeletion)
+    .map(r => {
+      const activeSlug = r.labelName || r.slug;
+      return {
+        ...r,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
+  const backgroundRecord = records.find(item => item.slug === 'fiml-crew-in-action-upscaled-photogrid' || item.labelName === 'fiml-crew-in-action-upscaled-photogrid') || records[0];
 
   return (
     <div className="min-h-screen">

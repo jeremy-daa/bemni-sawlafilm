@@ -1,4 +1,5 @@
 import fs from 'fs'
+import galleryData from '@/data/gallery.json'
 import path from 'path'
 import { remark } from 'remark'
 import remarkGfm from 'remark-gfm'
@@ -63,7 +64,8 @@ interface StaticPostData {
   metaDescription: string
   primaryKeyword: string
   author: string
-  image: BlogImage
+  imageSlug: string
+  fallbackSlug: string
 }
 
 const STATIC_POST_DATA: StaticPostData[] = [
@@ -75,14 +77,10 @@ const STATIC_POST_DATA: StaticPostData[] = [
     metaTitle: 'Filming Permits in Ethiopia: Producer Checklist | Sawla Films',
     metaDescription: 'Plan Ethiopia filming permits with a producer-focused checklist covering documents, lead times, locations and local fixer support.',
     primaryKeyword: 'filming permits Ethiopia',
-    author: 'Sawla Films Field Production Team',
-    image: {
-      src:          '/assets/images/img-7002/img-7002-medium.webp',
-      srcFull:      '/assets/images/img-7002/img-7002-full.webp',
-      thumb:        '/assets/images/img-7002/img-7002-thumb.avif',
-      alt:          'Film crew documenting an Ethiopian official at an artifact display — permit and documentation context',
-      dominantColor: '#333333',
-    },
+    author: 'Sawla Films Field Production Team', 
+    imageSlug: 'sawla-films-intimate-clerical-access-nhk-crew-filming-high-priest-abuna-yemata-guhjpg', 
+    fallbackSlug: 'img-7002',
+    
   },
   {
     slug: 'film-gear-customs-clearance-ethiopia',
@@ -92,14 +90,10 @@ const STATIC_POST_DATA: StaticPostData[] = [
     metaTitle: 'Film Gear Customs Clearance in Ethiopia | Sawla Films',
     metaDescription: 'Prepare Ethiopia film gear customs paperwork with serial-numbered kit lists, arrival planning and fixer-led clearance support.',
     primaryKeyword: 'film gear customs clearance Ethiopia',
-    author: 'Sawla Films Field Production Team',
-    image: {
-      src:          '/assets/images/film-crew-gear-at-camp/film-crew-gear-at-camp-medium.webp',
-      srcFull:      '/assets/images/film-crew-gear-at-camp/film-crew-gear-at-camp-full.webp',
-      thumb:        '/assets/images/film-crew-gear-at-camp/film-crew-gear-at-camp-thumb.avif',
-      alt:          'Film equipment cases laid out on location in Ethiopia — customs and gear clearance preparation',
-      dominantColor: '#B3B3B3',
-    },
+    author: 'Sawla Films Field Production Team', 
+    imageSlug: 'documentary-film-production-equipment-4x4-vehicle-mobile-tented-camp-ethiopiajpg', 
+    fallbackSlug: 'film-crew-gear-at-camp',
+    
   },
   {
     slug: 'drone-filming-ethiopia-confirm-before-arrival',
@@ -109,14 +103,10 @@ const STATIC_POST_DATA: StaticPostData[] = [
     metaTitle: 'Drone Filming in Ethiopia: What Crews Must Confirm | Sawla Films',
     metaDescription: 'International crews must confirm drone permits, aviation authority clearance and restricted zones before bringing aerial equipment to Ethiopia.',
     primaryKeyword: 'drone filming Ethiopia',
-    author: 'Sawla Films Field Production Team',
-    image: {
-      src:          '/assets/images/whatsapp-image-2026-05-18-at-16-40-57-1/whatsapp-image-2026-05-18-at-16-40-57-1-medium.webp',
-      srcFull:      '/assets/images/whatsapp-image-2026-05-18-at-16-40-57-1/whatsapp-image-2026-05-18-at-16-40-57-1-full.webp',
-      thumb:        '/assets/images/whatsapp-image-2026-05-18-at-16-40-57-1/whatsapp-image-2026-05-18-at-16-40-57-1-thumb.avif',
-      alt:          'Aerial view of Ethiopian salt lake at sunrise — drone filming perspective over remote landscape',
-      dominantColor: '#87CEFA',
-    },
+    author: 'Sawla Films Field Production Team', 
+    imageSlug: 'salt-canyon-layered-rock-formations-danakil-depression-geological-location-scouting-ethiopiajpg', 
+    fallbackSlug: 'whatsapp-image-2026-05-18-at-16-40-57-1',
+    
   },
   {
     slug: 'filming-danakil-depression-heat-access-convoys',
@@ -126,14 +116,10 @@ const STATIC_POST_DATA: StaticPostData[] = [
     metaTitle: 'Filming the Danakil Depression: Field Logistics Guide',
     metaDescription: 'Plan Danakil filming with realistic guidance on heat, convoys, fuel, water, comms, safety and Afar access coordination.',
     primaryKeyword: 'filming Danakil Depression',
-    author: 'Sawla Films Location Desk',
-    image: {
-      src:          '/assets/images/whatsapp-image-2026-05-18-at-16-40-44/whatsapp-image-2026-05-18-at-16-40-44-medium.webp',
-      srcFull:      '/assets/images/whatsapp-image-2026-05-18-at-16-40-44/whatsapp-image-2026-05-18-at-16-40-44-full.webp',
-      thumb:        '/assets/images/whatsapp-image-2026-05-18-at-16-40-44/whatsapp-image-2026-05-18-at-16-40-44-thumb.avif',
-      alt:          'Stark geological canyon landscape of the Danakil Depression, Ethiopia',
-      dominantColor: '#9B9B9B',
-    },
+    author: 'Sawla Films Location Desk', 
+    imageSlug: 'danakil-depression-salt-lake-sunset-reflection-cinematic-landscape-ethiopiajpg', 
+    fallbackSlug: 'whatsapp-image-2026-05-18-at-16-40-44',
+    
   },
   {
     slug: 'filming-lalibela-sacred-spaces-low-light',
@@ -143,14 +129,10 @@ const STATIC_POST_DATA: StaticPostData[] = [
     metaTitle: 'Filming Lalibela: Sacred Spaces & Cultural Protocols | Sawla Films',
     metaDescription: 'Guide to filming in Lalibela covering heritage access, low-light interiors, cultural protocols and local coordination.',
     primaryKeyword: 'filming Lalibela Ethiopia',
-    author: 'Sawla Films Location Desk',
-    image: {
-      src:          '/assets/images/whatsapp-image-2026-05-18-at-16-40-38/whatsapp-image-2026-05-18-at-16-40-38-medium.webp',
-      srcFull:      '/assets/images/whatsapp-image-2026-05-18-at-16-40-38/whatsapp-image-2026-05-18-at-16-40-38-full.webp',
-      thumb:        '/assets/images/whatsapp-image-2026-05-18-at-16-40-38/whatsapp-image-2026-05-18-at-16-40-38-thumb.avif',
-      alt:          'Ethiopian artisan weaving traditional textiles — cultural documentation in a sacred setting',
-      dominantColor: '#C8973A',
-    },
+    author: 'Sawla Films Location Desk', 
+    imageSlug: 'behind-the-scenes-film-crew-lighting-setup-cultural-photography-kibish-omo-valley-ethiopiajpg', 
+    fallbackSlug: 'whatsapp-image-2026-05-18-at-16-40-38',
+    
   },
   {
     slug: 'wildlife-filming-simien-mountains-endemic-species',
@@ -160,14 +142,10 @@ const STATIC_POST_DATA: StaticPostData[] = [
     metaTitle: 'Wildlife Filming in the Simien Mountains | Sawla Films',
     metaDescription: 'Logistics guide for wildlife filming in the Simien Mountains — endemic species, high-altitude access and permit requirements.',
     primaryKeyword: 'wildlife filming Simien Mountains Ethiopia',
-    author: 'Sawla Films Producer Support Desk',
-    image: {
-      src:          '/assets/images/img-3515/img-3515-medium.webp',
-      srcFull:      '/assets/images/img-3515/img-3515-full.webp',
-      thumb:        '/assets/images/img-3515/img-3515-thumb.avif',
-      alt:          'Ethiopian wolf standing in tall grassland of the Bale Mountains — wildlife filming in the highlands',
-      dominantColor: '#9B9B9B',
-    },
+    author: 'Sawla Films Producer Support Desk', 
+    imageSlug: 'endemic-ethiopian-wolf-tall-grass-bale-mountains-national-park-wildlife-filming-ethiopiajpg', 
+    fallbackSlug: 'img-3515',
+    
   },
   {
     slug: 'commercial-filming-addis-ababa-street-control',
@@ -177,14 +155,10 @@ const STATIC_POST_DATA: StaticPostData[] = [
     metaTitle: 'Commercial Filming in Addis Ababa: Street & Urban Production',
     metaDescription: 'Guide to commercial filming in Addis Ababa covering street control, urban permits, fast-moving logistics and local crew coordination.',
     primaryKeyword: 'commercial filming Addis Ababa',
-    author: 'Sawla Films Producer Support Desk',
-    image: {
-      src:          '/assets/images/whatsapp-image-2026-05-18-at-16-40-58-2/whatsapp-image-2026-05-18-at-16-40-58-2-medium.webp',
-      srcFull:      '/assets/images/whatsapp-image-2026-05-18-at-16-40-58-2/whatsapp-image-2026-05-18-at-16-40-58-2-full.webp',
-      thumb:        '/assets/images/whatsapp-image-2026-05-18-at-16-40-58-2/whatsapp-image-2026-05-18-at-16-40-58-2-thumb.avif',
-      alt:          'Urban crowd gathering in Addis Ababa with traditional and modern dress — street production context',
-      dominantColor: '#1A1A1A',
-    },
+    author: 'Sawla Films Producer Support Desk', 
+    imageSlug: 'sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg', 
+    fallbackSlug: 'whatsapp-image-2026-05-18-at-16-40-58-2',
+    
   },
   {
     slug: 'cash-fuel-communications-remote-ethiopia-productions',
@@ -194,14 +168,10 @@ const STATIC_POST_DATA: StaticPostData[] = [
     metaTitle: 'Cash, Fuel & Communications for Remote Ethiopia Productions',
     metaDescription: 'Field logistics guide covering cash management, fuel planning, satellite comms and remote-area preparation for Ethiopia productions.',
     primaryKeyword: 'remote Ethiopia film production logistics',
-    author: 'Sawla Films Producer Support Desk',
-    image: {
-      src:          '/assets/images/whatsapp-image-2026-05-18-at-16-40-56-2/whatsapp-image-2026-05-18-at-16-40-56-2-medium.webp',
-      srcFull:      '/assets/images/whatsapp-image-2026-05-18-at-16-40-56-2/whatsapp-image-2026-05-18-at-16-40-56-2-full.webp',
-      thumb:        '/assets/images/whatsapp-image-2026-05-18-at-16-40-56-2/whatsapp-image-2026-05-18-at-16-40-56-2-thumb.avif',
-      alt:          'Film crew working outdoors under a shade tent in a remote Ethiopian natural setting',
-      dominantColor: '#B8C2C5',
-    },
+    author: 'Sawla Films Producer Support Desk', 
+    imageSlug: 'sawla-films-remote-mobile-camp-production-basecamp-crew-logistics-western-ethiopiajpg', 
+    fallbackSlug: 'whatsapp-image-2026-05-18-at-16-40-56-2',
+    
   },
   {
     slug: 'how-fixers-solve-problems-ethiopia-field-decisions',
@@ -211,20 +181,34 @@ const STATIC_POST_DATA: StaticPostData[] = [
     metaTitle: 'How Fixers Solve Problems in Ethiopia: Field Decisions | Sawla Films',
     metaDescription: 'Inside account of how experienced Ethiopia fixers handle permit delays, access changes, and on-ground decisions that protect shoot days.',
     primaryKeyword: 'Ethiopia film fixer',
-    author: 'Sawla Films Field Production Team',
-    image: {
-      src:          '/assets/images/img-20140101-064257-1/img-20140101-064257-1-medium.webp',
-      srcFull:      '/assets/images/img-20140101-064257-1/img-20140101-064257-1-full.webp',
-      thumb:        '/assets/images/img-20140101-064257-1/img-20140101-064257-1-thumb.avif',
-      alt:          'Film crew at work on a production in the Ethiopian desert landscape',
-      dominantColor: '#C0A882',
-    },
+    author: 'Sawla Films Field Production Team', 
+    imageSlug: 'sawla-films-director-of-photography-landscape-cinematography-ethiopiajpg', 
+    fallbackSlug: 'img-20140101-064257-1',
+    
   },
 ]
 
 function getStaticData(slug: string): StaticPostData | undefined {
   return STATIC_POST_DATA.find((d) => d.slug === slug)
 }
+
+
+function getGalleryImage(slugQuery: string, fallbackSlug: string): BlogImage {
+  const records = galleryData.records as any[];
+  let rec = records.find(r => (r.slug === slugQuery || r.labelName === slugQuery) && !r.flaggedForDeletion);
+  if (!rec) rec = records.find(r => (r.slug === fallbackSlug || r.labelName === fallbackSlug) && !r.flaggedForDeletion);
+  if (!rec) rec = records.filter(r => !r.flaggedForDeletion)[0];
+  
+  const activeSlug = rec.labelName || rec.slug;
+  return {
+    src: `/assets/images/${activeSlug}/${activeSlug}-medium.webp`,
+    srcFull: `/assets/images/${activeSlug}/${activeSlug}-full.webp`,
+    thumb: `/assets/images/${activeSlug}/${activeSlug}-thumb.avif`,
+    alt: rec.altDescription || rec.seoDescription || rec.altText || '',
+    dominantColor: rec.dominantColors && rec.dominantColors.length > 0 ? rec.dominantColors[0] : '#333333',
+  };
+}
+
 
 // ─── Markdown helpers ─────────────────────────────────────────────────────────
 
@@ -295,7 +279,7 @@ export async function getAllPosts(): Promise<BlogPostMeta[]> {
       lastVerified: d.lastVerified,
       metaDescription: d.metaDescription,
       filename,
-      image: d.image,
+      image: getGalleryImage(d.imageSlug, d.fallbackSlug),
     } satisfies BlogPostMeta
   })
 }
@@ -328,7 +312,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
     producerSummary: extractProducerSummary(raw),
     contentHtml,
     filename,
-    image: staticData.image,
+    image: getGalleryImage(staticData.imageSlug, staticData.fallbackSlug),
   }
 }
 

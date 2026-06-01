@@ -1,13 +1,27 @@
 import { DELIVERABLES } from '@/lib/constants'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { PremiumImage } from '@/components/ui/PremiumImage'
-import metadataJson from '@/data/metadata.json'
+import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 
 export function ValueSection() {
-  const record = (metadataJson as { records: FullMediaRecord[] }).records.find(
-    (item) => item.slug === 'erta-ale'
-  );
+  const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
+    .filter(r => !r.flaggedForDeletion)
+    .map(r => {
+      const activeSlug = r.labelName || r.slug;
+      return {
+        ...r,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
+
+  const record = records.find(
+    (item) => item.slug === 'erta-ale' || item.labelName === 'erta-ale'
+  ) || records[0];
 
   return (
     <section
@@ -50,7 +64,7 @@ export function ValueSection() {
               <div className="reveal reveal-delay-300 w-full h-[320px] rounded-[4px] overflow-hidden shadow-2xl relative">
                 <PremiumImage
                   assets={record.assets}
-                  altText={record.seoDescription || record.altText}
+                  altText={record.altDescription || record.seoDescription || record.altText}
                   dominantColor={record.dominantColors[0]}
                   className="w-full h-full object-cover"
                   useFullResolution={false}

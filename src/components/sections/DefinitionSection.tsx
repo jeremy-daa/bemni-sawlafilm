@@ -1,11 +1,25 @@
 import { PremiumImage } from '@/components/ui/PremiumImage'
-import metadataJson from '@/data/metadata.json'
+import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 
 export function DefinitionSection() {
-  const record = (metadataJson as { records: FullMediaRecord[] }).records.find(
-    (item) => item.slug === 'fiml-crew-in-action-upscaled-photogrid'
-  );
+  const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
+    .filter(r => !r.flaggedForDeletion)
+    .map(r => {
+      const activeSlug = r.labelName || r.slug;
+      return {
+        ...r,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
+
+  const record = records.find(
+    (item) => item.slug === 'fiml-crew-in-action-upscaled-photogrid' || item.labelName === 'fiml-crew-in-action-upscaled-photogrid'
+  ) || records[0];
 
   return (
     <section
@@ -50,7 +64,7 @@ export function DefinitionSection() {
             <div className="hidden md:block w-full aspect-[4/5] rounded-[4px] overflow-hidden shadow-lg border border-black/[0.05] reveal reveal-delay-200">
               <PremiumImage
                 assets={record.assets}
-                altText={record.seoDescription || record.altText}
+                altText={record.altDescription || record.seoDescription || record.altText}
                 dominantColor={record.dominantColors[0]}
                 className="w-full h-full object-cover"
                 useFullResolution={false}

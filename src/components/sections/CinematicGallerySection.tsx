@@ -1,33 +1,45 @@
 import { PremiumImage } from '@/components/ui/PremiumImage'
-import metadataJson from '@/data/metadata.json'
+import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 import { StaggerContainer, StaggerItem, FadeIn } from '@/components/ui/FadeIn'
 
 export function CinematicGallerySection() {
-  const records = (metadataJson as { records: FullMediaRecord[] }).records;
+  const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
+    .filter(r => !r.flaggedForDeletion)
+    .map(r => {
+      const activeSlug = r.labelName || r.slug;
+      return {
+        ...r,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
 
   // Select 4 stunning production and landscape images
   const galleryItems = [
     {
-      record: records.find((r) => r.slug === 'erta-ale'),
+      record: records.find((r) => r.slug === 'erta-ale' || r.labelName === 'erta-ale'),
       title: 'Erta Ale Volcano',
       location: 'Danakil Depression, Afar',
       span: 'md:col-span-7 aspect-[16/10]',
     },
     {
-      record: records.find((r) => r.slug === 'img-2106'),
+      record: records.find((r) => r.slug === 'img-2106' || r.labelName === 'img-2106'),
       title: 'Highland Expeditions',
       location: 'Simien Mountains',
       span: 'md:col-span-5 aspect-[4/5]',
     },
     {
-      record: records.find((r) => r.slug === 'camp'),
+      record: records.find((r) => r.slug === 'camp' || r.labelName === 'camp'),
       title: 'Remote Field Camp',
       location: 'Expedition Logistics',
       span: 'md:col-span-5 aspect-[4/5]',
     },
     {
-      record: records.find((r) => r.slug === 'img-20140101-040751'),
+      record: records.find((r) => r.slug === 'img-20140101-040751' || r.labelName === 'img-20140101-040751') || records[0],
       title: 'Scouting & Recce',
       location: 'Ethiopian Highlands',
       span: 'md:col-span-7 aspect-[16/10]',
@@ -65,13 +77,13 @@ export function CinematicGallerySection() {
             const r = item.record!;
             return (
               <StaggerItem
-                key={r.slug}
+                key={`${r.slug}-${i}`}
                 className={`${item.span} relative group rounded-[4px] overflow-hidden shadow-2xl border border-white/[0.05]`}
               >
                 {/* Image */}
                 <PremiumImage
                   assets={r.assets}
-                  altText={r.seoDescription || r.altText}
+                  altText={r.altDescription || r.seoDescription || r.altText}
                   dominantColor={r.dominantColors[0]}
                   className="w-full h-full object-cover group-hover:scale-[1.025] transition-transform duration-700 ease-out-expo"
                   useFullResolution={false}

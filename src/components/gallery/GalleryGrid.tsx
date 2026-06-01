@@ -97,12 +97,12 @@ export function GalleryGrid({ items }: GalleryGridProps) {
             return (
               <Link
                 key={item.id}
-                href={`/gallery/${item.slug}`}
+                href={`/gallery/${item.labelName || item.slug}`}
                 className={`group relative block w-full h-full overflow-hidden bg-ink rounded-[2px] ${spanClasses}`}
               >
                 <PremiumImage
                   assets={item.assets}
-                  altText={item.altText}
+                  altText={item.altDescription || item.altText}
                   dominantColor={item.dominantColors[0]}
                   className="w-full h-full object-cover transform group-hover:scale-[1.03] transition-transform duration-[1.5s] ease-out-expo"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { PremiumImage } from '@/components/ui/PremiumImage';
-import metadataJson from '@/data/metadata.json';
+import galleryData from '@/data/gallery.json';
 import { FullMediaRecord } from '@/types/gallery';
 
 interface Props {
@@ -13,7 +13,20 @@ interface Props {
 
 // Helper to find the record
 function getRecord(slug: string): FullMediaRecord | undefined {
-  return (metadataJson as { records: FullMediaRecord[] }).records.find((item) => item.slug === slug);
+  const records = galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[];
+  const item = records.find((item) => (item.labelName === slug || item.slug === slug) && !item.flaggedForDeletion);
+  
+  if (!item) return undefined;
+
+  const activeSlug = item.labelName || item.slug;
+  return {
+    ...item,
+    assets: {
+      full: `/${activeSlug}/${activeSlug}-full.webp`,
+      medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+      thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+    }
+  };
 }
 
 // Generate dynamic SEO metadata
@@ -26,19 +39,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const title = `${record.subcategory} - ${record.landmark !== 'Unknown' ? record.landmark : 'Ethiopia'} | Sawla Films Gallery`;
+  const description = record.altDescription || record.seoDescription;
   
   return {
     title,
-    description: record.seoDescription,
+    description,
     openGraph: {
       title,
-      description: record.seoDescription,
+      description,
       images: [
         {
           url: `/assets/images${record.assets.medium}`,
           width: 960,
           height: 640,
-          alt: record.altText,
+          alt: record.altDescription || record.altText,
         },
       ],
     },
@@ -47,9 +61,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // Generate static params if we want to pre-build these routes
 export async function generateStaticParams() {
-  return (metadataJson as { records: FullMediaRecord[] }).records.map((record) => ({
-    slug: record.slug,
-  }));
+  const records = galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[];
+  return records
+    .filter((record) => !record.flaggedForDeletion)
+    .map((record) => ({
+      slug: record.labelName || record.slug,
+    }));
 }
 
 export default async function GalleryDetailPage({ params }: Props) {
@@ -84,16 +101,16 @@ export default async function GalleryDetailPage({ params }: Props) {
       {/* Main Content Area */}
       <div className="flex-1 w-full max-w-[1400px] mx-auto px-[clamp(20px,4vw,48px)] grid grid-cols-1 lg:grid-cols-[1fr_360px] xl:grid-cols-[1fr_400px] gap-10 xl:gap-16 items-start">
         
-        {/* Left: Huge Image Display */}
+         {/* Left: Huge Image Display */}
         <div className="w-full bg-ash rounded-[4px] overflow-hidden border border-white/[0.04] shadow-2xl relative flex items-center justify-center min-h-[50vh]">
            <div className="relative w-full aspect-[4/3] sm:aspect-[16/9] lg:aspect-auto lg:h-[75vh]">
               <PremiumImage
                 assets={record.assets}
-                altText={record.altText}
+                altText={record.altDescription || record.altText}
                 dominantColor={record.dominantColors[0]}
                 className="w-full h-full object-contain"
                 useFullResolution={true}
-                sizes="100vw"
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 priority={true}
               />
            </div>
@@ -102,7 +119,7 @@ export default async function GalleryDetailPage({ params }: Props) {
         {/* Right: Specs Sidebar */}
         <div className="w-full flex flex-col pb-12 lg:sticky lg:top-[120px]">
           
-          <h1 className="font-serif font-light text-white text-[clamp(28px,3vw,42px)] leading-[1.1] tracking-[-0.01em] mb-4">
+          <h1 className="font-serif font-light text-white text-[clamp(28px,3vw,42px)] leading-[1.1] tracking-[-0.01em] mb-4 capitalize">
             {record.subcategory}
           </h1>
 
@@ -115,7 +132,7 @@ export default async function GalleryDetailPage({ params }: Props) {
           </div>
 
           <p className="text-[14px] font-light text-white/70 leading-[1.8] mb-10">
-            {record.seoDescription}
+            {record.altDescription || record.seoDescription}
           </p>
 
           {/* Specs Grid */}

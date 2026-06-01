@@ -53,7 +53,7 @@ export function GuidePageLayout({
           <div className="absolute inset-0 z-0">
             <PremiumImage
               assets={heroImageRecord.assets}
-              altText={heroImageRecord.seoDescription || heroImageRecord.altText}
+              altText={heroImageRecord.altDescription || heroImageRecord.seoDescription || heroImageRecord.altText}
               dominantColor={heroImageRecord.dominantColors[0]}
               className="w-full h-full object-cover"
               useFullResolution={true}

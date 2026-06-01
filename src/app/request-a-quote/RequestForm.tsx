@@ -2,7 +2,9 @@
 
 import { useState, type FormEvent } from 'react'
 
-type FormState = 'idle' | 'submitting' | 'success' | 'error'
+import { useRouter } from 'next/navigation'
+
+type FormState = 'idle' | 'submitting' | 'error'
 
 const inputBase =
   'w-full bg-ash/[0.02] border border-black/10 rounded-[4px] px-4 py-3 text-[13px] font-light text-ink placeholder:text-silver/60 focus:outline-none focus:bg-white focus:border-ember focus:ring-2 focus:ring-ember/15 transition-all duration-250 hover:border-black/20'
@@ -25,6 +27,7 @@ function Field({
 }
 
 export function RequestForm() {
+  const router = useRouter()
   const [state, setState] = useState<FormState>('idle')
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
@@ -42,29 +45,11 @@ export function RequestForm() {
       })
 
       if (!res.ok) throw new Error('Failed to send')
-      setState('success')
+      router.push('/thank-you')
     } catch (err) {
       console.error(err)
       setState('error')
     }
-  }
-
-  if (state === 'success') {
-    return (
-      <div className="py-12 text-center">
-        <div className="w-16 h-16 rounded-full bg-ember/10 flex items-center justify-center mx-auto mb-6">
-          <svg className="w-7 h-7 text-ember" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-          </svg>
-        </div>
-        <h3 className="font-serif font-light text-ink text-[26px] italic mb-4">Brief received.</h3>
-        <p className="text-[14px] font-light text-steel leading-[1.8] max-w-[420px] mx-auto">
-          Sawla Films will review your dates, locations, crew size, equipment needs, drone plans,
-          and access questions, then respond with initial feasibility notes and practical next steps.
-          If your request is urgent, please also contact us directly on WhatsApp at +251 927 115 454.
-        </p>
-      </div>
-    )
   }
 
   return (
@@ -283,18 +268,26 @@ export function RequestForm() {
 
       {/* Submit */}
       <div className="pt-4">
-        <button
-          type="submit"
-          disabled={state === 'submitting'}
-          className="group relative w-full bg-ember text-white text-[12px] font-medium tracking-[0.1em] uppercase px-6 py-4 rounded-[4px] hover:bg-ember-glow transition-all duration-300 ease-out-expo disabled:opacity-60 disabled:cursor-not-allowed hover:-translate-y-0.5 shadow-lg shadow-ember/25 overflow-hidden flex items-center justify-center gap-3"
-        >
-          <span className="relative z-10">{state === 'submitting' ? 'Sending brief…' : 'Send production brief'}</span>
-          {state !== 'submitting' && (
-            <svg className="w-4 h-4 relative z-10 transform group-hover:translate-x-1.5 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+          <button
+            type="submit"
+            disabled={state === 'submitting'}
+            className="group relative w-full sm:w-auto bg-ember text-white text-[12px] font-medium tracking-[0.1em] uppercase px-8 py-4 rounded-[4px] hover:bg-ember-glow transition-all duration-300 ease-out-expo disabled:opacity-60 disabled:cursor-not-allowed hover:-translate-y-0.5 shadow-lg shadow-ember/25 overflow-hidden flex items-center justify-center gap-3"
+          >
+            <span className="relative z-10">{state === 'submitting' ? 'Sending brief…' : 'Send production brief'}</span>
+            {state !== 'submitting' && (
+              <svg className="w-4 h-4 relative z-10 transform group-hover:translate-x-1.5 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            )}
+          </button>
+          <p className="text-[11px] font-light text-steel/80 flex items-center gap-1.5">
+            <svg className="w-3.5 h-3.5 text-ember/70" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-          )}
-        </button>
+            We respond within 24 hours.
+          </p>
+        </div>
       </div>
 
       {state === 'error' && (

@@ -2,13 +2,27 @@ import Link from 'next/link'
 import { SERVICES } from '@/lib/constants'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { PremiumImage } from '@/components/ui/PremiumImage'
-import metadataJson from '@/data/metadata.json'
+import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 
 export function ServicesSection() {
-  const record = (metadataJson as { records: FullMediaRecord[] }).records.find(
-    (item) => item.slug === 'film-crew-gear-at-camp'
-  );
+  const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
+    .filter(r => !r.flaggedForDeletion)
+    .map(r => {
+      const activeSlug = r.labelName || r.slug;
+      return {
+        ...r,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
+
+  const record = records.find(
+    (item) => item.slug === 'film-crew-gear-at-camp' || item.labelName === 'film-crew-gear-at-camp'
+  ) || records[0];
 
   return (
     <section
@@ -35,7 +49,7 @@ export function ServicesSection() {
           <div className="reveal w-full h-[240px] md:h-[320px] rounded-[4px] overflow-hidden mb-10 shadow-md border border-black/[0.05]">
             <PremiumImage
               assets={record.assets}
-              altText={record.seoDescription || record.altText}
+              altText={record.altDescription || record.seoDescription || record.altText}
               dominantColor={record.dominantColors[0]}
               className="w-full h-full object-cover"
               useFullResolution={false}

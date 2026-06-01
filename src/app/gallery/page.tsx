@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { GalleryGrid } from '@/components/gallery/GalleryGrid';
 import { PremiumImage } from '@/components/ui/PremiumImage';
-import galleryData from '@/data/gallery-index.json';
+import galleryData from '@/data/gallery.json';
 import { GalleryRecord, FullMediaRecord } from '@/types/gallery';
 
 export const metadata: Metadata = {
@@ -10,9 +10,21 @@ export const metadata: Metadata = {
 };
 
 export default function GalleryPage() {
-  // Extract the records array from the JSON payload
-  const items = (galleryData as { records: GalleryRecord[] }).records;
-  const imageRecord = items.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-59-9');
+  // Extract the records array from the JSON payload and filter out those flagged for deletion
+  const items = (galleryData.records as (GalleryRecord & { flaggedForDeletion?: boolean })[])
+    .filter(item => !item.flaggedForDeletion)
+    .map(item => {
+      const activeSlug = item.labelName || item.slug;
+      return {
+        ...item,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
+  const imageRecord = items.find(item => item.slug === 'whatsapp-image-2026-05-18-at-16-40-59-9' || item.labelName === 'whatsapp-image-2026-05-18-at-16-40-59-9') || items[0];
 
   return (
     <div className="min-h-screen bg-ink pt-[120px] pb-24 relative">
@@ -23,7 +35,7 @@ export default function GalleryPage() {
           <>
             <PremiumImage
               assets={imageRecord.assets}
-              altText={(imageRecord as FullMediaRecord).seoDescription || imageRecord.altText}
+              altText={(imageRecord as FullMediaRecord).altDescription || (imageRecord as FullMediaRecord).seoDescription || imageRecord.altText}
               dominantColor={imageRecord.dominantColors[0]}
               className="w-full h-full object-cover"
               useFullResolution={true}

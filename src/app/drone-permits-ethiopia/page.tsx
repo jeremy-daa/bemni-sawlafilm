@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { ServicePageLayout } from '@/components/shared/ServicePageLayout'
 
 import { PremiumImage } from '@/components/ui/PremiumImage'
-import metadataJson from '@/data/metadata.json'
+import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 
 export const metadata: Metadata = {
@@ -12,8 +12,20 @@ export const metadata: Metadata = {
 }
 
 export default function DronePermitsPage() {
-  const records = (metadataJson as { records: FullMediaRecord[] }).records;
-  const imageRecord = records.find(item => item.slug === 'erta-ale');
+  const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
+    .filter(r => !r.flaggedForDeletion)
+    .map(r => {
+      const activeSlug = r.labelName || r.slug;
+      return {
+        ...r,
+        assets: {
+          full: `/${activeSlug}/${activeSlug}-full.webp`,
+          medium: `/${activeSlug}/${activeSlug}-medium.webp`,
+          thumb: `/${activeSlug}/${activeSlug}-thumb.avif`
+        }
+      };
+    });
+  const imageRecord = records.find(item => item.slug === 'erta-ale' || item.labelName === 'erta-ale') || records[0];
 
   return (
     <ServicePageLayout

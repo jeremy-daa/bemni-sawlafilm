@@ -45,11 +45,13 @@ export const homeMetadata: Metadata = {
       'Ethiopia film fixer for international productions. Permits, logistics, customs, scouting, drone planning, local crew, and shoot-day fixing.',
     images: [`${SITE.url}/assets/images/og-default-1200x630.jpg`],
   },
+  manifest: '/site.webmanifest',
   icons: {
     icon: [
-      { url: '/favicon.ico' },
-      { url: '/assets/icons/icon-32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/assets/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/assets/icons/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/assets/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/assets/icons/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/assets/icons/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
     ],
     apple: [{ url: '/assets/icons/apple-touch-icon.png', sizes: '180x180' }],
   },

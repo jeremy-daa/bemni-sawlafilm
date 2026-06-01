@@ -17,6 +17,10 @@ export interface GalleryRecord {
   composition: string;
   mood: string;
   assets: AssetPaths;
+  labelName?: string;
+  altDescription?: string;
+  isLabeled?: boolean;
+  flaggedForDeletion?: boolean;
 }
 
 export interface FullMediaRecord extends GalleryRecord {
