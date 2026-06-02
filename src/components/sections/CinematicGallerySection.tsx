@@ -39,7 +39,7 @@ export function CinematicGallerySection() {
       span: 'md:col-span-5 aspect-[4/5]',
     },
     {
-      record: records.find((r) => r.slug === 'img-20140101-040751' || r.labelName === 'img-20140101-040751') || records[0],
+      record: records.find((r) => r.slug === 'whatsapp-image-2026-05-18-at-16-40-39' || r.labelName === 'whatsapp-image-2026-05-18-at-16-40-39'),
       title: 'Scouting & Recce',
       location: 'Ethiopian Highlands',
       span: 'md:col-span-7 aspect-[16/10]',
