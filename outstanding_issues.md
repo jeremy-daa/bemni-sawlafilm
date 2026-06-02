@@ -9,7 +9,7 @@ This document tracks all external, operational, and content-related tasks that n
 - [ ] **Filming Guide Structure:** Review the markdown guides in `src/content/guides/` and ensure each contains a "definitive answer" block (a 2–3 sentence paragraph summarizing the core answer) for AI engine extraction.
 
 ## 2. Launch-day Technical Operations
-- [ ] **Google Analytics 4:** Create a GA4 property and install the tracking tag.
+- [x] **Google Analytics 4:** Create a GA4 property and install the tracking tag.
 - [ ] **Google Search Console:** Verify domain ownership via DNS TXT record once the domain is live.
 - [ ] **Google Tag Manager (Optional):** Setup GTM if advanced conversion tracking is required.
 - [ ] **Domain & DNS Cutover:** Execute the formal DNS cutover to move from the staging Vercel domain to the final production domain (e.g., updating A/CNAME records).
