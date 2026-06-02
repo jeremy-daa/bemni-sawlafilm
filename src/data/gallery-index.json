@@ -5,2291 +5,2073 @@
     {
       "id": "camp",
       "slug": "camp",
-      "landmark": "Unknown",
+      "labelName": "sawla-films-frontier-basecamp-logistics-mobile-tented-camp-remote-ethiopiajpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of people standing outside a row of tents on a grassy field, with a clear sky and dry vegetation.",
-      "mood": "serene",
       "dominantColors": [
         "#B8C9D6",
         "#A0A0A0",
         "#757575"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/camp/camp-full.webp",
         "medium": "/camp/camp-medium.webp",
         "thumb": "/camp/camp-thumb.avif"
-      }
+      },
+      "altText": "A group of people standing outside a row of tents on a grassy field, with a clear sky and dry vegetation.",
+      "flaggedForDeletion": false
     },
     {
       "id": "erta-ale",
       "slug": "erta-ale",
-      "landmark": "Erta Ale Volcano",
+      "labelName": "erta-ale",
       "category": "nature",
       "subcategory": "volcanic landscape",
-      "altText": "A dramatic volcanic crater with lava and a cloudy sky in the background.",
-      "mood": "dramatic",
       "dominantColors": [
         "#8B0000",
         "#4C7E00",
         "#333333"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/erta-ale/erta-ale-full.webp",
         "medium": "/erta-ale/erta-ale-medium.webp",
         "thumb": "/erta-ale/erta-ale-thumb.avif"
-      }
+      },
+      "altText": "A dramatic volcanic crater with lava and a cloudy sky in the background.",
+      "flaggedForDeletion": false
     },
     {
       "id": "film-crew-gear-at-camp",
       "slug": "film-crew-gear-at-camp",
-      "landmark": "Unknown",
+      "labelName": "documentary-film-production-equipment-4x4-vehicle-mobile-tented-camp-ethiopiajpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "Film equipment on a dirt ground with a vehicle and a person standing nearby.",
-      "mood": "serene",
       "dominantColors": [
         "#E6E6E6",
         "#B3B3B3",
         "#808080"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/film-crew-gear-at-camp/film-crew-gear-at-camp-full.webp",
         "medium": "/film-crew-gear-at-camp/film-crew-gear-at-camp-medium.webp",
         "thumb": "/film-crew-gear-at-camp/film-crew-gear-at-camp-thumb.avif"
-      }
+      },
+      "altText": "Film equipment on a dirt ground with a vehicle and a person standing nearby.",
+      "flaggedForDeletion": false
     },
     {
       "id": "fiml-crew-in-action-upscaled-photogrid",
       "slug": "fiml-crew-in-action-upscaled-photogrid",
-      "landmark": "Unknown",
+      "labelName": "werner-herzog-film-crew-archaeological-site-afar-desert-ethiopiajpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of people on a film set in a desert-like environment, with some individuals wearing traditional Ethiopian clothing and others dressed in modern attire.",
-      "mood": "documentary",
       "dominantColors": [
         "#E6E6E6",
         "#B3B3B3",
         "#808080"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/fiml-crew-in-action-upscaled-photogrid/fiml-crew-in-action-upscaled-photogrid-full.webp",
         "medium": "/fiml-crew-in-action-upscaled-photogrid/fiml-crew-in-action-upscaled-photogrid-medium.webp",
         "thumb": "/fiml-crew-in-action-upscaled-photogrid/fiml-crew-in-action-upscaled-photogrid-thumb.avif"
-      }
+      },
+      "altText": "A group of people on a film set in a desert-like environment, with some individuals wearing traditional Ethiopian clothing and others dressed in modern attire.",
+      "flaggedForDeletion": false
     },
     {
       "id": "img-20140101-040751",
       "slug": "img-20140101-040751",
-      "landmark": "Unknown",
+      "labelName": "img-20140101-040751jpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of film equipment on the ground, with a car parked nearby and a person standing next to it.",
-      "mood": "serene",
       "dominantColors": [
         "#F8E6D7",
         "#C0C0C0",
         "#9B9B9B"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/img-20140101-040751/img-20140101-040751-full.webp",
         "medium": "/img-20140101-040751/img-20140101-040751-medium.webp",
         "thumb": "/img-20140101-040751/img-20140101-040751-thumb.avif"
-      }
+      },
+      "altText": "A group of film equipment on the ground, with a car parked nearby and a person standing next to it.",
+      "flaggedForDeletion": true
     },
     {
       "id": "img-20140101-064257-1",
       "slug": "img-20140101-064257-1",
-      "landmark": "Unknown",
+      "labelName": "img-20140101-064257-1jpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of people working on a film set in an arid landscape.",
-      "mood": "serene",
       "dominantColors": [
         "#FFE4C4",
         "#B2B2B2",
         "#303030"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/img-20140101-064257-1/img-20140101-064257-1-full.webp",
         "medium": "/img-20140101-064257-1/img-20140101-064257-1-medium.webp",
         "thumb": "/img-20140101-064257-1/img-20140101-064257-1-thumb.avif"
-      }
+      },
+      "altText": "A group of people working on a film set in an arid landscape.",
+      "flaggedForDeletion": true
     },
     {
       "id": "img-2106",
       "slug": "img-2106",
-      "landmark": "Unknown",
+      "labelName": "surma-suri-woman-portrait-cultural-photography-expedition-kibish-omo-valley-ethiopiajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A person sits under a tent with a photographer taking their photo, capturing a moment of cultural significance.",
-      "mood": "serene",
       "dominantColors": [
         "#9B9B9B",
         "#E5E5E5",
         "#C0C0C0"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/img-2106/img-2106-full.webp",
         "medium": "/img-2106/img-2106-medium.webp",
         "thumb": "/img-2106/img-2106-thumb.avif"
-      }
+      },
+      "altText": "A person sits under a tent with a photographer taking their photo, capturing a moment of cultural significance.",
+      "flaggedForDeletion": false
     },
     {
       "id": "img-2411",
       "slug": "img-2411",
-      "landmark": "Unknown",
+      "labelName": "behind-the-scenes-film-crew-lighting-setup-cultural-photography-kibish-omo-valley-ethiopiajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A man wearing a traditional outfit stands inside a tent, while another person takes his photograph. A film crew or tourists are present in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#9B9B9B",
         "#E6E6E6",
         "#F8F8F8"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/img-2411/img-2411-full.webp",
         "medium": "/img-2411/img-2411-medium.webp",
         "thumb": "/img-2411/img-2411-thumb.avif"
-      }
+      },
+      "altText": "A man wearing a traditional outfit stands inside a tent, while another person takes his photograph. A film crew or tourists are present in the background.",
+      "flaggedForDeletion": false
     },
     {
       "id": "img-3515",
       "slug": "img-3515",
-      "landmark": "Bale Mountains, Ethiopia",
+      "labelName": "endemic-ethiopian-wolf-tall-grass-bale-mountains-national-park-wildlife-filming-ethiopiajpg",
       "category": "nature",
       "subcategory": "Ethiopian wolf",
-      "altText": "A lone Ethiopian wolf standing amidst a field of tall grass and shrubs in a natural landscape.",
-      "mood": "serene",
       "dominantColors": [
         "#9B9B9B",
         "#E0E0E0",
         "#C0C0C0"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/img-3515/img-3515-full.webp",
         "medium": "/img-3515/img-3515-medium.webp",
         "thumb": "/img-3515/img-3515-thumb.avif"
-      }
+      },
+      "altText": "A lone Ethiopian wolf standing amidst a field of tall grass and shrubs in a natural landscape.",
+      "flaggedForDeletion": false
     },
     {
       "id": "img-7002",
       "slug": "img-7002",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "portrait",
-      "altText": "A man in a suit stands at a display case with various artifacts, while a film crew records the scene.",
-      "mood": "documentary",
+      "labelName": "dr-berhane-asfaw-paleoanthropologist-documentary-interview-hominid-fossils-addis-ababa-ethiopiajpg",
+      "category": "production",
+      "subcategory": "documentary",
       "dominantColors": [
         "#333",
         "#666",
         "#999"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/img-7002/img-7002-full.webp",
         "medium": "/img-7002/img-7002-medium.webp",
         "thumb": "/img-7002/img-7002-thumb.avif"
-      }
+      },
+      "altText": "A man in a suit stands at a display case with various artifacts, while a film crew records the scene.",
+      "flaggedForDeletion": false
     },
     {
       "id": "nc1a2043-1",
       "slug": "nc1a2043-1",
-      "landmark": "Unknown",
+      "labelName": "aerial-cinematography-african-buffalo-migration-documentary-gambella-national-park-ethiopiajpg",
       "category": "nature",
       "subcategory": "aerial",
-      "altText": "A herd of animals running through a field with dust kicked up by their movement.",
-      "mood": "dramatic",
       "dominantColors": [
         "#D8B345",
         "#C0C0C0",
         "#A6A6A6"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
         "full": "/nc1a2043-1/nc1a2043-1-full.webp",
         "medium": "/nc1a2043-1/nc1a2043-1-medium.webp",
         "thumb": "/nc1a2043-1/nc1a2043-1-thumb.avif"
-      }
+      },
+      "altText": "A herd of animals running through a field with dust kicked up by their movement.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-30",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-30",
-      "landmark": "Ethiopian Highlands",
+      "id": "gallery-image-16-40-30",
+      "slug": "gallery-image-16-40-30",
+      "labelName": "ethiopia-countryside-photo",
       "category": "nature",
       "subcategory": "ethiopian landscape",
-      "altText": "A picturesque view of the Ethiopian countryside with rolling hills and a valley in the distance.",
-      "mood": "serene",
       "dominantColors": [
         "#5087C2",
         "#E6E6E6",
         "#B39D17"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-30/whatsapp-image-2026-05-18-at-16-40-30-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-30/whatsapp-image-2026-05-18-at-16-40-30-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-30/whatsapp-image-2026-05-18-at-16-40-30-thumb.avif"
-      }
+        "full": "/ethiopia-countryside-photo/ethiopia-countryside-photo-full.webp",
+        "medium": "/ethiopia-countryside-photo/ethiopia-countryside-photo-medium.webp",
+        "thumb": "/ethiopia-countryside-photo/ethiopia-countryside-photo-thumb.avif"
+      },
+      "altText": "A picturesque view of the Ethiopian countryside with rolling hills and a valley in the distance.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-38-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-38-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-38-1",
+      "slug": "gallery-image-16-40-38-1",
+      "labelName": "erta-ale-active-lava-lake-night-volcano-cinematography-afar-ethiopiajpg",
       "category": "nature",
-      "subcategory": "Volcanic Landscape",
-      "altText": "A fiery volcano eruption at night with lava flowing into a crater.",
-      "mood": "dramatic",
+      "subcategory": "volcanic landscape",
       "dominantColors": [
         "#FFD700",
         "#333333",
         "#000000"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-38-1/whatsapp-image-2026-05-18-at-16-40-38-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-38-1/whatsapp-image-2026-05-18-at-16-40-38-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-38-1/whatsapp-image-2026-05-18-at-16-40-38-1-thumb.avif"
-      }
+        "full": "/erta-ale-active-lava-lake-night-volcano-cinematography-afar-ethiopiajpg/erta-ale-active-lava-lake-night-volcano-cinematography-afar-ethiopiajpg-full.webp",
+        "medium": "/erta-ale-active-lava-lake-night-volcano-cinematography-afar-ethiopiajpg/erta-ale-active-lava-lake-night-volcano-cinematography-afar-ethiopiajpg-medium.webp",
+        "thumb": "/erta-ale-active-lava-lake-night-volcano-cinematography-afar-ethiopiajpg/erta-ale-active-lava-lake-night-volcano-cinematography-afar-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A fiery volcano eruption at night with lava flowing into a crater.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-38-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-38-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-38-2",
+      "slug": "gallery-image-16-40-38-2",
+      "labelName": "endemic-ethiopian-wolf-helichrysum-everlasting-flowers-documentary-filming-bale-mountains-ethiopiajpg",
       "category": "nature",
       "subcategory": "wildlife",
-      "altText": "A red fox sitting in a field of wildflowers.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#E3F2F1",
         "#C8E6E4"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-38-2/whatsapp-image-2026-05-18-at-16-40-38-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-38-2/whatsapp-image-2026-05-18-at-16-40-38-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-38-2/whatsapp-image-2026-05-18-at-16-40-38-2-thumb.avif"
-      }
+        "full": "/endemic-ethiopian-wolf-helichrysum-everlasting-flowers-documentary-filming-bale-mountains-ethiopiajpg/endemic-ethiopian-wolf-helichrysum-everlasting-flowers-documentary-filming-bale-mountains-ethiopiajpg-full.webp",
+        "medium": "/endemic-ethiopian-wolf-helichrysum-everlasting-flowers-documentary-filming-bale-mountains-ethiopiajpg/endemic-ethiopian-wolf-helichrysum-everlasting-flowers-documentary-filming-bale-mountains-ethiopiajpg-medium.webp",
+        "thumb": "/endemic-ethiopian-wolf-helichrysum-everlasting-flowers-documentary-filming-bale-mountains-ethiopiajpg/endemic-ethiopian-wolf-helichrysum-everlasting-flowers-documentary-filming-bale-mountains-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A red fox sitting in a field of wildflowers.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-38-3",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-38-3",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-38-3",
+      "slug": "gallery-image-16-40-38-3",
+      "labelName": "erta-ale-volcano-bubbling-lava-flow-glowing-magma-night-afar-ethiopiajpg",
       "category": "nature",
       "subcategory": "volcanic landscape",
-      "altText": "A fiery volcano with lava flowing and glowing red, surrounded by a dark sky.",
-      "mood": "dramatic",
       "dominantColors": [
         "#FFC107",
         "#8B0000",
         "#000000"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-38-3/whatsapp-image-2026-05-18-at-16-40-38-3-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-38-3/whatsapp-image-2026-05-18-at-16-40-38-3-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-38-3/whatsapp-image-2026-05-18-at-16-40-38-3-thumb.avif"
-      }
+        "full": "/erta-ale-volcano-bubbling-lava-flow-glowing-magma-night-afar-ethiopiajpg/erta-ale-volcano-bubbling-lava-flow-glowing-magma-night-afar-ethiopiajpg-full.webp",
+        "medium": "/erta-ale-volcano-bubbling-lava-flow-glowing-magma-night-afar-ethiopiajpg/erta-ale-volcano-bubbling-lava-flow-glowing-magma-night-afar-ethiopiajpg-medium.webp",
+        "thumb": "/erta-ale-volcano-bubbling-lava-flow-glowing-magma-night-afar-ethiopiajpg/erta-ale-volcano-bubbling-lava-flow-glowing-magma-night-afar-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A fiery volcano with lava flowing and glowing red, surrounded by a dark sky.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-38",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-38",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-38",
+      "slug": "gallery-image-16-40-38",
+      "labelName": "konso-weaver-traditional-handloom-cultural-documentary-production-sawla-films-ethiopiajpg",
       "category": "cultural",
       "subcategory": "production",
-      "altText": "An elderly man wears a traditional outfit and works on a loom, surrounded by colorful yarns.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#008B89",
         "#C0392B"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-38/whatsapp-image-2026-05-18-at-16-40-38-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-38/whatsapp-image-2026-05-18-at-16-40-38-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-38/whatsapp-image-2026-05-18-at-16-40-38-thumb.avif"
-      }
+        "full": "/konso-weaver-traditional-handloom-cultural-documentary-production-sawla-films-ethiopiajpg/konso-weaver-traditional-handloom-cultural-documentary-production-sawla-films-ethiopiajpg-full.webp",
+        "medium": "/konso-weaver-traditional-handloom-cultural-documentary-production-sawla-films-ethiopiajpg/konso-weaver-traditional-handloom-cultural-documentary-production-sawla-films-ethiopiajpg-medium.webp",
+        "thumb": "/konso-weaver-traditional-handloom-cultural-documentary-production-sawla-films-ethiopiajpg/konso-weaver-traditional-handloom-cultural-documentary-production-sawla-films-ethiopiajpg-thumb.avif"
+      },
+      "altText": "An elderly man wears a traditional outfit and works on a loom, surrounded by colorful yarns.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-39",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-39",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-39",
+      "slug": "gallery-image-16-40-39",
+      "labelName": "gheralta-mountains-tigray-ancient-rock-hewn-churches-religious-documentary-filming-ethiopiajpg",
       "category": "nature",
       "subcategory": "Landscape",
-      "altText": "A majestic mountain range with a valley between, featuring red rock formations and a clear sky.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC107",
         "#E6E6E6",
         "#9B9B9B"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-39/whatsapp-image-2026-05-18-at-16-40-39-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-39/whatsapp-image-2026-05-18-at-16-40-39-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-39/whatsapp-image-2026-05-18-at-16-40-39-thumb.avif"
-      }
+        "full": "/gheralta-mountains-tigray-ancient-rock-hewn-churches-religious-documentary-filming-ethiopiajpg/gheralta-mountains-tigray-ancient-rock-hewn-churches-religious-documentary-filming-ethiopiajpg-full.webp",
+        "medium": "/gheralta-mountains-tigray-ancient-rock-hewn-churches-religious-documentary-filming-ethiopiajpg/gheralta-mountains-tigray-ancient-rock-hewn-churches-religious-documentary-filming-ethiopiajpg-medium.webp",
+        "thumb": "/gheralta-mountains-tigray-ancient-rock-hewn-churches-religious-documentary-filming-ethiopiajpg/gheralta-mountains-tigray-ancient-rock-hewn-churches-religious-documentary-filming-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A majestic mountain range with a valley between, featuring red rock formations and a clear sky.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-44-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-44-1",
-      "landmark": "Omo Valley",
+      "id": "gallery-image-16-40-44-1",
+      "slug": "gallery-image-16-40-44-1",
+      "labelName": "nyangatom-man-traditional-headrest-reality-tv-production-omo-valley-ethiopiajpg",
       "category": "cultural",
-      "subcategory": "Mursi tribe",
-      "altText": "A man from the Mursi tribe of Ethiopia, holding a shovel and standing in front of traditional huts.",
-      "mood": "serene",
+      "subcategory": "documentary",
       "dominantColors": [
         "#E3C949",
         "#8B002B",
         "#756300"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-44-1/whatsapp-image-2026-05-18-at-16-40-44-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-44-1/whatsapp-image-2026-05-18-at-16-40-44-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-44-1/whatsapp-image-2026-05-18-at-16-40-44-1-thumb.avif"
-      }
+        "full": "/nyangatom-man-traditional-headrest-reality-tv-production-omo-valley-ethiopiajpg/nyangatom-man-traditional-headrest-reality-tv-production-omo-valley-ethiopiajpg-full.webp",
+        "medium": "/nyangatom-man-traditional-headrest-reality-tv-production-omo-valley-ethiopiajpg/nyangatom-man-traditional-headrest-reality-tv-production-omo-valley-ethiopiajpg-medium.webp",
+        "thumb": "/nyangatom-man-traditional-headrest-reality-tv-production-omo-valley-ethiopiajpg/nyangatom-man-traditional-headrest-reality-tv-production-omo-valley-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A man from the Mursi tribe of Ethiopia, holding a shovel and standing in front of traditional huts.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-44",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-44",
-      "landmark": "Danakil Depression, Ethiopia",
+      "id": "gallery-image-16-40-44",
+      "slug": "gallery-image-16-40-44",
+      "labelName": "salt-canyon-layered-rock-formations-danakil-depression-geological-location-scouting-ethiopiajpg",
       "category": "nature",
       "subcategory": "geological",
-      "altText": "A vast canyon with towering rock formations and a rugged landscape.",
-      "mood": "serene",
       "dominantColors": [
         "#C0C0C0",
         "#9B9B9B",
         "#757575"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-44/whatsapp-image-2026-05-18-at-16-40-44-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-44/whatsapp-image-2026-05-18-at-16-40-44-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-44/whatsapp-image-2026-05-18-at-16-40-44-thumb.avif"
-      }
+        "full": "/salt-canyon-layered-rock-formations-danakil-depression-geological-location-scouting-ethiopiajpg/salt-canyon-layered-rock-formations-danakil-depression-geological-location-scouting-ethiopiajpg-full.webp",
+        "medium": "/salt-canyon-layered-rock-formations-danakil-depression-geological-location-scouting-ethiopiajpg/salt-canyon-layered-rock-formations-danakil-depression-geological-location-scouting-ethiopiajpg-medium.webp",
+        "thumb": "/salt-canyon-layered-rock-formations-danakil-depression-geological-location-scouting-ethiopiajpg/salt-canyon-layered-rock-formations-danakil-depression-geological-location-scouting-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A vast canyon with towering rock formations and a rugged landscape.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-52-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-52-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-52-1",
+      "slug": "gallery-image-16-40-52-1",
+      "labelName": "sawla-films-location-scouting-recce-sunset-silhouette-northern-ethiopia-mountainsjpg",
       "category": "portrait",
-      "subcategory": "Film Crew",
-      "altText": "A person stands on a rocky hilltop at sunset, silhouetted against the setting sun with mountains in the background.",
-      "mood": "serene",
+      "subcategory": "film crew",
       "dominantColors": [
         "#FFC107",
         "#E8C3B9",
         "#A64D4E"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-52-1/whatsapp-image-2026-05-18-at-16-40-52-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-52-1/whatsapp-image-2026-05-18-at-16-40-52-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-52-1/whatsapp-image-2026-05-18-at-16-40-52-1-thumb.avif"
-      }
+        "full": "/sawla-films-location-scouting-recce-sunset-silhouette-northern-ethiopia-mountainsjpg/sawla-films-location-scouting-recce-sunset-silhouette-northern-ethiopia-mountainsjpg-full.webp",
+        "medium": "/sawla-films-location-scouting-recce-sunset-silhouette-northern-ethiopia-mountainsjpg/sawla-films-location-scouting-recce-sunset-silhouette-northern-ethiopia-mountainsjpg-medium.webp",
+        "thumb": "/sawla-films-location-scouting-recce-sunset-silhouette-northern-ethiopia-mountainsjpg/sawla-films-location-scouting-recce-sunset-silhouette-northern-ethiopia-mountainsjpg-thumb.avif"
+      },
+      "altText": "A person stands on a rocky hilltop at sunset, silhouetted against the setting sun with mountains in the background.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-52-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-52-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-52-2",
+      "slug": "gallery-image-16-40-52-2",
+      "labelName": "local-konso-casting-documentary-interview-sawla-films-ethiopiajpg",
       "category": "portrait",
       "subcategory": "Film Crew",
-      "altText": "A woman with a bright smile, wearing a yellow headscarf and pink shirt, stands in front of a film crew. The crew is using professional equipment to capture her image.",
-      "mood": "vibrant",
       "dominantColors": [
         "#FFD700",
         "#E64A19",
         "#8B5723"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-52-2/whatsapp-image-2026-05-18-at-16-40-52-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-52-2/whatsapp-image-2026-05-18-at-16-40-52-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-52-2/whatsapp-image-2026-05-18-at-16-40-52-2-thumb.avif"
-      }
+        "full": "/local-konso-casting-documentary-interview-sawla-films-ethiopiajpg/local-konso-casting-documentary-interview-sawla-films-ethiopiajpg-full.webp",
+        "medium": "/local-konso-casting-documentary-interview-sawla-films-ethiopiajpg/local-konso-casting-documentary-interview-sawla-films-ethiopiajpg-medium.webp",
+        "thumb": "/local-konso-casting-documentary-interview-sawla-films-ethiopiajpg/local-konso-casting-documentary-interview-sawla-films-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A woman with a bright smile, wearing a yellow headscarf and pink shirt, stands in front of a film crew. The crew is using professional equipment to capture her image.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-52-3",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-52-3",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-52-3",
+      "slug": "gallery-image-16-40-52-3",
+      "labelName": "three-endangered-ethiopian-wolves-wildlife-cinematography-bale-mountains-ethiopiajpg",
       "category": "nature",
       "subcategory": "wildlife",
-      "altText": "Three coyotes standing on a grassy hillside with mountains in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#E6E6E6",
         "#B3B3B3",
         "#757575"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-52-3/whatsapp-image-2026-05-18-at-16-40-52-3-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-52-3/whatsapp-image-2026-05-18-at-16-40-52-3-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-52-3/whatsapp-image-2026-05-18-at-16-40-52-3-thumb.avif"
-      }
+        "full": "/three-endangered-ethiopian-wolves-wildlife-cinematography-bale-mountains-ethiopiajpg/three-endangered-ethiopian-wolves-wildlife-cinematography-bale-mountains-ethiopiajpg-full.webp",
+        "medium": "/three-endangered-ethiopian-wolves-wildlife-cinematography-bale-mountains-ethiopiajpg/three-endangered-ethiopian-wolves-wildlife-cinematography-bale-mountains-ethiopiajpg-medium.webp",
+        "thumb": "/three-endangered-ethiopian-wolves-wildlife-cinematography-bale-mountains-ethiopiajpg/three-endangered-ethiopian-wolves-wildlife-cinematography-bale-mountains-ethiopiajpg-thumb.avif"
+      },
+      "altText": "Three coyotes standing on a grassy hillside with mountains in the background.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-52-4",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-52-4",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-52-4",
+      "slug": "gallery-image-16-40-52-4",
+      "labelName": "sawla-films-crew-awash-river-bank-documentary-production-riverine-forest-ethiopiajpg",
       "category": "nature",
       "subcategory": "nature",
-      "altText": "A serene river scene with a film crew or tourists on the bank, surrounded by lush greenery and trees.",
-      "mood": "serene",
       "dominantColors": [
         "#4CAF50",
         "#8B8B8B",
         "#E6E6E6"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-52-4/whatsapp-image-2026-05-18-at-16-40-52-4-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-52-4/whatsapp-image-2026-05-18-at-16-40-52-4-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-52-4/whatsapp-image-2026-05-18-at-16-40-52-4-thumb.avif"
-      }
+        "full": "/sawla-films-crew-awash-river-bank-documentary-production-riverine-forest-ethiopiajpg/sawla-films-crew-awash-river-bank-documentary-production-riverine-forest-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-crew-awash-river-bank-documentary-production-riverine-forest-ethiopiajpg/sawla-films-crew-awash-river-bank-documentary-production-riverine-forest-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-crew-awash-river-bank-documentary-production-riverine-forest-ethiopiajpg/sawla-films-crew-awash-river-bank-documentary-production-riverine-forest-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A serene river scene with a film crew or tourists on the bank, surrounded by lush greenery and trees.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-52-6",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-52-6",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-52-6",
+      "slug": "gallery-image-16-40-52-6",
+      "labelName": "cinematic-vista-gheralta-rock-formations-establishing-shot-tigray-ethiopiajpg",
       "category": "nature",
       "subcategory": "Landscape",
-      "altText": "A majestic rock formation with a clear sky in the background, in Ethiopia.",
-      "mood": "serene",
       "dominantColors": [
         "#E6E6E6",
         "#B3B3B3",
         "#757575"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-52-6/whatsapp-image-2026-05-18-at-16-40-52-6-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-52-6/whatsapp-image-2026-05-18-at-16-40-52-6-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-52-6/whatsapp-image-2026-05-18-at-16-40-52-6-thumb.avif"
-      }
+        "full": "/cinematic-vista-gheralta-rock-formations-establishing-shot-tigray-ethiopiajpg/cinematic-vista-gheralta-rock-formations-establishing-shot-tigray-ethiopiajpg-full.webp",
+        "medium": "/cinematic-vista-gheralta-rock-formations-establishing-shot-tigray-ethiopiajpg/cinematic-vista-gheralta-rock-formations-establishing-shot-tigray-ethiopiajpg-medium.webp",
+        "thumb": "/cinematic-vista-gheralta-rock-formations-establishing-shot-tigray-ethiopiajpg/cinematic-vista-gheralta-rock-formations-establishing-shot-tigray-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A majestic rock formation with a clear sky in the background, in Ethiopia.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-52-7",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-52-7",
-      "landmark": "Unknown",
-      "category": "portrait",
-      "subcategory": "Film Crew",
-      "altText": "A smiling woman with braided hair, standing outdoors with a mountainous landscape in the background.",
-      "mood": "serene",
+      "id": "gallery-image-16-40-52-7",
+      "slug": "gallery-image-16-40-52-7",
+      "labelName": "tigray-woman-traditional-braids-cultural-documentary-portrait-mountain-highlands-ethiopiajpg",
+      "category": "cultural",
+      "subcategory": "portrait",
       "dominantColors": [
         "#FFC107",
         "#E8D162",
         "#B39DDB"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-52-7/whatsapp-image-2026-05-18-at-16-40-52-7-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-52-7/whatsapp-image-2026-05-18-at-16-40-52-7-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-52-7/whatsapp-image-2026-05-18-at-16-40-52-7-thumb.avif"
-      }
+        "full": "/tigray-woman-traditional-braids-cultural-documentary-portrait-mountain-highlands-ethiopiajpg/tigray-woman-traditional-braids-cultural-documentary-portrait-mountain-highlands-ethiopiajpg-full.webp",
+        "medium": "/tigray-woman-traditional-braids-cultural-documentary-portrait-mountain-highlands-ethiopiajpg/tigray-woman-traditional-braids-cultural-documentary-portrait-mountain-highlands-ethiopiajpg-medium.webp",
+        "thumb": "/tigray-woman-traditional-braids-cultural-documentary-portrait-mountain-highlands-ethiopiajpg/tigray-woman-traditional-braids-cultural-documentary-portrait-mountain-highlands-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A smiling woman with braided hair, standing outdoors with a mountainous landscape in the background.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-52",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-52",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-52",
+      "slug": "gallery-image-16-40-52",
+      "labelName": "kara-tribe-boy-traditional-chalk-face-paint-documentary-portrait-omo-valley-ethiopiajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A young boy with face paint, smiling at the camera, standing among a group of people with similar markings.",
-      "mood": "vibrant",
       "dominantColors": [
         "#FFC107",
         "#E8433",
         "#A52A2A"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-52/whatsapp-image-2026-05-18-at-16-40-52-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-52/whatsapp-image-2026-05-18-at-16-40-52-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-52/whatsapp-image-2026-05-18-at-16-40-52-thumb.avif"
-      }
+        "full": "/kara-tribe-boy-traditional-chalk-face-paint-documentary-portrait-omo-valley-ethiopiajpg/kara-tribe-boy-traditional-chalk-face-paint-documentary-portrait-omo-valley-ethiopiajpg-full.webp",
+        "medium": "/kara-tribe-boy-traditional-chalk-face-paint-documentary-portrait-omo-valley-ethiopiajpg/kara-tribe-boy-traditional-chalk-face-paint-documentary-portrait-omo-valley-ethiopiajpg-medium.webp",
+        "thumb": "/kara-tribe-boy-traditional-chalk-face-paint-documentary-portrait-omo-valley-ethiopiajpg/kara-tribe-boy-traditional-chalk-face-paint-documentary-portrait-omo-valley-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A young boy with face paint, smiling at the camera, standing among a group of people with similar markings.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-53",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-53",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-53",
+      "slug": "gallery-image-16-40-53",
+      "labelName": "dassenech-woman-traditional-jewelry-ethical-documentary-portrait-omo-valley-ethiopiajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A woman with dreadlocks smiling at the camera, wearing traditional African clothing and jewelry.",
-      "mood": "vibrant",
       "dominantColors": [
         "#FFC107",
         "#E84219",
         "#56B43F"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-53/whatsapp-image-2026-05-18-at-16-40-53-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-53/whatsapp-image-2026-05-18-at-16-40-53-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-53/whatsapp-image-2026-05-18-at-16-40-53-thumb.avif"
-      }
+        "full": "/dassenech-woman-traditional-jewelry-ethical-documentary-portrait-omo-valley-ethiopiajpg/dassenech-woman-traditional-jewelry-ethical-documentary-portrait-omo-valley-ethiopiajpg-full.webp",
+        "medium": "/dassenech-woman-traditional-jewelry-ethical-documentary-portrait-omo-valley-ethiopiajpg/dassenech-woman-traditional-jewelry-ethical-documentary-portrait-omo-valley-ethiopiajpg-medium.webp",
+        "thumb": "/dassenech-woman-traditional-jewelry-ethical-documentary-portrait-omo-valley-ethiopiajpg/dassenech-woman-traditional-jewelry-ethical-documentary-portrait-omo-valley-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A woman with dreadlocks smiling at the camera, wearing traditional African clothing and jewelry.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-56-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-56-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-56-1",
+      "slug": "gallery-image-16-40-56-1",
+      "labelName": "hippopotamus-pod-aquatic-birds-lake-hawassa-wildlife-safari-birdwatching-ethiopiajpg",
       "category": "nature",
       "subcategory": "wildlife",
-      "altText": "A group of hippos in a body of water, with birds nearby.",
-      "mood": "serene",
       "dominantColors": [
         "#0074D9",
         "#C0C0C0",
         "#FFE4C1"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-56-1/whatsapp-image-2026-05-18-at-16-40-56-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-56-1/whatsapp-image-2026-05-18-at-16-40-56-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-56-1/whatsapp-image-2026-05-18-at-16-40-56-1-thumb.avif"
-      }
+        "full": "/hippopotamus-pod-aquatic-birds-lake-hawassa-wildlife-safari-birdwatching-ethiopiajpg/hippopotamus-pod-aquatic-birds-lake-hawassa-wildlife-safari-birdwatching-ethiopiajpg-full.webp",
+        "medium": "/hippopotamus-pod-aquatic-birds-lake-hawassa-wildlife-safari-birdwatching-ethiopiajpg/hippopotamus-pod-aquatic-birds-lake-hawassa-wildlife-safari-birdwatching-ethiopiajpg-medium.webp",
+        "thumb": "/hippopotamus-pod-aquatic-birds-lake-hawassa-wildlife-safari-birdwatching-ethiopiajpg/hippopotamus-pod-aquatic-birds-lake-hawassa-wildlife-safari-birdwatching-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of hippos in a body of water, with birds nearby.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-56-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-56-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-56-2",
+      "slug": "gallery-image-16-40-56-2",
+      "labelName": "sawla-films-remote-mobile-camp-production-basecamp-crew-logistics-western-ethiopiajpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of people under a tent, with a man standing near it and another person seated at a table. The setting is an outdoor event or gathering in a natural environment.",
-      "mood": "serene",
       "dominantColors": [
         "#B8C2C5",
         "#E6E6E6",
         "#F0F0F0"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-56-2/whatsapp-image-2026-05-18-at-16-40-56-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-56-2/whatsapp-image-2026-05-18-at-16-40-56-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-56-2/whatsapp-image-2026-05-18-at-16-40-56-2-thumb.avif"
-      }
+        "full": "/sawla-films-remote-mobile-camp-production-basecamp-crew-logistics-western-ethiopiajpg/sawla-films-remote-mobile-camp-production-basecamp-crew-logistics-western-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-remote-mobile-camp-production-basecamp-crew-logistics-western-ethiopiajpg/sawla-films-remote-mobile-camp-production-basecamp-crew-logistics-western-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-remote-mobile-camp-production-basecamp-crew-logistics-western-ethiopiajpg/sawla-films-remote-mobile-camp-production-basecamp-crew-logistics-western-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of people under a tent, with a man standing near it and another person seated at a table. The setting is an outdoor event or gathering in a natural environment.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-56",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-56",
-      "landmark": "Omo Valley",
+      "id": "gallery-image-16-40-56",
+      "slug": "gallery-image-16-40-56",
+      "labelName": "indigenous-family-portrait-traditional-body-paint-lip-plates-cultural-filming-omo-valley-ethiopiajpg",
       "category": "cultural",
       "subcategory": "Mursi tribe",
-      "altText": "Three Mursi people standing in a field with traditional body paint and lip plates, posing for a photograph.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#E6E6E6",
         "#3F8E42"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-56/whatsapp-image-2026-05-18-at-16-40-56-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-56/whatsapp-image-2026-05-18-at-16-40-56-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-56/whatsapp-image-2026-05-18-at-16-40-56-thumb.avif"
-      }
+        "full": "/indigenous-family-portrait-traditional-body-paint-lip-plates-cultural-filming-omo-valley-ethiopiajpg/indigenous-family-portrait-traditional-body-paint-lip-plates-cultural-filming-omo-valley-ethiopiajpg-full.webp",
+        "medium": "/indigenous-family-portrait-traditional-body-paint-lip-plates-cultural-filming-omo-valley-ethiopiajpg/indigenous-family-portrait-traditional-body-paint-lip-plates-cultural-filming-omo-valley-ethiopiajpg-medium.webp",
+        "thumb": "/indigenous-family-portrait-traditional-body-paint-lip-plates-cultural-filming-omo-valley-ethiopiajpg/indigenous-family-portrait-traditional-body-paint-lip-plates-cultural-filming-omo-valley-ethiopiajpg-thumb.avif"
+      },
+      "altText": "Three Mursi people standing in a field with traditional body paint and lip plates, posing for a photograph.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-57-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-57-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-57-1",
+      "slug": "gallery-image-16-40-57-1",
+      "labelName": "danakil-depression-salt-lake-sunset-reflection-cinematic-landscape-ethiopiajpg",
       "category": "nature",
       "subcategory": "Aerial",
-      "altText": "This image depicts a serene landscape with a large body of water, a salt lake, surrounded by a rocky shoreline. The sky is painted with hues of purple and pink, depicting either sunrise or sunset. A reflection of the sky is visible on the surface of the water.",
-      "mood": "serene",
       "dominantColors": [
         "#87CEFA",
         "#4D90FE",
         "#FFC107"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-57-1/whatsapp-image-2026-05-18-at-16-40-57-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-57-1/whatsapp-image-2026-05-18-at-16-40-57-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-57-1/whatsapp-image-2026-05-18-at-16-40-57-1-thumb.avif"
-      }
+        "full": "/danakil-depression-salt-lake-sunset-reflection-cinematic-landscape-ethiopiajpg/danakil-depression-salt-lake-sunset-reflection-cinematic-landscape-ethiopiajpg-full.webp",
+        "medium": "/danakil-depression-salt-lake-sunset-reflection-cinematic-landscape-ethiopiajpg/danakil-depression-salt-lake-sunset-reflection-cinematic-landscape-ethiopiajpg-medium.webp",
+        "thumb": "/danakil-depression-salt-lake-sunset-reflection-cinematic-landscape-ethiopiajpg/danakil-depression-salt-lake-sunset-reflection-cinematic-landscape-ethiopiajpg-thumb.avif"
+      },
+      "altText": "This image depicts a serene landscape with a large body of water, a salt lake, surrounded by a rocky shoreline. The sky is painted with hues of purple and pink, depicting either sunrise or sunset. A reflection of the sky is visible on the surface of the water.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-57-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-57-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-57-2",
+      "slug": "gallery-image-16-40-57-2",
+      "labelName": "arabica-coffee-cherries-harvest-kaffa-region-documentary-filming-ethiopiajpg",
       "category": "production",
       "subcategory": "cultural",
-      "altText": "A man is holding a basket of red berries, standing among coffee plants.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#3F8E42",
         "#C0C0C0"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-57-2/whatsapp-image-2026-05-18-at-16-40-57-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-57-2/whatsapp-image-2026-05-18-at-16-40-57-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-57-2/whatsapp-image-2026-05-18-at-16-40-57-2-thumb.avif"
-      }
+        "full": "/arabica-coffee-cherries-harvest-kaffa-region-documentary-filming-ethiopiajpg/arabica-coffee-cherries-harvest-kaffa-region-documentary-filming-ethiopiajpg-full.webp",
+        "medium": "/arabica-coffee-cherries-harvest-kaffa-region-documentary-filming-ethiopiajpg/arabica-coffee-cherries-harvest-kaffa-region-documentary-filming-ethiopiajpg-medium.webp",
+        "thumb": "/arabica-coffee-cherries-harvest-kaffa-region-documentary-filming-ethiopiajpg/arabica-coffee-cherries-harvest-kaffa-region-documentary-filming-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A man is holding a basket of red berries, standing among coffee plants.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-57",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-57",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-57",
+      "slug": "gallery-image-16-40-57",
+      "labelName": "sawla-films-drone-cinematography-aerial-landscape-rolling-green-hills-ethiopiajpg",
       "category": "nature",
-      "subcategory": "Landscape",
-      "altText": "Aerial view of a rural landscape with rolling hills, green fields, and a clear blue sky.",
-      "mood": "serene",
+      "subcategory": "ethiopian landscape",
       "dominantColors": [
         "#FFD700",
         "#9B9B9B",
         "#3366CC"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-57/whatsapp-image-2026-05-18-at-16-40-57-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-57/whatsapp-image-2026-05-18-at-16-40-57-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-57/whatsapp-image-2026-05-18-at-16-40-57-thumb.avif"
-      }
+        "full": "/sawla-films-drone-cinematography-aerial-landscape-rolling-green-hills-ethiopiajpg/sawla-films-drone-cinematography-aerial-landscape-rolling-green-hills-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-drone-cinematography-aerial-landscape-rolling-green-hills-ethiopiajpg/sawla-films-drone-cinematography-aerial-landscape-rolling-green-hills-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-drone-cinematography-aerial-landscape-rolling-green-hills-ethiopiajpg/sawla-films-drone-cinematography-aerial-landscape-rolling-green-hills-ethiopiajpg-thumb.avif"
+      },
+      "altText": "Aerial view of a rural landscape with rolling hills, green fields, and a clear blue sky.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-58-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-58-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-58-1",
+      "slug": "gallery-image-16-40-58-1",
+      "labelName": "reality-tv-production-crew-aquatic-filming-omo-river-ethiopiajpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A man is filming a person sitting on a bench with a microphone and camera equipment.",
-      "mood": "documentary",
       "dominantColors": [
         "#000000",
         "#000000",
         "#000000"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-58-1/whatsapp-image-2026-05-18-at-16-40-58-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-58-1/whatsapp-image-2026-05-18-at-16-40-58-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-58-1/whatsapp-image-2026-05-18-at-16-40-58-1-thumb.avif"
-      }
+        "full": "/reality-tv-production-crew-aquatic-filming-omo-river-ethiopiajpg/reality-tv-production-crew-aquatic-filming-omo-river-ethiopiajpg-full.webp",
+        "medium": "/reality-tv-production-crew-aquatic-filming-omo-river-ethiopiajpg/reality-tv-production-crew-aquatic-filming-omo-river-ethiopiajpg-medium.webp",
+        "thumb": "/reality-tv-production-crew-aquatic-filming-omo-river-ethiopiajpg/reality-tv-production-crew-aquatic-filming-omo-river-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A man is filming a person sitting on a bench with a microphone and camera equipment.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-58-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-58-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-58-2",
+      "slug": "gallery-image-16-40-58-2",
+      "labelName": "genna-ethiopian-christmas-festival-crowd-documentary-filming-lalibelajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A crowd of people gathered at a location with a flag, some wearing traditional clothing and holding flags, others in modern uniforms.",
-      "mood": "vibrant",
       "dominantColors": [
         "#FFD700",
         "#000000",
         "#FFFFFF"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-58-2/whatsapp-image-2026-05-18-at-16-40-58-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-58-2/whatsapp-image-2026-05-18-at-16-40-58-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-58-2/whatsapp-image-2026-05-18-at-16-40-58-2-thumb.avif"
-      }
+        "full": "/genna-ethiopian-christmas-festival-crowd-documentary-filming-lalibelajpg/genna-ethiopian-christmas-festival-crowd-documentary-filming-lalibelajpg-full.webp",
+        "medium": "/genna-ethiopian-christmas-festival-crowd-documentary-filming-lalibelajpg/genna-ethiopian-christmas-festival-crowd-documentary-filming-lalibelajpg-medium.webp",
+        "thumb": "/genna-ethiopian-christmas-festival-crowd-documentary-filming-lalibelajpg/genna-ethiopian-christmas-festival-crowd-documentary-filming-lalibelajpg-thumb.avif"
+      },
+      "altText": "A crowd of people gathered at a location with a flag, some wearing traditional clothing and holding flags, others in modern uniforms.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-58",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-58",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "documentary",
-      "altText": "A group of people, a film crew or tourists, standing by a river with a backdrop of a natural landscape.",
-      "mood": "serene",
+      "id": "gallery-image-16-40-58",
+      "slug": "gallery-image-16-40-58",
+      "labelName": "sawla-films-documentary-crew-kara-tribe-omo-river-banks-ethiopiajpg",
+      "category": "production",
+      "subcategory": "film crew",
       "dominantColors": [
         "#0074D9",
         "#B2186C",
         "#E3E3E3"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-58/whatsapp-image-2026-05-18-at-16-40-58-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-58/whatsapp-image-2026-05-18-at-16-40-58-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-58/whatsapp-image-2026-05-18-at-16-40-58-thumb.avif"
-      }
+        "full": "/sawla-films-documentary-crew-kara-tribe-omo-river-banks-ethiopiajpg/sawla-films-documentary-crew-kara-tribe-omo-river-banks-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-documentary-crew-kara-tribe-omo-river-banks-ethiopiajpg/sawla-films-documentary-crew-kara-tribe-omo-river-banks-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-documentary-crew-kara-tribe-omo-river-banks-ethiopiajpg/sawla-films-documentary-crew-kara-tribe-omo-river-banks-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of people, a film crew or tourists, standing by a river with a backdrop of a natural landscape.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-1",
+      "slug": "gallery-image-16-40-59-1",
+      "labelName": "timket-ethiopian-epiphany-religious-festival-crowd-documentary-filming-ethiopiajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A crowd of people gathered at a political rally, with some individuals wearing traditional clothing and others in modern attire.",
-      "mood": "epic",
       "dominantColors": [
         "#000000",
         "#757575",
         "#C0C0C0"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-1/whatsapp-image-2026-05-18-at-16-40-59-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-1/whatsapp-image-2026-05-18-at-16-40-59-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-1/whatsapp-image-2026-05-18-at-16-40-59-1-thumb.avif"
-      }
+        "full": "/timket-ethiopian-epiphany-religious-festival-crowd-documentary-filming-ethiopiajpg/timket-ethiopian-epiphany-religious-festival-crowd-documentary-filming-ethiopiajpg-full.webp",
+        "medium": "/timket-ethiopian-epiphany-religious-festival-crowd-documentary-filming-ethiopiajpg/timket-ethiopian-epiphany-religious-festival-crowd-documentary-filming-ethiopiajpg-medium.webp",
+        "thumb": "/timket-ethiopian-epiphany-religious-festival-crowd-documentary-filming-ethiopiajpg/timket-ethiopian-epiphany-religious-festival-crowd-documentary-filming-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A crowd of people gathered at a political rally, with some individuals wearing traditional clothing and others in modern attire.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-10",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-10",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-10",
+      "slug": "gallery-image-16-40-59-10",
+      "labelName": "sawla-films-remote-location-cinematography-suri-tribe-documentary-shoot-ethiopiajpg",
       "category": "cultural",
       "subcategory": "documentary",
-      "altText": "A man holding a camera, filming a group of people standing on grass.",
-      "mood": "documentary",
       "dominantColors": [
         "#C0C0C0",
         "#8B8B8B",
         "#555555"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-10/whatsapp-image-2026-05-18-at-16-40-59-10-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-10/whatsapp-image-2026-05-18-at-16-40-59-10-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-10/whatsapp-image-2026-05-18-at-16-40-59-10-thumb.avif"
-      }
+        "full": "/sawla-films-remote-location-cinematography-suri-tribe-documentary-shoot-ethiopiajpg/sawla-films-remote-location-cinematography-suri-tribe-documentary-shoot-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-remote-location-cinematography-suri-tribe-documentary-shoot-ethiopiajpg/sawla-films-remote-location-cinematography-suri-tribe-documentary-shoot-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-remote-location-cinematography-suri-tribe-documentary-shoot-ethiopiajpg/sawla-films-remote-location-cinematography-suri-tribe-documentary-shoot-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A man holding a camera, filming a group of people standing on grass.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-11",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-11",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-11",
+      "slug": "gallery-image-16-40-59-11",
+      "labelName": "endemic-gelada-monkey-troop-natural-history-filming-simien-mountains-ethiopiajpg",
       "category": "nature",
       "subcategory": "Wildlife",
-      "altText": "A monkey and a baboon on a rocky outcrop with a scenic mountainous backdrop.",
-      "mood": "serene",
       "dominantColors": [
         "#0074D9",
         "#B2186C",
         "#E5E5E5"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-11/whatsapp-image-2026-05-18-at-16-40-59-11-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-11/whatsapp-image-2026-05-18-at-16-40-59-11-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-11/whatsapp-image-2026-05-18-at-16-40-59-11-thumb.avif"
-      }
+        "full": "/endemic-gelada-monkey-troop-natural-history-filming-simien-mountains-ethiopiajpg/endemic-gelada-monkey-troop-natural-history-filming-simien-mountains-ethiopiajpg-full.webp",
+        "medium": "/endemic-gelada-monkey-troop-natural-history-filming-simien-mountains-ethiopiajpg/endemic-gelada-monkey-troop-natural-history-filming-simien-mountains-ethiopiajpg-medium.webp",
+        "thumb": "/endemic-gelada-monkey-troop-natural-history-filming-simien-mountains-ethiopiajpg/endemic-gelada-monkey-troop-natural-history-filming-simien-mountains-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A monkey and a baboon on a rocky outcrop with a scenic mountainous backdrop.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-12",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-12",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-12",
+      "slug": "gallery-image-16-40-59-12",
+      "labelName": "gelada-primate-behavior-scientific-filming-afroalpine-ecosystem-ethiopiajpg",
       "category": "nature",
-      "subcategory": "portrait",
-      "altText": "A group of monkeys on a rocky outcrop, with one monkey wearing a red tag.",
-      "mood": "serene",
+      "subcategory": "wildlife",
       "dominantColors": [
         "#B2A581",
         "#E6E6E6",
         "#F9F9F9"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-12/whatsapp-image-2026-05-18-at-16-40-59-12-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-12/whatsapp-image-2026-05-18-at-16-40-59-12-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-12/whatsapp-image-2026-05-18-at-16-40-59-12-thumb.avif"
-      }
+        "full": "/gelada-primate-behavior-scientific-filming-afroalpine-ecosystem-ethiopiajpg/gelada-primate-behavior-scientific-filming-afroalpine-ecosystem-ethiopiajpg-full.webp",
+        "medium": "/gelada-primate-behavior-scientific-filming-afroalpine-ecosystem-ethiopiajpg/gelada-primate-behavior-scientific-filming-afroalpine-ecosystem-ethiopiajpg-medium.webp",
+        "thumb": "/gelada-primate-behavior-scientific-filming-afroalpine-ecosystem-ethiopiajpg/gelada-primate-behavior-scientific-filming-afroalpine-ecosystem-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of monkeys on a rocky outcrop, with one monkey wearing a red tag.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-13",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-13",
-      "landmark": "Grand Canyon National Park",
+      "id": "gallery-image-16-40-59-13",
+      "slug": "gallery-image-16-40-59-13",
+      "labelName": "cinematic-red-rock-canyon-vista-tigray-mountains-location-scouting-ethiopiajpg",
       "category": "nature",
       "subcategory": "landscape",
-      "altText": "A scenic view of the Grand Canyon with a clear sky and red rock formations.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC107",
         "#E3F2F1",
         "#8B002B"
       ],
-      "composition": "panoramic",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-13/whatsapp-image-2026-05-18-at-16-40-59-13-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-13/whatsapp-image-2026-05-18-at-16-40-59-13-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-13/whatsapp-image-2026-05-18-at-16-40-59-13-thumb.avif"
-      }
+        "full": "/cinematic-red-rock-canyon-vista-tigray-mountains-location-scouting-ethiopiajpg/cinematic-red-rock-canyon-vista-tigray-mountains-location-scouting-ethiopiajpg-full.webp",
+        "medium": "/cinematic-red-rock-canyon-vista-tigray-mountains-location-scouting-ethiopiajpg/cinematic-red-rock-canyon-vista-tigray-mountains-location-scouting-ethiopiajpg-medium.webp",
+        "thumb": "/cinematic-red-rock-canyon-vista-tigray-mountains-location-scouting-ethiopiajpg/cinematic-red-rock-canyon-vista-tigray-mountains-location-scouting-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A scenic view of the Grand Canyon with a clear sky and red rock formations.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-14",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-14",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-14",
+      "slug": "gallery-image-16-40-59-14",
+      "labelName": "endemic-grass-rat-macro-cinematography-bale-mountains-natural-history-filming-ethiopiajpg",
       "category": "nature",
       "subcategory": "wildlife",
-      "altText": "A small rodent standing on a grassy field with green vegetation.",
-      "mood": "serene",
       "dominantColors": [
         "#008B89",
         "#C0C0C0",
         "#FFD700"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-14/whatsapp-image-2026-05-18-at-16-40-59-14-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-14/whatsapp-image-2026-05-18-at-16-40-59-14-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-14/whatsapp-image-2026-05-18-at-16-40-59-14-thumb.avif"
-      }
+        "full": "/endemic-grass-rat-macro-cinematography-bale-mountains-natural-history-filming-ethiopiajpg/endemic-grass-rat-macro-cinematography-bale-mountains-natural-history-filming-ethiopiajpg-full.webp",
+        "medium": "/endemic-grass-rat-macro-cinematography-bale-mountains-natural-history-filming-ethiopiajpg/endemic-grass-rat-macro-cinematography-bale-mountains-natural-history-filming-ethiopiajpg-medium.webp",
+        "thumb": "/endemic-grass-rat-macro-cinematography-bale-mountains-natural-history-filming-ethiopiajpg/endemic-grass-rat-macro-cinematography-bale-mountains-natural-history-filming-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A small rodent standing on a grassy field with green vegetation.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-2",
+      "slug": "gallery-image-16-40-59-2",
+      "labelName": "gallery-image-164059-2",
       "category": "portrait",
       "subcategory": "Film Crew",
-      "altText": "A group of people posing with a small airplane, at an airport or aviation event.",
-      "mood": "serene",
       "dominantColors": [
         "#704691",
         "#F8D2C3",
         "#E5B9C3"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-2/whatsapp-image-2026-05-18-at-16-40-59-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-2/whatsapp-image-2026-05-18-at-16-40-59-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-2/whatsapp-image-2026-05-18-at-16-40-59-2-thumb.avif"
-      }
+        "full": "/gallery-image-164059-2/gallery-image-164059-2-full.webp",
+        "medium": "/gallery-image-164059-2/gallery-image-164059-2-medium.webp",
+        "thumb": "/gallery-image-164059-2/gallery-image-164059-2-thumb.avif"
+      },
+      "altText": "A group of people posing with a small airplane, at an airport or aviation event.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-3",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-3",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-3",
+      "slug": "gallery-image-16-40-59-3",
+      "labelName": "sawla-tours-remote-mobile-camp-premium-crew-logistics-frontier-filming-ethiopiajpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A tent with chairs, a table, and a view of the landscape.",
-      "mood": "serene",
       "dominantColors": [
         "#E6E6E6",
         "#B3B3B3",
         "#808080"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-3/whatsapp-image-2026-05-18-at-16-40-59-3-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-3/whatsapp-image-2026-05-18-at-16-40-59-3-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-3/whatsapp-image-2026-05-18-at-16-40-59-3-thumb.avif"
-      }
+        "full": "/sawla-tours-remote-mobile-camp-premium-crew-logistics-frontier-filming-ethiopiajpg/sawla-tours-remote-mobile-camp-premium-crew-logistics-frontier-filming-ethiopiajpg-full.webp",
+        "medium": "/sawla-tours-remote-mobile-camp-premium-crew-logistics-frontier-filming-ethiopiajpg/sawla-tours-remote-mobile-camp-premium-crew-logistics-frontier-filming-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-tours-remote-mobile-camp-premium-crew-logistics-frontier-filming-ethiopiajpg/sawla-tours-remote-mobile-camp-premium-crew-logistics-frontier-filming-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A tent with chairs, a table, and a view of the landscape.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-4",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-4",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-4",
+      "slug": "gallery-image-16-40-59-4",
+      "labelName": "sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of people, including a film crew with cameras and microphones, standing on a sidewalk in an urban setting. Some individuals are holding professional camera equipment.",
-      "mood": "professional",
       "dominantColors": [
         "#808080",
         "#E6E6E6",
         "#B3B3B3"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-4/whatsapp-image-2026-05-18-at-16-40-59-4-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-4/whatsapp-image-2026-05-18-at-16-40-59-4-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-4/whatsapp-image-2026-05-18-at-16-40-59-4-thumb.avif"
-      }
+        "full": "/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of people, including a film crew with cameras and microphones, standing on a sidewalk in an urban setting. Some individuals are holding professional camera equipment.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-5",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-5",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-5",
+      "slug": "gallery-image-16-40-59-5",
+      "labelName": "sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of people with film equipment on a city street, in Ethiopia.",
-      "mood": "serene",
       "dominantColors": [
         "#8B0000",
         "#FFFFFF",
         "#000000"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-5/whatsapp-image-2026-05-18-at-16-40-59-5-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-5/whatsapp-image-2026-05-18-at-16-40-59-5-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-5/whatsapp-image-2026-05-18-at-16-40-59-5-thumb.avif"
-      }
+        "full": "/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg/sawla-films-urban-documentary-crew-street-filming-logistics-addis-ababa-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of people with film equipment on a city street, in Ethiopia.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-6",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-6",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-6",
+      "slug": "gallery-image-16-40-59-6",
+      "labelName": "sawla-films-aviation-logistics-private-charter-flight-crew-airstrip-afar-ethiopiajpg",
       "category": "production",
       "subcategory": "portrait",
-      "altText": "A group of people, including a man in military uniform, standing near parked airplanes on a dirt field. The man is looking towards the camera while others are facing away.",
-      "mood": "serene",
       "dominantColors": [
         "#F8F9FA",
         "#E6E6E6",
         "#C0C0C0"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-6/whatsapp-image-2026-05-18-at-16-40-59-6-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-6/whatsapp-image-2026-05-18-at-16-40-59-6-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-6/whatsapp-image-2026-05-18-at-16-40-59-6-thumb.avif"
-      }
+        "full": "/sawla-films-aviation-logistics-private-charter-flight-crew-airstrip-afar-ethiopiajpg/sawla-films-aviation-logistics-private-charter-flight-crew-airstrip-afar-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-aviation-logistics-private-charter-flight-crew-airstrip-afar-ethiopiajpg/sawla-films-aviation-logistics-private-charter-flight-crew-airstrip-afar-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-aviation-logistics-private-charter-flight-crew-airstrip-afar-ethiopiajpg/sawla-films-aviation-logistics-private-charter-flight-crew-airstrip-afar-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of people, including a man in military uniform, standing near parked airplanes on a dirt field. The man is looking towards the camera while others are facing away.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-7",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-7",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-7",
+      "slug": "gallery-image-16-40-59-7",
+      "labelName": "gallery-image-164059-7",
       "category": "production",
       "subcategory": "film production",
-      "altText": "Film equipment on the ground with a vehicle in the background, in a rural or desert setting.",
-      "mood": "serene",
       "dominantColors": [
         "#E5C9B3",
         "#FFD700",
         "#8B002B"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-7/whatsapp-image-2026-05-18-at-16-40-59-7-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-7/whatsapp-image-2026-05-18-at-16-40-59-7-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-7/whatsapp-image-2026-05-18-at-16-40-59-7-thumb.avif"
-      }
+        "full": "/gallery-image-164059-7/gallery-image-164059-7-full.webp",
+        "medium": "/gallery-image-164059-7/gallery-image-164059-7-medium.webp",
+        "thumb": "/gallery-image-164059-7/gallery-image-164059-7-thumb.avif"
+      },
+      "altText": "Film equipment on the ground with a vehicle in the background, in a rural or desert setting.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-8",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-8",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-40-59-8",
+      "slug": "gallery-image-16-40-59-8",
+      "labelName": "gallery-image-164059-8",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "People working on a film set in an arid landscape, with a group of individuals wearing modern clothing and using equipment.",
-      "mood": "documentary",
       "dominantColors": [
         "#F5F5DC",
         "#C0C0C0",
         "#7B6843"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-8/whatsapp-image-2026-05-18-at-16-40-59-8-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-8/whatsapp-image-2026-05-18-at-16-40-59-8-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-8/whatsapp-image-2026-05-18-at-16-40-59-8-thumb.avif"
-      }
+        "full": "/gallery-image-164059-8/gallery-image-164059-8-full.webp",
+        "medium": "/gallery-image-164059-8/gallery-image-164059-8-medium.webp",
+        "thumb": "/gallery-image-164059-8/gallery-image-164059-8-thumb.avif"
+      },
+      "altText": "People working on a film set in an arid landscape, with a group of individuals wearing modern clothing and using equipment.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59-9",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59-9",
-      "landmark": "Unknown",
-      "category": "portrait",
-      "subcategory": "Film Crew",
-      "altText": "A group of people sitting on a blanket outdoors, with some individuals wearing backpacks and one person holding a camera.",
-      "mood": "serene",
+      "id": "gallery-image-16-40-59-9",
+      "slug": "gallery-image-16-40-59-9",
+      "labelName": "sawla-films-celebrity-reality-tv-production-local-crew-cultural-liaison-ethiopiajpg",
+      "category": "film",
+      "subcategory": "film crew",
       "dominantColors": [
         "#6495ED",
         "#E0F7FA",
         "#C0C8D4"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59-9/whatsapp-image-2026-05-18-at-16-40-59-9-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59-9/whatsapp-image-2026-05-18-at-16-40-59-9-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59-9/whatsapp-image-2026-05-18-at-16-40-59-9-thumb.avif"
-      }
+        "full": "/sawla-films-celebrity-reality-tv-production-local-crew-cultural-liaison-ethiopiajpg/sawla-films-celebrity-reality-tv-production-local-crew-cultural-liaison-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-celebrity-reality-tv-production-local-crew-cultural-liaison-ethiopiajpg/sawla-films-celebrity-reality-tv-production-local-crew-cultural-liaison-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-celebrity-reality-tv-production-local-crew-cultural-liaison-ethiopiajpg/sawla-films-celebrity-reality-tv-production-local-crew-cultural-liaison-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of people sitting on a blanket outdoors, with some individuals wearing backpacks and one person holding a camera.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-40-59",
-      "slug": "whatsapp-image-2026-05-18-at-16-40-59",
-      "landmark": "Danakil Depression, Ethiopia",
+      "id": "gallery-image-16-40-59",
+      "slug": "gallery-image-16-40-59",
+      "labelName": "dallol-hydrothermal-sulfur-springs-cinematic-landscape-danakil-depression-ethiopiajpg",
       "category": "nature",
       "subcategory": "geological",
-      "altText": "A vibrant landscape with bright yellow and red algae-covered rocks and a clear blue sky.",
-      "mood": "vibrant",
       "dominantColors": [
         "#FFD700",
         "#E34234",
         "#1B5E20"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-40-59/whatsapp-image-2026-05-18-at-16-40-59-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-40-59/whatsapp-image-2026-05-18-at-16-40-59-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-40-59/whatsapp-image-2026-05-18-at-16-40-59-thumb.avif"
-      }
+        "full": "/dallol-hydrothermal-sulfur-springs-cinematic-landscape-danakil-depression-ethiopiajpg/dallol-hydrothermal-sulfur-springs-cinematic-landscape-danakil-depression-ethiopiajpg-full.webp",
+        "medium": "/dallol-hydrothermal-sulfur-springs-cinematic-landscape-danakil-depression-ethiopiajpg/dallol-hydrothermal-sulfur-springs-cinematic-landscape-danakil-depression-ethiopiajpg-medium.webp",
+        "thumb": "/dallol-hydrothermal-sulfur-springs-cinematic-landscape-danakil-depression-ethiopiajpg/dallol-hydrothermal-sulfur-springs-cinematic-landscape-danakil-depression-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A vibrant landscape with bright yellow and red algae-covered rocks and a clear blue sky.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-00-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-00-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-00-1",
+      "slug": "gallery-image-16-41-00-1",
+      "labelName": "sawla-films-hosanna-palm-sunday-axum-beeswax-candles-documentary-filming-ethiopiajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A group of people gathered at night, holding candles and participating in a ceremony or ritual.",
-      "mood": "serene",
       "dominantColors": [
         "#000000",
         "#563768",
         "#9B9B9B"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-00-1/whatsapp-image-2026-05-18-at-16-41-00-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-00-1/whatsapp-image-2026-05-18-at-16-41-00-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-00-1/whatsapp-image-2026-05-18-at-16-41-00-1-thumb.avif"
-      }
+        "full": "/sawla-films-hosanna-palm-sunday-axum-beeswax-candles-documentary-filming-ethiopiajpg/sawla-films-hosanna-palm-sunday-axum-beeswax-candles-documentary-filming-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-hosanna-palm-sunday-axum-beeswax-candles-documentary-filming-ethiopiajpg/sawla-films-hosanna-palm-sunday-axum-beeswax-candles-documentary-filming-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-hosanna-palm-sunday-axum-beeswax-candles-documentary-filming-ethiopiajpg/sawla-films-hosanna-palm-sunday-axum-beeswax-candles-documentary-filming-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of people gathered at night, holding candles and participating in a ceremony or ritual.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-00-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-00-2",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "portrait",
-      "altText": "A group of people, some wearing traditional religious garments with head coverings and holding staffs, gathered in a crowd. They are standing outdoors on what is a sunny day.",
-      "mood": "serene",
+      "id": "gallery-image-16-41-00-2",
+      "slug": "gallery-image-16-41-00-2",
+      "labelName": "sawla-films-timket-epiphany-clergy-documentary-filming-logistics-lalibela-ethiopiajpg",
+      "category": "production",
+      "subcategory": "documentary",
       "dominantColors": [
         "#FFD700",
         "#000000",
         "#FFFFFF"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-00-2/whatsapp-image-2026-05-18-at-16-41-00-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-00-2/whatsapp-image-2026-05-18-at-16-41-00-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-00-2/whatsapp-image-2026-05-18-at-16-41-00-2-thumb.avif"
-      }
+        "full": "/sawla-films-timket-epiphany-clergy-documentary-filming-logistics-lalibela-ethiopiajpg/sawla-films-timket-epiphany-clergy-documentary-filming-logistics-lalibela-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-timket-epiphany-clergy-documentary-filming-logistics-lalibela-ethiopiajpg/sawla-films-timket-epiphany-clergy-documentary-filming-logistics-lalibela-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-timket-epiphany-clergy-documentary-filming-logistics-lalibela-ethiopiajpg/sawla-films-timket-epiphany-clergy-documentary-filming-logistics-lalibela-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of people, some wearing traditional religious garments with head coverings and holding staffs, gathered in a crowd. They are standing outdoors on what is a sunny day.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-00-3",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-00-3",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "portrait",
-      "altText": "A group of people, some dressed in traditional Ethiopian garments and others in modern uniforms, gathered on a street with colorful umbrellas and flags. A man in religious attire is standing in front of the crowd.",
-      "mood": "vibrant",
+      "id": "gallery-image-16-41-00-3",
+      "slug": "gallery-image-16-41-00-3",
+      "labelName": "ethiopian-orthodox-clergy-timket-anthropological-documentary-lalibelajpg",
+      "category": "production",
+      "subcategory": "documentary",
       "dominantColors": [
         "#FFC0C1",
         "#E6E6E6",
         "#757575"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-00-3/whatsapp-image-2026-05-18-at-16-41-00-3-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-00-3/whatsapp-image-2026-05-18-at-16-41-00-3-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-00-3/whatsapp-image-2026-05-18-at-16-41-00-3-thumb.avif"
-      }
+        "full": "/ethiopian-orthodox-clergy-timket-anthropological-documentary-lalibelajpg/ethiopian-orthodox-clergy-timket-anthropological-documentary-lalibelajpg-full.webp",
+        "medium": "/ethiopian-orthodox-clergy-timket-anthropological-documentary-lalibelajpg/ethiopian-orthodox-clergy-timket-anthropological-documentary-lalibelajpg-medium.webp",
+        "thumb": "/ethiopian-orthodox-clergy-timket-anthropological-documentary-lalibelajpg/ethiopian-orthodox-clergy-timket-anthropological-documentary-lalibelajpg-thumb.avif"
+      },
+      "altText": "A group of people, some dressed in traditional Ethiopian garments and others in modern uniforms, gathered on a street with colorful umbrellas and flags. A man in religious attire is standing in front of the crowd.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-00",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-00",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-00",
+      "slug": "gallery-image-16-41-00",
+      "labelName": "gallery-image-164100",
       "category": "nature",
       "subcategory": "Aerial",
-      "altText": "An aerial view of a rocky landscape with a blue sky and a small, distant figure.",
-      "mood": "serene",
       "dominantColors": [
         "#B3C7D8",
         "#E6E6E6",
         "#F0F0F0"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-00/whatsapp-image-2026-05-18-at-16-41-00-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-00/whatsapp-image-2026-05-18-at-16-41-00-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-00/whatsapp-image-2026-05-18-at-16-41-00-thumb.avif"
-      }
+        "full": "/gallery-image-164100/gallery-image-164100-full.webp",
+        "medium": "/gallery-image-164100/gallery-image-164100-medium.webp",
+        "thumb": "/gallery-image-164100/gallery-image-164100-thumb.avif"
+      },
+      "altText": "An aerial view of a rocky landscape with a blue sky and a small, distant figure.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-1",
+      "slug": "gallery-image-16-41-05-1",
+      "labelName": "gallery-image-164105-1",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of film equipment on a dirt field with a car and a truck parked nearby.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC107",
         "#E6E6E6",
         "#B3B3B3"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-1/whatsapp-image-2026-05-18-at-16-41-05-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-1/whatsapp-image-2026-05-18-at-16-41-05-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-1/whatsapp-image-2026-05-18-at-16-41-05-1-thumb.avif"
-      }
+        "full": "/gallery-image-164105-1/gallery-image-164105-1-full.webp",
+        "medium": "/gallery-image-164105-1/gallery-image-164105-1-medium.webp",
+        "thumb": "/gallery-image-164105-1/gallery-image-164105-1-thumb.avif"
+      },
+      "altText": "A group of film equipment on a dirt field with a car and a truck parked nearby.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-10",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-10",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-10",
+      "slug": "gallery-image-16-41-05-10",
+      "labelName": "gallery-image-164105-10",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A group of people on a boat, with one person taking a photograph and another holding a paddle. The individuals are wearing traditional clothing and are part of an Ethiopian tribe.",
-      "mood": "serene",
       "dominantColors": [
         "#9B9B9B",
         "#757575",
         "#636363"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-10/whatsapp-image-2026-05-18-at-16-41-05-10-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-10/whatsapp-image-2026-05-18-at-16-41-05-10-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-10/whatsapp-image-2026-05-18-at-16-41-05-10-thumb.avif"
-      }
+        "full": "/gallery-image-164105-10/gallery-image-164105-10-full.webp",
+        "medium": "/gallery-image-164105-10/gallery-image-164105-10-medium.webp",
+        "thumb": "/gallery-image-164105-10/gallery-image-164105-10-thumb.avif"
+      },
+      "altText": "A group of people on a boat, with one person taking a photograph and another holding a paddle. The individuals are wearing traditional clothing and are part of an Ethiopian tribe.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-11",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-11",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-11",
+      "slug": "gallery-image-16-41-05-11",
+      "labelName": "gallery-image-164105-11",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A tent set up in a field with people standing around it, for an event or gathering.",
-      "mood": "serene",
       "dominantColors": [
         "#B0BE36",
         "#9E9E9E",
         "#757575"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-11/whatsapp-image-2026-05-18-at-16-41-05-11-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-11/whatsapp-image-2026-05-18-at-16-41-05-11-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-11/whatsapp-image-2026-05-18-at-16-41-05-11-thumb.avif"
-      }
+        "full": "/gallery-image-164105-11/gallery-image-164105-11-full.webp",
+        "medium": "/gallery-image-164105-11/gallery-image-164105-11-medium.webp",
+        "thumb": "/gallery-image-164105-11/gallery-image-164105-11-thumb.avif"
+      },
+      "altText": "A tent set up in a field with people standing around it, for an event or gathering.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-12",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-12",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-12",
+      "slug": "gallery-image-16-41-05-12",
+      "labelName": "gallery-image-164105-12",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A person with a red flower on their head sitting on the ground, holding a book and being photographed by another person.",
-      "mood": "serene",
       "dominantColors": [
         "#008CBA",
         "#FFD700",
         "#E6E6E6"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-12/whatsapp-image-2026-05-18-at-16-41-05-12-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-12/whatsapp-image-2026-05-18-at-16-41-05-12-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-12/whatsapp-image-2026-05-18-at-16-41-05-12-thumb.avif"
-      }
+        "full": "/gallery-image-164105-12/gallery-image-164105-12-full.webp",
+        "medium": "/gallery-image-164105-12/gallery-image-164105-12-medium.webp",
+        "thumb": "/gallery-image-164105-12/gallery-image-164105-12-thumb.avif"
+      },
+      "altText": "A person with a red flower on their head sitting on the ground, holding a book and being photographed by another person.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-13",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-13",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-13",
+      "slug": "gallery-image-16-41-05-13",
+      "labelName": "gallery-image-164105-13",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of people on a boat with cameras, taking photos of the surrounding landscape and wildlife.",
-      "mood": "serene",
       "dominantColors": [
         "#0074D9",
         "#FFC107",
         "#E6E6E6"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-13/whatsapp-image-2026-05-18-at-16-41-05-13-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-13/whatsapp-image-2026-05-18-at-16-41-05-13-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-13/whatsapp-image-2026-05-18-at-16-41-05-13-thumb.avif"
-      }
+        "full": "/gallery-image-164105-13/gallery-image-164105-13-full.webp",
+        "medium": "/gallery-image-164105-13/gallery-image-164105-13-medium.webp",
+        "thumb": "/gallery-image-164105-13/gallery-image-164105-13-thumb.avif"
+      },
+      "altText": "A group of people on a boat with cameras, taking photos of the surrounding landscape and wildlife.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-14",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-14",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-14",
+      "slug": "gallery-image-16-41-05-14",
+      "labelName": "gallery-image-164105-14",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A person is taking a photograph of a group of people on a boat with a camera on a tripod, capturing the scene in front of them.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC107",
         "#8B0026",
         "#4CAF50"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-14/whatsapp-image-2026-05-18-at-16-41-05-14-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-14/whatsapp-image-2026-05-18-at-16-41-05-14-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-14/whatsapp-image-2026-05-18-at-16-41-05-14-thumb.avif"
-      }
+        "full": "/gallery-image-164105-14/gallery-image-164105-14-full.webp",
+        "medium": "/gallery-image-164105-14/gallery-image-164105-14-medium.webp",
+        "thumb": "/gallery-image-164105-14/gallery-image-164105-14-thumb.avif"
+      },
+      "altText": "A person is taking a photograph of a group of people on a boat with a camera on a tripod, capturing the scene in front of them.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-15",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-15",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-15",
+      "slug": "gallery-image-16-41-05-15",
+      "labelName": "sawla-films-director-of-photography-landscape-cinematography-ethiopiajpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A person holding a camera with a large lens, taking a photograph of a landscape.",
-      "mood": "serene",
       "dominantColors": [
         "#8B0026",
         "#E3C745",
         "#F9A650"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-15/whatsapp-image-2026-05-18-at-16-41-05-15-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-15/whatsapp-image-2026-05-18-at-16-41-05-15-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-15/whatsapp-image-2026-05-18-at-16-41-05-15-thumb.avif"
-      }
+        "full": "/sawla-films-director-of-photography-landscape-cinematography-ethiopiajpg/sawla-films-director-of-photography-landscape-cinematography-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-director-of-photography-landscape-cinematography-ethiopiajpg/sawla-films-director-of-photography-landscape-cinematography-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-director-of-photography-landscape-cinematography-ethiopiajpg/sawla-films-director-of-photography-landscape-cinematography-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A person holding a camera with a large lens, taking a photograph of a landscape.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-16",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-16",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-16",
+      "slug": "gallery-image-16-41-05-16",
+      "labelName": "sawla-films-local-crew-network-on-camera-interview-translation-ethiopiajpg",
       "category": "production",
-      "subcategory": "portrait",
-      "altText": "A man and a woman sitting at a table with microphones, discussing something on camera.",
-      "mood": "serene",
+      "subcategory": "film crew",
       "dominantColors": [
         "#FFC107",
         "#E8D564",
         "#3F3F3F"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-16/whatsapp-image-2026-05-18-at-16-41-05-16-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-16/whatsapp-image-2026-05-18-at-16-41-05-16-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-16/whatsapp-image-2026-05-18-at-16-41-05-16-thumb.avif"
-      }
+        "full": "/sawla-films-local-crew-network-on-camera-interview-translation-ethiopiajpg/sawla-films-local-crew-network-on-camera-interview-translation-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-local-crew-network-on-camera-interview-translation-ethiopiajpg/sawla-films-local-crew-network-on-camera-interview-translation-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-local-crew-network-on-camera-interview-translation-ethiopiajpg/sawla-films-local-crew-network-on-camera-interview-translation-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A man and a woman sitting at a table with microphones, discussing something on camera.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-17",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-17",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-17",
+      "slug": "gallery-image-16-41-05-17",
+      "labelName": "gallery-image-164105-17",
       "category": "nature",
       "subcategory": "Portrait",
-      "altText": "A deer stands in a grassy field with trees in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#756c48",
         "#302b1d",
         "#5a392f"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-17/whatsapp-image-2026-05-18-at-16-41-05-17-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-17/whatsapp-image-2026-05-18-at-16-41-05-17-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-17/whatsapp-image-2026-05-18-at-16-41-05-17-thumb.avif"
-      }
+        "full": "/gallery-image-164105-17/gallery-image-164105-17-full.webp",
+        "medium": "/gallery-image-164105-17/gallery-image-164105-17-medium.webp",
+        "thumb": "/gallery-image-164105-17/gallery-image-164105-17-thumb.avif"
+      },
+      "altText": "A deer stands in a grassy field with trees in the background.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-18",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-18",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-18",
+      "slug": "gallery-image-16-41-05-18",
+      "labelName": "gallery-image-164105-18",
       "category": "portrait",
       "subcategory": "Film Crew",
-      "altText": "A tent set up on a grassy field with a table and chairs, surrounded by a green landscape.",
-      "mood": "serene",
       "dominantColors": [
         "#0074D9",
         "#8B0000",
         "#FFE4C3"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-18/whatsapp-image-2026-05-18-at-16-41-05-18-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-18/whatsapp-image-2026-05-18-at-16-41-05-18-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-18/whatsapp-image-2026-05-18-at-16-41-05-18-thumb.avif"
-      }
+        "full": "/gallery-image-164105-18/gallery-image-164105-18-full.webp",
+        "medium": "/gallery-image-164105-18/gallery-image-164105-18-medium.webp",
+        "thumb": "/gallery-image-164105-18/gallery-image-164105-18-thumb.avif"
+      },
+      "altText": "A tent set up on a grassy field with a table and chairs, surrounded by a green landscape.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-19",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-19",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-19",
+      "slug": "gallery-image-16-41-05-19",
+      "labelName": "lake-tana-monastery-murals-historical-documentary-interior-filming-ethiopiajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A colorful curtain with a traditional design, depicting an Ethiopian scene or character, hangs in front of a window. A film crew is present, capturing the vibrant and richly decorated setting.",
-      "mood": "vibrant",
       "dominantColors": [
         "#FFD700",
         "#E64A19",
         "#8B0000"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-19/whatsapp-image-2026-05-18-at-16-41-05-19-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-19/whatsapp-image-2026-05-18-at-16-41-05-19-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-19/whatsapp-image-2026-05-18-at-16-41-05-19-thumb.avif"
-      }
+        "full": "/lake-tana-monastery-murals-historical-documentary-interior-filming-ethiopiajpg/lake-tana-monastery-murals-historical-documentary-interior-filming-ethiopiajpg-full.webp",
+        "medium": "/lake-tana-monastery-murals-historical-documentary-interior-filming-ethiopiajpg/lake-tana-monastery-murals-historical-documentary-interior-filming-ethiopiajpg-medium.webp",
+        "thumb": "/lake-tana-monastery-murals-historical-documentary-interior-filming-ethiopiajpg/lake-tana-monastery-murals-historical-documentary-interior-filming-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A colorful curtain with a traditional design, depicting an Ethiopian scene or character, hangs in front of a window. A film crew is present, capturing the vibrant and richly decorated setting.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-3",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-3",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-3",
+      "slug": "gallery-image-16-41-05-3",
+      "labelName": "gallery-image-164105-3",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A group of people on a dirt field, some holding cameras, filming or preparing for a shoot.",
-      "mood": "serene",
       "dominantColors": [
         "#F5F5DC",
         "#E0E0D8",
         "#B3B3B3"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-3/whatsapp-image-2026-05-18-at-16-41-05-3-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-3/whatsapp-image-2026-05-18-at-16-41-05-3-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-3/whatsapp-image-2026-05-18-at-16-41-05-3-thumb.avif"
-      }
+        "full": "/gallery-image-164105-3/gallery-image-164105-3-full.webp",
+        "medium": "/gallery-image-164105-3/gallery-image-164105-3-medium.webp",
+        "thumb": "/gallery-image-164105-3/gallery-image-164105-3-thumb.avif"
+      },
+      "altText": "A group of people on a dirt field, some holding cameras, filming or preparing for a shoot.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-4",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-4",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-4",
+      "slug": "gallery-image-16-41-05-4",
+      "labelName": "sawla-films-riparian-ecosystem-omo-national-park-nature-documentary-ethiopiajpg",
       "category": "nature",
       "subcategory": "unknown",
-      "altText": "A body of water with rocks, surrounded by lush greenery and a cloudy sky.",
-      "mood": "serene",
       "dominantColors": [
         "#008CBA",
         "#006B37",
         "#004529"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-4/whatsapp-image-2026-05-18-at-16-41-05-4-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-4/whatsapp-image-2026-05-18-at-16-41-05-4-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-4/whatsapp-image-2026-05-18-at-16-41-05-4-thumb.avif"
-      }
+        "full": "/sawla-films-riparian-ecosystem-omo-national-park-nature-documentary-ethiopiajpg/sawla-films-riparian-ecosystem-omo-national-park-nature-documentary-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-riparian-ecosystem-omo-national-park-nature-documentary-ethiopiajpg/sawla-films-riparian-ecosystem-omo-national-park-nature-documentary-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-riparian-ecosystem-omo-national-park-nature-documentary-ethiopiajpg/sawla-films-riparian-ecosystem-omo-national-park-nature-documentary-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A body of water with rocks, surrounded by lush greenery and a cloudy sky.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-5",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-5",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-5",
+      "slug": "gallery-image-16-41-05-5",
+      "labelName": "sawla-films-private-charter-4x4-equipment-transfer-frontier-logistics-ethiopiajpg",
       "category": "production",
       "subcategory": "aerial",
-      "altText": "A small airplane parked on a dry, dusty field with a few people standing nearby.",
-      "mood": "serene",
       "dominantColors": [
         "#F8D6A4",
         "#E0C39B",
         "#755A5A"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-5/whatsapp-image-2026-05-18-at-16-41-05-5-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-5/whatsapp-image-2026-05-18-at-16-41-05-5-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-5/whatsapp-image-2026-05-18-at-16-41-05-5-thumb.avif"
-      }
+        "full": "/sawla-films-private-charter-4x4-equipment-transfer-frontier-logistics-ethiopiajpg/sawla-films-private-charter-4x4-equipment-transfer-frontier-logistics-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-private-charter-4x4-equipment-transfer-frontier-logistics-ethiopiajpg/sawla-films-private-charter-4x4-equipment-transfer-frontier-logistics-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-private-charter-4x4-equipment-transfer-frontier-logistics-ethiopiajpg/sawla-films-private-charter-4x4-equipment-transfer-frontier-logistics-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A small airplane parked on a dry, dusty field with a few people standing nearby.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-6",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-6",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-6",
+      "slug": "gallery-image-16-41-05-6",
+      "labelName": "sawla-tours-private-charter-fly-in-safari-4x4-transfer-ethiopiajpg",
       "category": "production",
       "subcategory": "aerial",
-      "altText": "A small airplane parked on a dirt field with a person standing next to it.",
-      "mood": "serene",
       "dominantColors": [
         "#F5F5DC",
         "#C0C0C0",
         "#757575"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-6/whatsapp-image-2026-05-18-at-16-41-05-6-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-6/whatsapp-image-2026-05-18-at-16-41-05-6-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-6/whatsapp-image-2026-05-18-at-16-41-05-6-thumb.avif"
-      }
+        "full": "/sawla-tours-private-charter-fly-in-safari-4x4-transfer-ethiopiajpg/sawla-tours-private-charter-fly-in-safari-4x4-transfer-ethiopiajpg-full.webp",
+        "medium": "/sawla-tours-private-charter-fly-in-safari-4x4-transfer-ethiopiajpg/sawla-tours-private-charter-fly-in-safari-4x4-transfer-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-tours-private-charter-fly-in-safari-4x4-transfer-ethiopiajpg/sawla-tours-private-charter-fly-in-safari-4x4-transfer-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A small airplane parked on a dirt field with a person standing next to it.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05-8",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05-8",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-05-8",
+      "slug": "gallery-image-16-41-05-8",
+      "labelName": "gallery-image-164105-8",
       "category": "cultural",
       "subcategory": "documentary",
-      "altText": "A man is being filmed on a boat with a film crew and a person wearing traditional clothing, from the Mursi tribe. They are in a body of water.",
-      "mood": "documentary",
       "dominantColors": [
         "#FFC300",
         "#756900",
         "#4D4D4D"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05-8/whatsapp-image-2026-05-18-at-16-41-05-8-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05-8/whatsapp-image-2026-05-18-at-16-41-05-8-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05-8/whatsapp-image-2026-05-18-at-16-41-05-8-thumb.avif"
-      }
+        "full": "/gallery-image-164105-8/gallery-image-164105-8-full.webp",
+        "medium": "/gallery-image-164105-8/gallery-image-164105-8-medium.webp",
+        "thumb": "/gallery-image-164105-8/gallery-image-164105-8-thumb.avif"
+      },
+      "altText": "A man is being filmed on a boat with a film crew and a person wearing traditional clothing, from the Mursi tribe. They are in a body of water.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-05",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-05",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "tribal",
-      "altText": "A group of traditional huts with a film crew or tourists nearby, set against a backdrop of a grassy field and mountains.",
-      "mood": "serene",
+      "id": "gallery-image-16-41-05",
+      "slug": "gallery-image-16-41-05",
+      "labelName": "sawla-tours-mobile-tented-camp-afro-alpine-film-crew-logistics-ethiopian-highlandsjpg",
+      "category": "production",
+      "subcategory": "film crew",
       "dominantColors": [
         "#9B9B9B",
         "#E5E5E5",
         "#D2D2D2"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-05/whatsapp-image-2026-05-18-at-16-41-05-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-05/whatsapp-image-2026-05-18-at-16-41-05-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-05/whatsapp-image-2026-05-18-at-16-41-05-thumb.avif"
-      }
+        "full": "/sawla-tours-mobile-tented-camp-afro-alpine-film-crew-logistics-ethiopian-highlandsjpg/sawla-tours-mobile-tented-camp-afro-alpine-film-crew-logistics-ethiopian-highlandsjpg-full.webp",
+        "medium": "/sawla-tours-mobile-tented-camp-afro-alpine-film-crew-logistics-ethiopian-highlandsjpg/sawla-tours-mobile-tented-camp-afro-alpine-film-crew-logistics-ethiopian-highlandsjpg-medium.webp",
+        "thumb": "/sawla-tours-mobile-tented-camp-afro-alpine-film-crew-logistics-ethiopian-highlandsjpg/sawla-tours-mobile-tented-camp-afro-alpine-film-crew-logistics-ethiopian-highlandsjpg-thumb.avif"
+      },
+      "altText": "A group of traditional huts with a film crew or tourists nearby, set against a backdrop of a grassy field and mountains.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-1",
+      "slug": "gallery-image-16-41-06-1",
+      "labelName": "sawla-films-nyangatom-tribe-wooden-headrest-ethnographic-documentary-omo-valley-ethiopiajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A man with dreadlocks wearing a traditional outfit, holding a wooden object and smiling at the camera.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#E6E6E6",
         "#333333"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-1/whatsapp-image-2026-05-18-at-16-41-06-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-1/whatsapp-image-2026-05-18-at-16-41-06-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-1/whatsapp-image-2026-05-18-at-16-41-06-1-thumb.avif"
-      }
+        "full": "/sawla-films-nyangatom-tribe-wooden-headrest-ethnographic-documentary-omo-valley-ethiopiajpg/sawla-films-nyangatom-tribe-wooden-headrest-ethnographic-documentary-omo-valley-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-nyangatom-tribe-wooden-headrest-ethnographic-documentary-omo-valley-ethiopiajpg/sawla-films-nyangatom-tribe-wooden-headrest-ethnographic-documentary-omo-valley-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-nyangatom-tribe-wooden-headrest-ethnographic-documentary-omo-valley-ethiopiajpg/sawla-films-nyangatom-tribe-wooden-headrest-ethnographic-documentary-omo-valley-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A man with dreadlocks wearing a traditional outfit, holding a wooden object and smiling at the camera.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-10",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-10",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-10",
+      "slug": "gallery-image-16-41-06-10",
+      "labelName": "sawla-films-culinary-documentary-spice-market-logistics-harar-ethiopiajpg",
       "category": "production",
       "subcategory": "spice market",
-      "altText": "Spices on display at a market",
-      "mood": "vibrant",
       "dominantColors": [
         "#FFC0C1",
         "#E34234",
         "#8B4513"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-10/whatsapp-image-2026-05-18-at-16-41-06-10-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-10/whatsapp-image-2026-05-18-at-16-41-06-10-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-10/whatsapp-image-2026-05-18-at-16-41-06-10-thumb.avif"
-      }
+        "full": "/sawla-films-culinary-documentary-spice-market-logistics-harar-ethiopiajpg/sawla-films-culinary-documentary-spice-market-logistics-harar-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-culinary-documentary-spice-market-logistics-harar-ethiopiajpg/sawla-films-culinary-documentary-spice-market-logistics-harar-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-culinary-documentary-spice-market-logistics-harar-ethiopiajpg/sawla-films-culinary-documentary-spice-market-logistics-harar-ethiopiajpg-thumb.avif"
+      },
+      "altText": "Spices on display at a market",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-11",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-11",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-11",
+      "slug": "gallery-image-16-41-06-11",
+      "labelName": "sawla-films-ancient-parchment-manuscript-st-zion-church-axum-historical-documentaryjpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "Two men looking at a piece of paper with an image on it, related to film production or cultural documentation in Ethiopia.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC0C1",
         "#E6E6E6",
         "#757575"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-11/whatsapp-image-2026-05-18-at-16-41-06-11-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-11/whatsapp-image-2026-05-18-at-16-41-06-11-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-11/whatsapp-image-2026-05-18-at-16-41-06-11-thumb.avif"
-      }
+        "full": "/sawla-films-ancient-parchment-manuscript-st-zion-church-axum-historical-documentaryjpg/sawla-films-ancient-parchment-manuscript-st-zion-church-axum-historical-documentaryjpg-full.webp",
+        "medium": "/sawla-films-ancient-parchment-manuscript-st-zion-church-axum-historical-documentaryjpg/sawla-films-ancient-parchment-manuscript-st-zion-church-axum-historical-documentaryjpg-medium.webp",
+        "thumb": "/sawla-films-ancient-parchment-manuscript-st-zion-church-axum-historical-documentaryjpg/sawla-films-ancient-parchment-manuscript-st-zion-church-axum-historical-documentaryjpg-thumb.avif"
+      },
+      "altText": "Two men looking at a piece of paper with an image on it, related to film production or cultural documentation in Ethiopia.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-12",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-12",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-12",
+      "slug": "gallery-image-16-41-06-12",
+      "labelName": "sawla-tours-vip-mobile-camp-shoreline-craft-services-frontier-filming-ethiopiajpg",
       "category": "cultural",
       "subcategory": "Film production",
-      "altText": "A tent set up on a beach with chairs, tables, and a bottle of wine.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#8B0000",
         "#4CAF50"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-12/whatsapp-image-2026-05-18-at-16-41-06-12-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-12/whatsapp-image-2026-05-18-at-16-41-06-12-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-12/whatsapp-image-2026-05-18-at-16-41-06-12-thumb.avif"
-      }
+        "full": "/sawla-tours-vip-mobile-camp-shoreline-craft-services-frontier-filming-ethiopiajpg/sawla-tours-vip-mobile-camp-shoreline-craft-services-frontier-filming-ethiopiajpg-full.webp",
+        "medium": "/sawla-tours-vip-mobile-camp-shoreline-craft-services-frontier-filming-ethiopiajpg/sawla-tours-vip-mobile-camp-shoreline-craft-services-frontier-filming-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-tours-vip-mobile-camp-shoreline-craft-services-frontier-filming-ethiopiajpg/sawla-tours-vip-mobile-camp-shoreline-craft-services-frontier-filming-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A tent set up on a beach with chairs, tables, and a bottle of wine.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-13",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-13",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-13",
+      "slug": "gallery-image-16-41-06-13",
+      "labelName": "gallery-image-164106-13",
       "category": "nature",
       "subcategory": "Landscape",
-      "altText": "A large rock formation with a green field in the foreground.",
-      "mood": "serene",
       "dominantColors": [
         "#9B9B9B",
         "#333333",
         "#FFD700"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-13/whatsapp-image-2026-05-18-at-16-41-06-13-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-13/whatsapp-image-2026-05-18-at-16-41-06-13-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-13/whatsapp-image-2026-05-18-at-16-41-06-13-thumb.avif"
-      }
+        "full": "/gallery-image-164106-13/gallery-image-164106-13-full.webp",
+        "medium": "/gallery-image-164106-13/gallery-image-164106-13-medium.webp",
+        "thumb": "/gallery-image-164106-13/gallery-image-164106-13-thumb.avif"
+      },
+      "altText": "A large rock formation with a green field in the foreground.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-14",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-14",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "portrait",
-      "altText": "A crowd of people gathered around a stone structure with a flag on top, a religious or historical site.",
-      "mood": "vibrant",
+      "id": "gallery-image-16-41-06-14",
+      "slug": "gallery-image-16-41-06-14",
+      "labelName": "sawla-films-timket-fasilides-bath-gondar-crowd-control-festival-filming-ethiopiajpg",
+      "category": "film",
+      "subcategory": "documentary",
       "dominantColors": [
         "#0074D9",
         "#FFC107",
         "#E6E6E6"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-14/whatsapp-image-2026-05-18-at-16-41-06-14-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-14/whatsapp-image-2026-05-18-at-16-41-06-14-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-14/whatsapp-image-2026-05-18-at-16-41-06-14-thumb.avif"
-      }
+        "full": "/sawla-films-timket-fasilides-bath-gondar-crowd-control-festival-filming-ethiopiajpg/sawla-films-timket-fasilides-bath-gondar-crowd-control-festival-filming-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-timket-fasilides-bath-gondar-crowd-control-festival-filming-ethiopiajpg/sawla-films-timket-fasilides-bath-gondar-crowd-control-festival-filming-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-timket-fasilides-bath-gondar-crowd-control-festival-filming-ethiopiajpg/sawla-films-timket-fasilides-bath-gondar-crowd-control-festival-filming-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A crowd of people gathered around a stone structure with a flag on top, a religious or historical site.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-15",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-15",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-15",
+      "slug": "gallery-image-16-41-06-15",
+      "labelName": "sawla-films-timket-festival-rock-hewn-churches-unesco-filming-logistics-lalibela-ethiopiajpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A large gathering of people at a public event, with some individuals wearing traditional clothing and body paint, depicting a cultural or religious celebration.",
-      "mood": "vibrant",
       "dominantColors": [
         "#FDB728",
         "#006B9C",
         "#FFE4C1"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-15/whatsapp-image-2026-05-18-at-16-41-06-15-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-15/whatsapp-image-2026-05-18-at-16-41-06-15-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-15/whatsapp-image-2026-05-18-at-16-41-06-15-thumb.avif"
-      }
+        "full": "/sawla-films-timket-festival-rock-hewn-churches-unesco-filming-logistics-lalibela-ethiopiajpg/sawla-films-timket-festival-rock-hewn-churches-unesco-filming-logistics-lalibela-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-timket-festival-rock-hewn-churches-unesco-filming-logistics-lalibela-ethiopiajpg/sawla-films-timket-festival-rock-hewn-churches-unesco-filming-logistics-lalibela-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-timket-festival-rock-hewn-churches-unesco-filming-logistics-lalibela-ethiopiajpg/sawla-films-timket-festival-rock-hewn-churches-unesco-filming-logistics-lalibela-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A large gathering of people at a public event, with some individuals wearing traditional clothing and body paint, depicting a cultural or religious celebration.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-16",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-16",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-16",
+      "slug": "gallery-image-16-41-06-16",
+      "labelName": "sawla-films-timket-tabot-jan-meda-addis-ababa-broadcast-event-logisticsjpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A group of men dressed in traditional Ethiopian religious attire, standing on a stage with a tented roof and a crowd of people behind them.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC300",
         "#E69B27",
         "#58194F"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-16/whatsapp-image-2026-05-18-at-16-41-06-16-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-16/whatsapp-image-2026-05-18-at-16-41-06-16-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-16/whatsapp-image-2026-05-18-at-16-41-06-16-thumb.avif"
-      }
+        "full": "/sawla-films-timket-tabot-jan-meda-addis-ababa-broadcast-event-logisticsjpg/sawla-films-timket-tabot-jan-meda-addis-ababa-broadcast-event-logisticsjpg-full.webp",
+        "medium": "/sawla-films-timket-tabot-jan-meda-addis-ababa-broadcast-event-logisticsjpg/sawla-films-timket-tabot-jan-meda-addis-ababa-broadcast-event-logisticsjpg-medium.webp",
+        "thumb": "/sawla-films-timket-tabot-jan-meda-addis-ababa-broadcast-event-logisticsjpg/sawla-films-timket-tabot-jan-meda-addis-ababa-broadcast-event-logisticsjpg-thumb.avif"
+      },
+      "altText": "A group of men dressed in traditional Ethiopian religious attire, standing on a stage with a tented roof and a crowd of people behind them.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-17",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-17",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-17",
+      "slug": "gallery-image-16-41-06-17",
+      "labelName": "sawla-films-gelada-monkey-endemic-wildlife-documentary-golden-hour-simien-mountainsjpg",
       "category": "nature",
       "subcategory": "wildlife",
-      "altText": "A herd of baboons on a mountain trail with a backdrop of mountains and sky at sunset.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC0C1",
         "#E6E6E6",
         "#B3B3B3"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-17/whatsapp-image-2026-05-18-at-16-41-06-17-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-17/whatsapp-image-2026-05-18-at-16-41-06-17-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-17/whatsapp-image-2026-05-18-at-16-41-06-17-thumb.avif"
-      }
+        "full": "/sawla-films-gelada-monkey-endemic-wildlife-documentary-golden-hour-simien-mountainsjpg/sawla-films-gelada-monkey-endemic-wildlife-documentary-golden-hour-simien-mountainsjpg-full.webp",
+        "medium": "/sawla-films-gelada-monkey-endemic-wildlife-documentary-golden-hour-simien-mountainsjpg/sawla-films-gelada-monkey-endemic-wildlife-documentary-golden-hour-simien-mountainsjpg-medium.webp",
+        "thumb": "/sawla-films-gelada-monkey-endemic-wildlife-documentary-golden-hour-simien-mountainsjpg/sawla-films-gelada-monkey-endemic-wildlife-documentary-golden-hour-simien-mountainsjpg-thumb.avif"
+      },
+      "altText": "A herd of baboons on a mountain trail with a backdrop of mountains and sky at sunset.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-18",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-18",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-18",
+      "slug": "gallery-image-16-41-06-18",
+      "labelName": "sawla-films-walia-ibex-endangered-wildlife-documentary-simien-mountains-ethiopiajpg",
       "category": "nature",
       "subcategory": "portrait",
-      "altText": "A mountain goat standing on a rocky hillside with a backdrop of a clear blue sky.",
-      "mood": "serene",
       "dominantColors": [
         "#C0C0C0",
         "#B2B2B2",
         "#757575"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-18/whatsapp-image-2026-05-18-at-16-41-06-18-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-18/whatsapp-image-2026-05-18-at-16-41-06-18-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-18/whatsapp-image-2026-05-18-at-16-41-06-18-thumb.avif"
-      }
+        "full": "/sawla-films-walia-ibex-endangered-wildlife-documentary-simien-mountains-ethiopiajpg/sawla-films-walia-ibex-endangered-wildlife-documentary-simien-mountains-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-walia-ibex-endangered-wildlife-documentary-simien-mountains-ethiopiajpg/sawla-films-walia-ibex-endangered-wildlife-documentary-simien-mountains-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-walia-ibex-endangered-wildlife-documentary-simien-mountains-ethiopiajpg/sawla-films-walia-ibex-endangered-wildlife-documentary-simien-mountains-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A mountain goat standing on a rocky hillside with a backdrop of a clear blue sky.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-2",
+      "slug": "gallery-image-16-41-06-2",
+      "labelName": "gallery-image-164106-2",
       "category": "portrait",
       "subcategory": "Film Crew",
-      "altText": "A group of people sitting around a table with bowls and bottles, under a tent in an outdoor setting.",
-      "mood": "serene",
       "dominantColors": [
         "#E6E6E6",
         "#8B002B",
         "#4CAF50"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-2/whatsapp-image-2026-05-18-at-16-41-06-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-2/whatsapp-image-2026-05-18-at-16-41-06-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-2/whatsapp-image-2026-05-18-at-16-41-06-2-thumb.avif"
-      }
+        "full": "/gallery-image-164106-2/gallery-image-164106-2-full.webp",
+        "medium": "/gallery-image-164106-2/gallery-image-164106-2-medium.webp",
+        "thumb": "/gallery-image-164106-2/gallery-image-164106-2-thumb.avif"
+      },
+      "altText": "A group of people sitting around a table with bowls and bottles, under a tent in an outdoor setting.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-3",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-3",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-3",
+      "slug": "gallery-image-16-41-06-3",
+      "labelName": "gallery-image-164106-3",
       "category": "cultural",
       "subcategory": "tourist",
-      "altText": "A row of tents set up on a sandy beach, with palm trees in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#E6E6E6",
         "#333333"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-3/whatsapp-image-2026-05-18-at-16-41-06-3-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-3/whatsapp-image-2026-05-18-at-16-41-06-3-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-3/whatsapp-image-2026-05-18-at-16-41-06-3-thumb.avif"
-      }
+        "full": "/gallery-image-164106-3/gallery-image-164106-3-full.webp",
+        "medium": "/gallery-image-164106-3/gallery-image-164106-3-medium.webp",
+        "thumb": "/gallery-image-164106-3/gallery-image-164106-3-thumb.avif"
+      },
+      "altText": "A row of tents set up on a sandy beach, with palm trees in the background.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-4",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-4",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-4",
+      "slug": "gallery-image-16-41-06-4",
+      "labelName": "gallery-image-164106-4",
       "category": "nature",
       "subcategory": "Desert landscape",
-      "altText": "A person is holding a camera on a tripod, capturing the vast desert landscape with rock formations and a barren terrain.",
-      "mood": "serene",
       "dominantColors": [
         "#E8C3B9",
         "#D2B481",
         "#A07A65"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-4/whatsapp-image-2026-05-18-at-16-41-06-4-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-4/whatsapp-image-2026-05-18-at-16-41-06-4-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-4/whatsapp-image-2026-05-18-at-16-41-06-4-thumb.avif"
-      }
+        "full": "/gallery-image-164106-4/gallery-image-164106-4-full.webp",
+        "medium": "/gallery-image-164106-4/gallery-image-164106-4-medium.webp",
+        "thumb": "/gallery-image-164106-4/gallery-image-164106-4-thumb.avif"
+      },
+      "altText": "A person is holding a camera on a tripod, capturing the vast desert landscape with rock formations and a barren terrain.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-5",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-5",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-06-5",
+      "slug": "gallery-image-16-41-06-5",
+      "labelName": "sawla-films-vip-celebrity-talent-travel-documentary-rock-hewn-churches-lalibelajpg",
       "category": "portrait",
       "subcategory": "Film Crew",
-      "altText": "A group of people posing for a photo on a hilltop with a stone structure in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC0C1",
         "#E6E6E6",
         "#8B002B"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-5/whatsapp-image-2026-05-18-at-16-41-06-5-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-5/whatsapp-image-2026-05-18-at-16-41-06-5-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-5/whatsapp-image-2026-05-18-at-16-41-06-5-thumb.avif"
-      }
+        "full": "/sawla-films-vip-celebrity-talent-travel-documentary-rock-hewn-churches-lalibelajpg/sawla-films-vip-celebrity-talent-travel-documentary-rock-hewn-churches-lalibelajpg-full.webp",
+        "medium": "/sawla-films-vip-celebrity-talent-travel-documentary-rock-hewn-churches-lalibelajpg/sawla-films-vip-celebrity-talent-travel-documentary-rock-hewn-churches-lalibelajpg-medium.webp",
+        "thumb": "/sawla-films-vip-celebrity-talent-travel-documentary-rock-hewn-churches-lalibelajpg/sawla-films-vip-celebrity-talent-travel-documentary-rock-hewn-churches-lalibelajpg-thumb.avif"
+      },
+      "altText": "A group of people posing for a photo on a hilltop with a stone structure in the background.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-8",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-8",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "portrait",
-      "altText": "A group of people standing outside a building with a photographer taking pictures.",
-      "mood": "serene",
+      "id": "gallery-image-16-41-06-8",
+      "slug": "gallery-image-16-41-06-8",
+      "labelName": "sawla-films-south-korean-broadcast-crew-st-mary-of-zion-axum-religious-documentary",
+      "category": "production",
+      "subcategory": "film crew",
       "dominantColors": [
         "#9B9B9B",
         "#757575",
         "#4E4E4E"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-8/whatsapp-image-2026-05-18-at-16-41-06-8-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-8/whatsapp-image-2026-05-18-at-16-41-06-8-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-8/whatsapp-image-2026-05-18-at-16-41-06-8-thumb.avif"
-      }
+        "full": "/sawla-films-south-korean-broadcast-crew-st-mary-of-zion-axum-religious-documentary/sawla-films-south-korean-broadcast-crew-st-mary-of-zion-axum-religious-documentary-full.webp",
+        "medium": "/sawla-films-south-korean-broadcast-crew-st-mary-of-zion-axum-religious-documentary/sawla-films-south-korean-broadcast-crew-st-mary-of-zion-axum-religious-documentary-medium.webp",
+        "thumb": "/sawla-films-south-korean-broadcast-crew-st-mary-of-zion-axum-religious-documentary/sawla-films-south-korean-broadcast-crew-st-mary-of-zion-axum-religious-documentary-thumb.avif"
+      },
+      "altText": "A group of people standing outside a building with a photographer taking pictures.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06-9",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06-9",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "portrait",
-      "altText": "A person standing at a nighttime gathering of people, a religious or cultural event.",
-      "mood": "serene",
+      "id": "gallery-image-16-41-06-9",
+      "slug": "gallery-image-16-41-06-9",
+      "labelName": "sawla-films-mass-pilgrimage-documentary-filming-gishen-mariam-lalibela-ethiopiajpg",
+      "category": "production",
+      "subcategory": "documentary",
       "dominantColors": [
         "#000000",
         "#5d4037",
         "#ffcc00"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06-9/whatsapp-image-2026-05-18-at-16-41-06-9-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06-9/whatsapp-image-2026-05-18-at-16-41-06-9-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06-9/whatsapp-image-2026-05-18-at-16-41-06-9-thumb.avif"
-      }
+        "full": "/sawla-films-mass-pilgrimage-documentary-filming-gishen-mariam-lalibela-ethiopiajpg/sawla-films-mass-pilgrimage-documentary-filming-gishen-mariam-lalibela-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-mass-pilgrimage-documentary-filming-gishen-mariam-lalibela-ethiopiajpg/sawla-films-mass-pilgrimage-documentary-filming-gishen-mariam-lalibela-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-mass-pilgrimage-documentary-filming-gishen-mariam-lalibela-ethiopiajpg/sawla-films-mass-pilgrimage-documentary-filming-gishen-mariam-lalibela-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A person standing at a nighttime gathering of people, a religious or cultural event.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-06",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-06",
-      "landmark": "Omo Valley",
+      "id": "gallery-image-16-41-06",
+      "slug": "gallery-image-16-41-06",
+      "labelName": "sawla-films-mursi-tribe-anthropological-documentary-fixing-mago-national-park-ethiopiajpg",
       "category": "cultural",
       "subcategory": "Mursi tribe",
-      "altText": "A man from the Mursi tribe, standing on a hillside with a spear and traditional clothing, holding a stick in his hand.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC107",
         "#E8D96",
         "#A2B5C3"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-06/whatsapp-image-2026-05-18-at-16-41-06-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-06/whatsapp-image-2026-05-18-at-16-41-06-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-06/whatsapp-image-2026-05-18-at-16-41-06-thumb.avif"
-      }
+        "full": "/sawla-films-mursi-tribe-anthropological-documentary-fixing-mago-national-park-ethiopiajpg/sawla-films-mursi-tribe-anthropological-documentary-fixing-mago-national-park-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-mursi-tribe-anthropological-documentary-fixing-mago-national-park-ethiopiajpg/sawla-films-mursi-tribe-anthropological-documentary-fixing-mago-national-park-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-mursi-tribe-anthropological-documentary-fixing-mago-national-park-ethiopiajpg/sawla-films-mursi-tribe-anthropological-documentary-fixing-mago-national-park-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A man from the Mursi tribe, standing on a hillside with a spear and traditional clothing, holding a stick in his hand.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-15-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-15-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-15-1",
+      "slug": "gallery-image-16-41-15-1",
+      "labelName": "gallery-image-164115-1",
       "category": "nature",
       "subcategory": "aerial",
-      "altText": "An aerial view of a mountainous landscape with a gazelle and a person observing it from behind some rocks.",
-      "mood": "serene",
       "dominantColors": [
         "#0080C0",
         "#FFD700",
         "#B21863"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-15-1/whatsapp-image-2026-05-18-at-16-41-15-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-15-1/whatsapp-image-2026-05-18-at-16-41-15-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-15-1/whatsapp-image-2026-05-18-at-16-41-15-1-thumb.avif"
-      }
+        "full": "/gallery-image-164115-1/gallery-image-164115-1-full.webp",
+        "medium": "/gallery-image-164115-1/gallery-image-164115-1-medium.webp",
+        "thumb": "/gallery-image-164115-1/gallery-image-164115-1-thumb.avif"
+      },
+      "altText": "An aerial view of a mountainous landscape with a gazelle and a person observing it from behind some rocks.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-15-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-15-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-15-2",
+      "slug": "gallery-image-16-41-15-2",
+      "labelName": "gallery-image-164115-2",
       "category": "nature",
       "subcategory": "wildlife",
-      "altText": "A red fox stands in a grassy field with mountains in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#8B4513",
         "#C0C0C0"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-15-2/whatsapp-image-2026-05-18-at-16-41-15-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-15-2/whatsapp-image-2026-05-18-at-16-41-15-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-15-2/whatsapp-image-2026-05-18-at-16-41-15-2-thumb.avif"
-      }
+        "full": "/gallery-image-164115-2/gallery-image-164115-2-full.webp",
+        "medium": "/gallery-image-164115-2/gallery-image-164115-2-medium.webp",
+        "thumb": "/gallery-image-164115-2/gallery-image-164115-2-thumb.avif"
+      },
+      "altText": "A red fox stands in a grassy field with mountains in the background.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-15-3",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-15-3",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-15-3",
+      "slug": "gallery-image-16-41-15-3",
+      "labelName": "gallery-image-164115-3",
       "category": "nature",
       "subcategory": "wildlife",
-      "altText": "A wild dog running across a dry grass field with mountains in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#F5E0DC",
         "#C3B27A",
         "#6495ED"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-15-3/whatsapp-image-2026-05-18-at-16-41-15-3-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-15-3/whatsapp-image-2026-05-18-at-16-41-15-3-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-15-3/whatsapp-image-2026-05-18-at-16-41-15-3-thumb.avif"
-      }
+        "full": "/gallery-image-164115-3/gallery-image-164115-3-full.webp",
+        "medium": "/gallery-image-164115-3/gallery-image-164115-3-medium.webp",
+        "thumb": "/gallery-image-164115-3/gallery-image-164115-3-thumb.avif"
+      },
+      "altText": "A wild dog running across a dry grass field with mountains in the background.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-15-4",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-15-4",
-      "landmark": "Unknown",
-      "category": "nature",
-      "subcategory": "aerial",
-      "altText": "A boat on a river at sunset with people on board, tourists or film crew.",
-      "mood": "serene",
+      "id": "gallery-image-16-41-15-4",
+      "slug": "gallery-image-16-41-15-4",
+      "labelName": "sawla-films-waterborne-cinematography-riverine-logistics-golden-hour-omo-riverjpg",
+      "category": "production",
+      "subcategory": "film crew",
       "dominantColors": [
         "#FFC0CB",
         "#8B002B",
         "#1E90FF"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-15-4/whatsapp-image-2026-05-18-at-16-41-15-4-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-15-4/whatsapp-image-2026-05-18-at-16-41-15-4-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-15-4/whatsapp-image-2026-05-18-at-16-41-15-4-thumb.avif"
-      }
+        "full": "/sawla-films-waterborne-cinematography-riverine-logistics-golden-hour-omo-riverjpg/sawla-films-waterborne-cinematography-riverine-logistics-golden-hour-omo-riverjpg-full.webp",
+        "medium": "/sawla-films-waterborne-cinematography-riverine-logistics-golden-hour-omo-riverjpg/sawla-films-waterborne-cinematography-riverine-logistics-golden-hour-omo-riverjpg-medium.webp",
+        "thumb": "/sawla-films-waterborne-cinematography-riverine-logistics-golden-hour-omo-riverjpg/sawla-films-waterborne-cinematography-riverine-logistics-golden-hour-omo-riverjpg-thumb.avif"
+      },
+      "altText": "A boat on a river at sunset with people on board, tourists or film crew.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-15-5",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-15-5",
-      "landmark": "Omo Valley",
+      "id": "gallery-image-16-41-15-5",
+      "slug": "gallery-image-16-41-15-5",
+      "labelName": "gallery-image-164115-5",
       "category": "cultural",
       "subcategory": "Mursi tribe",
-      "altText": "A woman from the Mursi tribe, standing outdoors with a beaded necklace and traditional attire.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC0C1",
         "#E8B4A6",
         "#9B59B3"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-15-5/whatsapp-image-2026-05-18-at-16-41-15-5-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-15-5/whatsapp-image-2026-05-18-at-16-41-15-5-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-15-5/whatsapp-image-2026-05-18-at-16-41-15-5-thumb.avif"
-      }
+        "full": "/gallery-image-164115-5/gallery-image-164115-5-full.webp",
+        "medium": "/gallery-image-164115-5/gallery-image-164115-5-medium.webp",
+        "thumb": "/gallery-image-164115-5/gallery-image-164115-5-thumb.avif"
+      },
+      "altText": "A woman from the Mursi tribe, standing outdoors with a beaded necklace and traditional attire.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-15-6",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-15-6",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-15-6",
+      "slug": "gallery-image-16-41-15-6",
+      "labelName": "gallery-image-164115-6",
       "category": "nature",
       "subcategory": "Portrait",
-      "altText": "A serene night scene with a tent set up near a body of water, surrounded by trees and a clear sky.",
-      "mood": "serene",
       "dominantColors": [
         "#2C3E50",
         "#1A1A1A",
         "#4D4D4D"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-15-6/whatsapp-image-2026-05-18-at-16-41-15-6-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-15-6/whatsapp-image-2026-05-18-at-16-41-15-6-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-15-6/whatsapp-image-2026-05-18-at-16-41-15-6-thumb.avif"
-      }
+        "full": "/gallery-image-164115-6/gallery-image-164115-6-full.webp",
+        "medium": "/gallery-image-164115-6/gallery-image-164115-6-medium.webp",
+        "thumb": "/gallery-image-164115-6/gallery-image-164115-6-thumb.avif"
+      },
+      "altText": "A serene night scene with a tent set up near a body of water, surrounded by trees and a clear sky.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-15",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-15",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-15",
+      "slug": "gallery-image-16-41-15",
+      "labelName": "sawla-films-endemic-meneliks-bushbuck-bale-mountains-natural-history-documentaryjpg",
       "category": "nature",
       "subcategory": "wildlife",
-      "altText": "An fox stands in a field with trees in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#9B9B9B",
         "#333333",
         "#555555"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-15/whatsapp-image-2026-05-18-at-16-41-15-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-15/whatsapp-image-2026-05-18-at-16-41-15-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-15/whatsapp-image-2026-05-18-at-16-41-15-thumb.avif"
-      }
+        "full": "/sawla-films-endemic-meneliks-bushbuck-bale-mountains-natural-history-documentaryjpg/sawla-films-endemic-meneliks-bushbuck-bale-mountains-natural-history-documentaryjpg-full.webp",
+        "medium": "/sawla-films-endemic-meneliks-bushbuck-bale-mountains-natural-history-documentaryjpg/sawla-films-endemic-meneliks-bushbuck-bale-mountains-natural-history-documentaryjpg-medium.webp",
+        "thumb": "/sawla-films-endemic-meneliks-bushbuck-bale-mountains-natural-history-documentaryjpg/sawla-films-endemic-meneliks-bushbuck-bale-mountains-natural-history-documentaryjpg-thumb.avif"
+      },
+      "altText": "An fox stands in a field with trees in the background.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-16-1",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-16-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-16-1",
+      "slug": "gallery-image-16-41-16-1",
+      "labelName": "sawla-films-kara-tribe-ethnographic-portraiture-body-art-omo-valley-documentaryjpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A man with a feather headdress, bead necklace, and face paint stands in front of the camera.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#E6E6E6",
         "#3B5894"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-16-1/whatsapp-image-2026-05-18-at-16-41-16-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-16-1/whatsapp-image-2026-05-18-at-16-41-16-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-16-1/whatsapp-image-2026-05-18-at-16-41-16-1-thumb.avif"
-      }
+        "full": "/sawla-films-kara-tribe-ethnographic-portraiture-body-art-omo-valley-documentaryjpg/sawla-films-kara-tribe-ethnographic-portraiture-body-art-omo-valley-documentaryjpg-full.webp",
+        "medium": "/sawla-films-kara-tribe-ethnographic-portraiture-body-art-omo-valley-documentaryjpg/sawla-films-kara-tribe-ethnographic-portraiture-body-art-omo-valley-documentaryjpg-medium.webp",
+        "thumb": "/sawla-films-kara-tribe-ethnographic-portraiture-body-art-omo-valley-documentaryjpg/sawla-films-kara-tribe-ethnographic-portraiture-body-art-omo-valley-documentaryjpg-thumb.avif"
+      },
+      "altText": "A man with a feather headdress, bead necklace, and face paint stands in front of the camera.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-16-2",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-16-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-16-2",
+      "slug": "gallery-image-16-41-16-2",
+      "labelName": "sawla-films-location-scouting-recce-rugged-river-terrain-ethiopiajpg",
       "category": "nature",
       "subcategory": "production",
-      "altText": "A group of people walking along a river in a rugged landscape with mountains and clear skies.",
-      "mood": "serene",
       "dominantColors": [
         "#E0D893",
         "#B2C5A1",
         "#6F4242"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-16-2/whatsapp-image-2026-05-18-at-16-41-16-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-16-2/whatsapp-image-2026-05-18-at-16-41-16-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-16-2/whatsapp-image-2026-05-18-at-16-41-16-2-thumb.avif"
-      }
+        "full": "/sawla-films-location-scouting-recce-rugged-river-terrain-ethiopiajpg/sawla-films-location-scouting-recce-rugged-river-terrain-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-location-scouting-recce-rugged-river-terrain-ethiopiajpg/sawla-films-location-scouting-recce-rugged-river-terrain-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-location-scouting-recce-rugged-river-terrain-ethiopiajpg/sawla-films-location-scouting-recce-rugged-river-terrain-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A group of people walking along a river in a rugged landscape with mountains and clear skies.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-16-3",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-16-3",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-16-3",
+      "slug": "gallery-image-16-41-16-3",
+      "labelName": "gallery-image-164116-3",
       "category": "nature",
       "subcategory": "desert landscape",
-      "altText": "A desert landscape with a dirt road, palm trees, and a building in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#F5DEB",
         "#E0C3",
         "#9B9B"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-16-3/whatsapp-image-2026-05-18-at-16-41-16-3-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-16-3/whatsapp-image-2026-05-18-at-16-41-16-3-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-16-3/whatsapp-image-2026-05-18-at-16-41-16-3-thumb.avif"
-      }
+        "full": "/gallery-image-164116-3/gallery-image-164116-3-full.webp",
+        "medium": "/gallery-image-164116-3/gallery-image-164116-3-medium.webp",
+        "thumb": "/gallery-image-164116-3/gallery-image-164116-3-thumb.avif"
+      },
+      "altText": "A desert landscape with a dirt road, palm trees, and a building in the background.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-16-4",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-16-4",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-16-4",
+      "slug": "gallery-image-16-41-16-4",
+      "labelName": "gallery-image-164116-4",
       "category": "cultural",
       "subcategory": "Film Crew",
-      "altText": "A group of people sitting around a dining table with chairs, plates, and cutlery in an outdoor setting.",
-      "mood": "serene",
       "dominantColors": [
         "#E6E6E6",
         "#B0B0B0",
         "#808080"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-16-4/whatsapp-image-2026-05-18-at-16-41-16-4-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-16-4/whatsapp-image-2026-05-18-at-16-41-16-4-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-16-4/whatsapp-image-2026-05-18-at-16-41-16-4-thumb.avif"
-      }
+        "full": "/gallery-image-164116-4/gallery-image-164116-4-full.webp",
+        "medium": "/gallery-image-164116-4/gallery-image-164116-4-medium.webp",
+        "thumb": "/gallery-image-164116-4/gallery-image-164116-4-thumb.avif"
+      },
+      "altText": "A group of people sitting around a dining table with chairs, plates, and cutlery in an outdoor setting.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-18-at-16-41-16",
-      "slug": "whatsapp-image-2026-05-18-at-16-41-16",
-      "landmark": "Unknown",
+      "id": "gallery-image-16-41-16",
+      "slug": "gallery-image-16-41-16",
+      "labelName": "gallery-image-164116",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A person wearing a traditional necklace stands among others, indicating a cultural gathering or event.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC107",
         "#E69B23",
         "#8B451A"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-18-at-16-41-16/whatsapp-image-2026-05-18-at-16-41-16-full.webp",
-        "medium": "/whatsapp-image-2026-05-18-at-16-41-16/whatsapp-image-2026-05-18-at-16-41-16-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-18-at-16-41-16/whatsapp-image-2026-05-18-at-16-41-16-thumb.avif"
-      }
+        "full": "/gallery-image-164116/gallery-image-164116-full.webp",
+        "medium": "/gallery-image-164116/gallery-image-164116-medium.webp",
+        "thumb": "/gallery-image-164116/gallery-image-164116-thumb.avif"
+      },
+      "altText": "A person wearing a traditional necklace stands among others, indicating a cultural gathering or event.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-21-at-19-30-35",
-      "slug": "whatsapp-image-2026-05-21-at-19-30-35",
-      "landmark": "Unknown",
+      "id": "gallery-image-19-30-35",
+      "slug": "gallery-image-19-30-35",
+      "labelName": "sawla-films-nhk-broadcast-extreme-vertical-logistics-abuna-yemata-guh-tigrayjpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A group of people standing in a room with intricate wall decorations, one person holding a camera and another wearing traditional Ethiopian clothing.",
-      "mood": "serene",
       "dominantColors": [
         "#FFD700",
         "#8B0000",
         "#4CAF50"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-21-at-19-30-35/whatsapp-image-2026-05-21-at-19-30-35-full.webp",
-        "medium": "/whatsapp-image-2026-05-21-at-19-30-35/whatsapp-image-2026-05-21-at-19-30-35-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-21-at-19-30-35/whatsapp-image-2026-05-21-at-19-30-35-thumb.avif"
-      }
+        "full": "/sawla-films-nhk-broadcast-extreme-vertical-logistics-abuna-yemata-guh-tigrayjpg/sawla-films-nhk-broadcast-extreme-vertical-logistics-abuna-yemata-guh-tigrayjpg-full.webp",
+        "medium": "/sawla-films-nhk-broadcast-extreme-vertical-logistics-abuna-yemata-guh-tigrayjpg/sawla-films-nhk-broadcast-extreme-vertical-logistics-abuna-yemata-guh-tigrayjpg-medium.webp",
+        "thumb": "/sawla-films-nhk-broadcast-extreme-vertical-logistics-abuna-yemata-guh-tigrayjpg/sawla-films-nhk-broadcast-extreme-vertical-logistics-abuna-yemata-guh-tigrayjpg-thumb.avif"
+      },
+      "altText": "A group of people standing in a room with intricate wall decorations, one person holding a camera and another wearing traditional Ethiopian clothing.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-21-at-19-30-36-1",
-      "slug": "whatsapp-image-2026-05-21-at-19-30-36-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-19-30-36-1",
+      "slug": "gallery-image-19-30-36-1",
+      "labelName": "sawla-films-intimate-clerical-access-nhk-crew-filming-high-priest-abuna-yemata-guhjpg",
       "category": "cultural",
       "subcategory": "portrait",
-      "altText": "A man sitting on the floor with a camera, being filmed by a person holding a professional film camera.",
-      "mood": "serene",
       "dominantColors": [
         "#FFC107",
         "#E6E6E6",
         "#8B0000"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-21-at-19-30-36-1/whatsapp-image-2026-05-21-at-19-30-36-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-21-at-19-30-36-1/whatsapp-image-2026-05-21-at-19-30-36-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-21-at-19-30-36-1/whatsapp-image-2026-05-21-at-19-30-36-1-thumb.avif"
-      }
+        "full": "/sawla-films-intimate-clerical-access-nhk-crew-filming-high-priest-abuna-yemata-guhjpg/sawla-films-intimate-clerical-access-nhk-crew-filming-high-priest-abuna-yemata-guhjpg-full.webp",
+        "medium": "/sawla-films-intimate-clerical-access-nhk-crew-filming-high-priest-abuna-yemata-guhjpg/sawla-films-intimate-clerical-access-nhk-crew-filming-high-priest-abuna-yemata-guhjpg-medium.webp",
+        "thumb": "/sawla-films-intimate-clerical-access-nhk-crew-filming-high-priest-abuna-yemata-guhjpg/sawla-films-intimate-clerical-access-nhk-crew-filming-high-priest-abuna-yemata-guhjpg-thumb.avif"
+      },
+      "altText": "A man sitting on the floor with a camera, being filmed by a person holding a professional film camera.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-21-at-19-30-36-2",
-      "slug": "whatsapp-image-2026-05-21-at-19-30-36-2",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "portrait",
-      "altText": "A group of people gathered at a religious event, with one individual standing out as a religious leader or speaker.",
-      "mood": "serene",
+      "id": "gallery-image-19-30-36-2",
+      "slug": "gallery-image-19-30-36-2",
+      "labelName": "sawla-films-singaporean-broadcast-crew-timket-festival-crowd-logistics-axumjpg",
+      "category": "production",
+      "subcategory": "film crew",
       "dominantColors": [
         "#E8D39C",
         "#B2A764",
         "#50B15F"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-21-at-19-30-36-2/whatsapp-image-2026-05-21-at-19-30-36-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-21-at-19-30-36-2/whatsapp-image-2026-05-21-at-19-30-36-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-21-at-19-30-36-2/whatsapp-image-2026-05-21-at-19-30-36-2-thumb.avif"
-      }
+        "full": "/sawla-films-singaporean-broadcast-crew-timket-festival-crowd-logistics-axumjpg/sawla-films-singaporean-broadcast-crew-timket-festival-crowd-logistics-axumjpg-full.webp",
+        "medium": "/sawla-films-singaporean-broadcast-crew-timket-festival-crowd-logistics-axumjpg/sawla-films-singaporean-broadcast-crew-timket-festival-crowd-logistics-axumjpg-medium.webp",
+        "thumb": "/sawla-films-singaporean-broadcast-crew-timket-festival-crowd-logistics-axumjpg/sawla-films-singaporean-broadcast-crew-timket-festival-crowd-logistics-axumjpg-thumb.avif"
+      },
+      "altText": "A group of people gathered at a religious event, with one individual standing out as a religious leader or speaker.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-21-at-19-30-36-3",
-      "slug": "whatsapp-image-2026-05-21-at-19-30-36-3",
-      "landmark": "Unknown",
+      "id": "gallery-image-19-30-36-3",
+      "slug": "gallery-image-19-30-36-3",
+      "labelName": "gallery-image-193036-3",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "Film crew with camera equipment in a room with a tiled floor and a person in the background.",
-      "mood": "serene",
       "dominantColors": [
         "#C0C0C0",
         "#B0B0B0",
         "#808080"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-21-at-19-30-36-3/whatsapp-image-2026-05-21-at-19-30-36-3-full.webp",
-        "medium": "/whatsapp-image-2026-05-21-at-19-30-36-3/whatsapp-image-2026-05-21-at-19-30-36-3-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-21-at-19-30-36-3/whatsapp-image-2026-05-21-at-19-30-36-3-thumb.avif"
-      }
+        "full": "/gallery-image-193036-3/gallery-image-193036-3-full.webp",
+        "medium": "/gallery-image-193036-3/gallery-image-193036-3-medium.webp",
+        "thumb": "/gallery-image-193036-3/gallery-image-193036-3-thumb.avif"
+      },
+      "altText": "Film crew with camera equipment in a room with a tiled floor and a person in the background.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-21-at-19-30-36",
-      "slug": "whatsapp-image-2026-05-21-at-19-30-36",
-      "landmark": "Unknown",
-      "category": "cultural",
-      "subcategory": "portrait",
-      "altText": "A man in a white robe is being photographed by a film crew in an indoor setting with traditional decorations.",
-      "mood": "serene",
+      "id": "gallery-image-19-30-36",
+      "slug": "gallery-image-19-30-36",
+      "labelName": "sawla-films-bts-nhk-broadcast-crew-gear-rigging-abuna-yemata-guh-tigrayjpg",
+      "category": "production",
+      "subcategory": "film crew",
       "dominantColors": [
         "#FFC0C1",
         "#E6E6E6",
         "#8B0000"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-21-at-19-30-36/whatsapp-image-2026-05-21-at-19-30-36-full.webp",
-        "medium": "/whatsapp-image-2026-05-21-at-19-30-36/whatsapp-image-2026-05-21-at-19-30-36-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-21-at-19-30-36/whatsapp-image-2026-05-21-at-19-30-36-thumb.avif"
-      }
+        "full": "/sawla-films-bts-nhk-broadcast-crew-gear-rigging-abuna-yemata-guh-tigrayjpg/sawla-films-bts-nhk-broadcast-crew-gear-rigging-abuna-yemata-guh-tigrayjpg-full.webp",
+        "medium": "/sawla-films-bts-nhk-broadcast-crew-gear-rigging-abuna-yemata-guh-tigrayjpg/sawla-films-bts-nhk-broadcast-crew-gear-rigging-abuna-yemata-guh-tigrayjpg-medium.webp",
+        "thumb": "/sawla-films-bts-nhk-broadcast-crew-gear-rigging-abuna-yemata-guh-tigrayjpg/sawla-films-bts-nhk-broadcast-crew-gear-rigging-abuna-yemata-guh-tigrayjpg-thumb.avif"
+      },
+      "altText": "A man in a white robe is being photographed by a film crew in an indoor setting with traditional decorations.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-21-at-19-30-37-1",
-      "slug": "whatsapp-image-2026-05-21-at-19-30-37-1",
-      "landmark": "Unknown",
+      "id": "gallery-image-19-30-37-1",
+      "slug": "gallery-image-19-30-37-1",
+      "labelName": "sawla-films-south-korean-crew-landscape-cinematography-tripod-ethiopian-highlandsjpg",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A man filming a scene with a camera on a tripod, set against a scenic mountain backdrop.",
-      "mood": "serene",
       "dominantColors": [
         "#B6C0C8",
         "#E5E7E9",
         "#3F4D"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-21-at-19-30-37-1/whatsapp-image-2026-05-21-at-19-30-37-1-full.webp",
-        "medium": "/whatsapp-image-2026-05-21-at-19-30-37-1/whatsapp-image-2026-05-21-at-19-30-37-1-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-21-at-19-30-37-1/whatsapp-image-2026-05-21-at-19-30-37-1-thumb.avif"
-      }
+        "full": "/sawla-films-south-korean-crew-landscape-cinematography-tripod-ethiopian-highlandsjpg/sawla-films-south-korean-crew-landscape-cinematography-tripod-ethiopian-highlandsjpg-full.webp",
+        "medium": "/sawla-films-south-korean-crew-landscape-cinematography-tripod-ethiopian-highlandsjpg/sawla-films-south-korean-crew-landscape-cinematography-tripod-ethiopian-highlandsjpg-medium.webp",
+        "thumb": "/sawla-films-south-korean-crew-landscape-cinematography-tripod-ethiopian-highlandsjpg/sawla-films-south-korean-crew-landscape-cinematography-tripod-ethiopian-highlandsjpg-thumb.avif"
+      },
+      "altText": "A man filming a scene with a camera on a tripod, set against a scenic mountain backdrop.",
+      "flaggedForDeletion": false
     },
     {
-      "id": "whatsapp-image-2026-05-21-at-19-30-37-2",
-      "slug": "whatsapp-image-2026-05-21-at-19-30-37-2",
-      "landmark": "Unknown",
+      "id": "gallery-image-19-30-37-2",
+      "slug": "gallery-image-19-30-37-2",
+      "labelName": "gallery-image-193037-2",
       "category": "production",
       "subcategory": "film crew",
-      "altText": "A person operating a camera on a tripod, set against a rocky cave backdrop.",
-      "mood": "serene",
       "dominantColors": [
         "#8B5E3F",
         "#4D4D4D",
         "#C0C0C0"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-21-at-19-30-37-2/whatsapp-image-2026-05-21-at-19-30-37-2-full.webp",
-        "medium": "/whatsapp-image-2026-05-21-at-19-30-37-2/whatsapp-image-2026-05-21-at-19-30-37-2-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-21-at-19-30-37-2/whatsapp-image-2026-05-21-at-19-30-37-2-thumb.avif"
-      }
+        "full": "/gallery-image-193037-2/gallery-image-193037-2-full.webp",
+        "medium": "/gallery-image-193037-2/gallery-image-193037-2-medium.webp",
+        "thumb": "/gallery-image-193037-2/gallery-image-193037-2-thumb.avif"
+      },
+      "altText": "A person operating a camera on a tripod, set against a rocky cave backdrop.",
+      "flaggedForDeletion": true
     },
     {
-      "id": "whatsapp-image-2026-05-21-at-19-30-37",
-      "slug": "whatsapp-image-2026-05-21-at-19-30-37",
-      "landmark": "Unknown",
+      "id": "gallery-image-19-30-37",
+      "slug": "gallery-image-19-30-37",
+      "labelName": "sawla-films-mursi-tribe-ethnographic-interview-tripod-setup-omo-valley-ethiopiajpg",
       "category": "cultural",
-      "subcategory": "Film production",
-      "altText": "A camera on a tripod filming a scene with a person wearing traditional Ethiopian attire and makeup, from the Mursi tribe.",
-      "mood": "serene",
+      "subcategory": "film crew",
       "dominantColors": [
         "#FFD700",
         "#8B0000",
         "#000000"
       ],
-      "composition": "centered",
-      "flagForReview": false,
       "assets": {
-        "full": "/whatsapp-image-2026-05-21-at-19-30-37/whatsapp-image-2026-05-21-at-19-30-37-full.webp",
-        "medium": "/whatsapp-image-2026-05-21-at-19-30-37/whatsapp-image-2026-05-21-at-19-30-37-medium.webp",
-        "thumb": "/whatsapp-image-2026-05-21-at-19-30-37/whatsapp-image-2026-05-21-at-19-30-37-thumb.avif"
-      }
+        "full": "/sawla-films-mursi-tribe-ethnographic-interview-tripod-setup-omo-valley-ethiopiajpg/sawla-films-mursi-tribe-ethnographic-interview-tripod-setup-omo-valley-ethiopiajpg-full.webp",
+        "medium": "/sawla-films-mursi-tribe-ethnographic-interview-tripod-setup-omo-valley-ethiopiajpg/sawla-films-mursi-tribe-ethnographic-interview-tripod-setup-omo-valley-ethiopiajpg-medium.webp",
+        "thumb": "/sawla-films-mursi-tribe-ethnographic-interview-tripod-setup-omo-valley-ethiopiajpg/sawla-films-mursi-tribe-ethnographic-interview-tripod-setup-omo-valley-ethiopiajpg-thumb.avif"
+      },
+      "altText": "A camera on a tripod filming a scene with a person wearing traditional Ethiopian attire and makeup, from the Mursi tribe.",
+      "flaggedForDeletion": false
     }
   ]
 }
