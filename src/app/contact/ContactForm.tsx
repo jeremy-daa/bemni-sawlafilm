@@ -1,8 +1,9 @@
 'use client'
 
 import { useState, type FormEvent } from 'react'
+import { useRouter } from 'next/navigation'
 
-type State = 'idle' | 'submitting' | 'success' | 'error'
+type State = 'idle' | 'submitting' | 'error'
 
 const inputBase =
   'w-full bg-white border border-black/12 rounded-[3px] px-3.5 py-2.5 text-[13px] font-light text-ink placeholder:text-silver/70 focus:outline-none focus:border-ember focus:ring-1 focus:ring-ember/20 transition-all duration-200'
@@ -23,6 +24,7 @@ function Field({ label, required, children }: { label: string; required?: boolea
 }
 
 export function ContactForm() {
+  const router = useRouter()
   const [state, setState] = useState<State>('idle')
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
@@ -40,28 +42,11 @@ export function ContactForm() {
       })
 
       if (!res.ok) throw new Error('Failed to send')
-      setState('success')
+      router.push('/thank-you')
     } catch (err) {
       console.error(err)
       setState('error')
     }
-  }
-
-  if (state === 'success') {
-    return (
-      <div className="bg-ink rounded-[4px] p-8 text-center">
-        <div className="w-12 h-12 rounded-full bg-ember/15 flex items-center justify-center mx-auto mb-5">
-          <svg className="w-6 h-6 text-ember" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-          </svg>
-        </div>
-        <h3 className="font-serif font-light text-gold text-[20px] italic mb-3">Message received.</h3>
-        <p className="text-[13px] font-light text-white/55 leading-[1.75] max-w-[340px] mx-auto">
-          We review every message personally and will respond within one business day. For urgent
-          shoots, WhatsApp +251 927 115 454 is the fastest route.
-        </p>
-      </div>
-    )
   }
 
   return (
