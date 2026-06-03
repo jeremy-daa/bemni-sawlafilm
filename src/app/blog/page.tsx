@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Ethiopia Film Production Blog | Field Guides & Insights | Sawla Films',
   description: 'Practical field guides, permit advice, location intelligence, and production insights for international crews filming in Ethiopia.',
   alternates: { canonical: '/blog' },
+  openGraph: {
+    url: '/blog',
+  }
 }
 
 const CATEGORY_COLORS: Record<string, string> = {

@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: 'Film Fixer Services in Ethiopia | Sawla Films',
   description: 'Full-service Ethiopia film fixer for international productions: permits, drone, customs, logistics, scouting, crew, security, on-ground fixing, and VIP handling.',
   alternates: { canonical: '/ethiopia-film-fixer-services' },
+  openGraph: {
+    url: '/ethiopia-film-fixer-services',
+  }
 }
 
 const ALL_SERVICES = [

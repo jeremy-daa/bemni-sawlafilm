@@ -5,7 +5,11 @@ import { SITE } from '@/lib/constants'
 export const metadata: Metadata = {
   title: 'Brief Received | Sawla Films Ethiopia',
   description: 'Thank you for reaching out to Sawla Films. We will review your production brief and respond within 24 hours.',
-  robots: { index: false, follow: true }, // Don't index thank you page
+  robots: { index: false, follow: true }, // Don't index thank you page,
+  alternates: { canonical: '/thank-you' },
+  openGraph: {
+    url: '/thank-you',
+  }
 }
 
 export default function ThankYouPage() {

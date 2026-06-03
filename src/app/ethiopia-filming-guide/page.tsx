@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Ethiopia Filming Guide | Permits, Drone, Weather, Costs & Planning',
   description: 'The practical Ethiopia filming guide for producers. Permits, drone approvals, equipment import, best seasons, production costs, and logistics planning for shoots nationwide.',
   alternates: { canonical: '/ethiopia-filming-guide' },
+  openGraph: {
+    url: '/ethiopia-filming-guide',
+  }
 }
 
 const GUIDES = [

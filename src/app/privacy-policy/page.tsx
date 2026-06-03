@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Privacy Policy | Sawla Films Ethiopia',
   description: 'Privacy policy and data handling procedures for Sawla Films Ethiopia.',
   alternates: { canonical: '/privacy-policy' },
+  openGraph: {
+    url: '/privacy-policy',
+  }
 }
 
 export default function PrivacyPolicyPage() {

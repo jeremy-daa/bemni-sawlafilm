@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description:
     'How Sawla Films approaches film fixing in Ethiopia: feasibility, permit planning, logistics build, and shoot-day coordination. Honest, practical, field-tested.',
   alternates: { canonical: '/how-we-work' },
+  openGraph: {
+    url: '/how-we-work',
+  }
 }
 
 const PHASES = [

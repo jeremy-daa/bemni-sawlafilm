@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Ethiopia Film Production Case Studies | Sawla Films',
   description: 'Selected production experience across Ethiopia — permits, remote field logistics, cultural access, and shoot-day coordination for international broadcasters and production teams.',
   alternates: { canonical: '/case-studies' },
+  openGraph: {
+    url: '/case-studies',
+  }
 }
 
 const CASES = [

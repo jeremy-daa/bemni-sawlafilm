@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'VIP & Celebrity Handling in Ethiopia | Discreet Production Support',
   description: 'Discreet movements, privacy-first logistics, controlled arrivals, and high-touch on-ground support for VIP talent and sensitive productions filming in Ethiopia.',
   alternates: { canonical: '/vip-celebrity-handling-ethiopia' },
+  openGraph: {
+    url: '/vip-celebrity-handling-ethiopia',
+  }
 }
 
 export default function VIPPage() {

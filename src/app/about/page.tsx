@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: 'About Sawla Films | Ethiopia Film Fixer & Production Partner',
   description: 'Sawla Films is an Ethiopia-based film fixer and production support company with over a decade of field experience supporting international documentary, broadcast, and commercial productions.',
   alternates: { canonical: '/about' },
+  openGraph: {
+    url: '/about',
+  }
 }
 
 const VALUES = [

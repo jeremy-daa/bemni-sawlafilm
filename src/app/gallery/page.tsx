@@ -7,6 +7,10 @@ import { GalleryRecord, FullMediaRecord } from '@/types/gallery';
 export const metadata: Metadata = {
   title: 'Gallery | Sawla Films Ethiopia',
   description: 'Explore our comprehensive location and production gallery featuring landscapes, cultural documentation, aerials, and our film crews in action across Ethiopia.',
+  alternates: { canonical: '/gallery' },
+  openGraph: {
+    url: '/gallery',
+  }
 };
 
 export default function GalleryPage() {

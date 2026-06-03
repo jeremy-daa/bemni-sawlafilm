@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'What to Film in Ethiopia | Stories, Locations & Access Guide',
   description: 'A producer\'s guide to filming in Ethiopia — landscapes, communities, sacred sites, urban life, and expedition territories with honest access and logistics notes.',
   alternates: { canonical: '/what-to-film-in-ethiopia' },
+  openGraph: {
+    url: '/what-to-film-in-ethiopia',
+  }
 }
 
 export default function WhatToFilmPage() {

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Local Crew, Translators & Cultural Liaisons in Ethiopia | Sawla Films',
   description: 'Handpicked regional support for crews that need more than translation. Trusted translators, cultural liaisons, fixers, and production assistants across Ethiopia.',
   alternates: { canonical: '/local-crew-translators-ethiopia' },
+  openGraph: {
+    url: '/local-crew-translators-ethiopia',
+  }
 }
 
 export default function LocalCrewPage() {

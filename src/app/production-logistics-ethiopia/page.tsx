@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Production Logistics in Ethiopia | Field-Tested Movement Planning',
   description: 'Field-tested movement planning for distance, terrain, timing, and changing conditions. 4x4 transport, routing, accommodation, and on-ground coordination across Ethiopia.',
   alternates: { canonical: '/production-logistics-ethiopia' },
+  openGraph: {
+    url: '/production-logistics-ethiopia',
+  }
 }
 
 export default function ProductionLogisticsPage() {

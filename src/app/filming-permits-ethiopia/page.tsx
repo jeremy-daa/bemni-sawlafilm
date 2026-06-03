@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Filming Permits in Ethiopia | Film Approvals & Compliance',
   description: 'Plan filming permits in Ethiopia with clear approval mapping, federal and regional coordination, heritage access, sensitive-location guidance, and practical timelines.',
   alternates: { canonical: '/filming-permits-ethiopia' },
+  openGraph: {
+    url: '/filming-permits-ethiopia',
+  }
 }
 
 export default function FilmingPermitsPage() {

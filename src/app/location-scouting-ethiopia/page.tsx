@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Location Scouting in Ethiopia | Feasibility-First Recce Support',
   description: 'Feasibility-first location scouting and recce for international productions filming in Ethiopia. Access checks, permission mapping, recce packs, and producer-ready recommendations.',
   alternates: { canonical: '/location-scouting-ethiopia' },
+  openGraph: {
+    url: '/location-scouting-ethiopia',
+  }
 }
 
 export default function LocationScoutingPage() {

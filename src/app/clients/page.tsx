@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Ethiopia Film Fixer Clients & Selected Credits | Sawla Films',
   description: 'Selected production experience and credits for Sawla Films, Ethiopia film fixer. NDA-safe references from international broadcasters, production companies, and streaming platforms.',
   alternates: { canonical: '/clients' },
+  openGraph: {
+    url: '/clients',
+  }
 }
 
 const CLIENTS = ['Netflix', 'BBC', 'NHK Japan', 'Al Jazeera', 'France Televisions', 'Keshet / Israel Channel 12', 'KBS South Korea']

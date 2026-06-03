@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Bringing Film Equipment to Ethiopia | Import, Customs & Clearance Guide',
   description: 'A producer\'s guide to bringing film equipment to Ethiopia: temporary import planning, documentation, ATA Carnet, battery rules, drone gear, and airport clearance at Bole.',
   alternates: { canonical: '/bringing-film-equipment-to-ethiopia' },
+  openGraph: {
+    url: '/bringing-film-equipment-to-ethiopia',
+  }
 }
 
 export default function BringingEquipmentPage() {

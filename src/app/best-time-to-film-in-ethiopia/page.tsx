@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Best Time to Film in Ethiopia | Seasonal Guide for Productions',
   description: 'When to film in Ethiopia for each region and production type. Dry season windows, monsoon risks, altitude considerations, festival timing, and seasonal logistics for crews.',
   alternates: { canonical: '/best-time-to-film-in-ethiopia' },
+  openGraph: {
+    url: '/best-time-to-film-in-ethiopia',
+  }
 }
 
 export default function BestTimePage() {

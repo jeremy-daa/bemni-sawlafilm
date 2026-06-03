@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description:
     'A practical guide to Ethiopia film production costs: what drives budgets for permits, logistics, crew, drones, customs, and remote field operations.',
   alternates: { canonical: '/ethiopia-film-production-costs' },
+  openGraph: {
+    url: '/ethiopia-film-production-costs',
+  }
 }
 
 export default function ProductionCostsPage() {

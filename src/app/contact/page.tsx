@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     'Contact Sawla Films for film fixing, production support, permits, logistics, and crew in Ethiopia. Email, WhatsApp, or submit your brief and we will respond personally.',
   alternates: { canonical: '/contact' },
+  openGraph: {
+    url: '/contact',
+  }
 }
 
 const QUICK_LINKS = [

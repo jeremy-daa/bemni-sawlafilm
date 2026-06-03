@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Drone Permits in Ethiopia | Aerial Approval & Planning',
   description: 'Plan drone filming in Ethiopia with permission support, restriction checks, import coordination, aerial logistics, and practical shoot-day planning.',
   alternates: { canonical: '/drone-permits-ethiopia' },
+  openGraph: {
+    url: '/drone-permits-ethiopia',
+  }
 }
 
 export default function DronePermitsPage() {

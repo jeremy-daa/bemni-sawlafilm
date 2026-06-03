@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Filming Security and Access Coordination in Ethiopia | Sawla Films',
   description: 'Practical planning for sensitive locations, controlled access, public-facing shoots, and changing field conditions. Movement coordination and local liaison for productions filming in Ethiopia.',
   alternates: { canonical: '/filming-security-access-ethiopia' },
+  openGraph: {
+    url: '/filming-security-access-ethiopia',
+  }
 }
 
 export default function SecurityAccessPage() {

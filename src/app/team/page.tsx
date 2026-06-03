@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description:
     'Meet the Sawla Films Ethiopia film fixer team: production coordinators, field fixers, regional translators, cultural liaisons, expedition specialists, and logistics coordinators.',
   alternates: { canonical: '/team' },
+  openGraph: {
+    url: '/team',
+  }
 }
 
 const TEAM_AREAS = [

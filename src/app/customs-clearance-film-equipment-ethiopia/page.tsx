@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Customs Clearance for Film Equipment in Ethiopia | Sawla Films',
   description: 'Documentation and coordination that keeps your gear moving. Temporary import planning, equipment manifests, ATA Carnet review, and airport clearance support at Bole International.',
   alternates: { canonical: '/customs-clearance-film-equipment-ethiopia' },
+  openGraph: {
+    url: '/customs-clearance-film-equipment-ethiopia',
+  }
 }
 
 export default function CustomsPage() {

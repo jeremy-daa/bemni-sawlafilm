@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     'Share your production brief with Sawla Films. We will respond with permit considerations, logistics drivers, access questions, drone restrictions, and a realistic next-step plan.',
   alternates: { canonical: '/request-a-quote' },
+  openGraph: {
+    url: '/request-a-quote',
+  }
 }
 
 export default function RequestPage() {

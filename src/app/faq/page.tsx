@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: 'FAQ — Ethiopia Film Fixer Questions Answered | Sawla Films',
   description: 'Frequently asked questions about filming in Ethiopia: permits, drone approvals, customs, logistics, costs, timelines, local crew, access, and what a film fixer does.',
   alternates: { canonical: '/faq' },
+  openGraph: {
+    url: '/faq',
+  }
 }
 
 const FAQ_GROUPS = [

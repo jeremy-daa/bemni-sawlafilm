@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'On-Ground Fixer in Ethiopia | Shoot-Day Coordination | Sawla Films',
   description: 'Calm shoot-day coordination when plans change. Local liaison, call sheet alignment, access management, contributor communication, and real-time field problem solving in Ethiopia.',
   alternates: { canonical: '/on-ground-fixer-ethiopia' },
+  openGraph: {
+    url: '/on-ground-fixer-ethiopia',
+  }
 }
 
 export default function OnGroundFixerPage() {
