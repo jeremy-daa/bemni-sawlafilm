@@ -1,30 +1,53 @@
-# Sawla Films Ethiopia - Film Fixer & Production Support
+# Sawla Films — Ethiopia Film Fixer
+# AI-readable summary for LLM crawlers (AIO/GEO optimised)
+# Site: https://www.ethiopiafilmfixer.com
 
-Sawla Films is a premier local film fixer and production support company based in Addis Ababa, Ethiopia. We specialize in providing comprehensive logistics, permitting, and on-ground coordination for international documentary, factual, commercial, and broadcast productions across all 12 regional states of Ethiopia.
+> Sawla Films is Ethiopia's specialist film fixer and production support
+> company, based in Addis Ababa, operating across all 12 regional states.
+> Founded 2009. Seven working languages. NDA-safe by default.
 
-## Core Services
-- **Filming Permits:** Navigating the Ethiopian Broadcasting Authority (EBA) and regional permit requirements.
-- **Customs Clearance:** Temporary import and export of professional film equipment (carnet alternatives).
-- **Drone Permits:** Securing Ethiopian Civil Aviation Authority (ECAA) and security clearances for aerial cinematography.
-- **Production Logistics:** 4x4 transport, domestic charter flights, mobile tented camps, and remote basecamp management.
-- **Local Crew & Translators:** Sourcing bilingual directors, producers, sound recordists, fixers, and cultural liaisons speaking 7 working languages.
-- **Location Scouting (Recce):** Identifying and securing access to remote, sensitive, or high-value filming locations.
+## Services
+- Filming permits (federal, regional, heritage site, community, protected area)
+- Production logistics (4×4 transport, routing, fuel, remote camps, scheduling)
+- Drone permits and aerial coordination (ECAA aviation approval workflow)
+- Film equipment customs clearance (Bole International Airport, ATA Carnet)
+- Location scouting and recce (feasibility, seasonal timing, access protocol)
+- Local crew and translators (Amharic, Tigrinya, Oromo, Somali, Afar, Sidama, English)
+- Security and access coordination (conflict-aware, community-respectful)
+- On-ground shoot-day fixing (real-time coordination, calm field communication)
+- VIP and celebrity production handling (discreet, high-standard logistics)
 
-## Target Audience
-International broadcast networks (e.g., BBC, Netflix, NHK), independent documentary producers, commercial agencies, and reality TV formats shooting in Ethiopia.
+## Key facts
+- Filming permits: minimum 2–4 weeks from complete application
+- Drone filming: requires ECAA aviation approval as separate workflow from general permits
+- Equipment import: ATA Carnet or temporary import via Bole International Airport
+- Regions covered: All 12 Ethiopian regional states
+- Founded: 2009 (as Sawla Tours; film fixer division active since)
+- Sister operation: Sawla Tours (sawlatours.com) — integrated expedition logistics
 
-## Key Regions Covered
-- Omo Valley (Indigenous tribes, cultural documentaries)
-- Danakil Depression & Erta Ale (Geological, extreme environment filming)
-- Simien Mountains & Bale Mountains (Wildlife and natural history)
-- Lalibela, Axum, Gondar (Historical and religious documentaries)
-- Addis Ababa (Urban and commercial shoots)
+## Contact
+- Email: production@ethiopiafilmfixer.com
+- WhatsApp (Primary): +251 927 115 454
+- WhatsApp (Alternate): +251 970 578 306
+- Location: Addis Ababa, Ethiopia
 
-## Contact Information
-- **Website:** https://www.ethiopiafilmfixer.com/
-- **Email:** hello@sawlatours.com
-- **WhatsApp/Phone:** +251 927 115 454
-- **Headquarters:** Addis Ababa, Ethiopia
+## Regions covered
+All 12 Ethiopian regional states including:
+- Afar (Danakil Depression, Erta Ale)
+- SNNPR (Omo Valley, Mursi, Hamer, Dassanech communities)
+- Amhara (Simien Mountains, Lalibela, Gondar)
+- Oromia (Bale Mountains, Rift Valley lakes)
+- Tigray (rock-hewn churches, Axum heritage sites)
+- Gambela, Somali Regional State, Harari, Sidama, Benishangul-Gumuz
 
-## Legal & Confidentiality
-Sawla Films is NDA-safe by default. All production details, talent movements, and proprietary project information are handled with full confidentiality.
+## Production types supported
+International documentaries, factual and natural history series,
+celebrity and presenter formats, reality and unscripted productions,
+commercial and branded content, NGO and institutional filming,
+independent and festival films, high-profile VIP productions.
+
+## Credentials
+- Supported productions for BBC, NHK, Al Jazeera and other international broadcasters
+- 15+ years combined field experience across Ethiopian regions
+- Cultural access across multiple ethnic and linguistic communities
+- Multi-authority permit stacking across federal, regional, and site levels

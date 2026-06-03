@@ -305,7 +305,7 @@ export const FOOTER_SERVICES = [
   { label: 'Drone permits',       href: '/drone-permits-ethiopia' },
   { label: 'Customs support',     href: '/customs-clearance-film-equipment-ethiopia' },
   { label: 'Local crew',          href: '/local-crew-translators-ethiopia' },
-  { label: 'On-ground fixing',    href: '/on-ground-fixing-ethiopia' },
+  { label: 'On-ground fixing',    href: '/on-ground-fixer-ethiopia' },
   { label: 'VIP handling',        href: '/vip-celebrity-handling-ethiopia' },
 ] as const
 

@@ -161,7 +161,7 @@ export default function InteractiveMap() {
           {/* Inner Map Wrapper with strict aspect-ratio matching target SVG bounds (799 x 621) */}
           <div className="relative w-full aspect-[799/621] max-w-lg md:max-w-xl lg:max-w-2xl mx-auto">
             <Image
-              src="/vectors/ethiopia 1.svg"
+              src="/vectors/ethiopia-1.svg"
               alt="Map of Ethiopia"
               fill
               className="object-contain drop-shadow-2xl opacity-80"

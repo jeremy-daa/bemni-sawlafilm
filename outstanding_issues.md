@@ -10,13 +10,13 @@ This document tracks all external, operational, and content-related tasks that n
 
 ## 2. Launch-day Technical Operations
 - [x] **Google Analytics 4:** Create a GA4 property and install the tracking tag.
-- [ ] **Google Search Console:** Verify domain ownership via DNS TXT record once the domain is live.
+- [x] **Google Search Console:** Verify domain ownership via DNS TXT record once the domain is live.
 - [ ] **Google Tag Manager (Optional):** Setup GTM if advanced conversion tracking is required.
-- [ ] **Domain & DNS Cutover:** Execute the formal DNS cutover to move from the staging Vercel domain to the final production domain (e.g., updating A/CNAME records).
+- [x] **Domain & DNS Cutover:** Execute the formal DNS cutover to move from the staging Vercel domain to the final production domain (e.g., updating A/CNAME records).
 
 ## 3. Local SEO & Directory Submissions
 - [ ] **Google Business Profile:** Create and verify a Google Business Profile for Sawla Films in Addis Ababa to enable Google Maps visibility and aggregate third-party reviews.
 - [ ] **Industry Directories:** Submit the new production website to global fixer directories such as ProductionHub, Korda, and the Location Guide.
 
 ## 4. Broken Pages & 404s
-- [ ] **Custom 404 Design:** Review the design of the automatically generated `src/app/not-found.tsx` to ensure it matches the brand identity and provides helpful navigation links back to the homepage.
+- [x] **Custom 404 Design:** Review the design of the automatically generated `src/app/not-found.tsx` to ensure it matches the brand identity and provides helpful navigation links back to the homepage.
