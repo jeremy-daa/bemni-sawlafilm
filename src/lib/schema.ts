@@ -27,6 +27,7 @@ const PAGE_LABELS: Record<string, string> = {
   'on-ground-fixer-ethiopia': 'On-Ground Fixing in Ethiopia',
   'production-logistics-ethiopia': 'Production Logistics in Ethiopia',
   'vip-celebrity-handling-ethiopia': 'VIP and Celebrity Handling',
+  team: 'Our Team',
   'what-to-film-in-ethiopia': 'What to Film in Ethiopia',
 }
 
@@ -34,15 +35,7 @@ export const organizationId = `${SITE.url}/#organization`
 export const websiteId = `${SITE.url}/#website`
 export const professionalServiceId = `${SITE.url}/#professionalservice`
 
-export const publisher = {
-  '@type': 'Organization',
-  '@id': organizationId,
-  name: 'Sawla Films',
-  logo: {
-    '@type': 'ImageObject',
-    url: LOGO,
-  },
-}
+export const publisher = { '@id': organizationId }
 
 export function absoluteUrl(path = '/') {
   if (path.startsWith('http')) return path
@@ -90,7 +83,7 @@ export function siteIdentitySchema() {
             availableLanguage: ['English', 'Amharic'],
           },
         ],
-        sameAs: [SITE.sisterSite],
+        sameAs: [SITE.sisterSite, SITE.youtube, SITE.facebook],
       },
       {
         '@type': 'WebSite',
@@ -108,26 +101,6 @@ export function homepageSchema(description: string) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      {
-        '@type': 'Organization',
-        '@id': organizationId,
-        name: 'Sawla Films',
-        alternateName: 'Ethiopia Film Fixer',
-        url: SITE.url,
-        email: SITE.email,
-        telephone: SITE.whatsapp1,
-        logo: {
-          '@type': 'ImageObject',
-          url: LOGO,
-        },
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'Addis Ababa',
-          addressCountry: 'ET',
-        },
-        areaServed: { '@type': 'Country', name: 'Ethiopia' },
-        sameAs: [SITE.sisterSite],
-      },
       {
         '@type': 'WebPage',
         '@id': `${SITE.url}/#webpage`,
@@ -451,16 +424,88 @@ export function blogPostingSchema({
     image: [imageUrl],
     datePublished: date,
     dateModified: date,
-    author: {
-      '@type': 'Organization',
-      name: author,
-      url: SITE.url,
-    },
+    author: author.toLowerCase().includes('sawla')
+      ? { '@type': 'Organization', name: author, url: SITE.url }
+      : { '@type': 'Person', name: author, worksFor: { '@id': organizationId } },
     publisher,
     articleSection: category,
     keywords,
     inLanguage: 'en',
     isPartOf: { '@id': websiteId },
+  }
+}
+
+export function teamPageSchema() {
+  const url = absoluteUrl('/team')
+
+  const members = [
+    {
+      name: 'Meti Tadele',
+      jobTitle: 'Founder, Lead Fixer & Production Lead',
+      description:
+        'Meti Tadele leads Sawla Films production support work in Ethiopia, bringing field experience, local travel knowledge, cultural understanding, and on-the-ground coordination into each project. He builds the right field team around the production brief and serves as the first strategic point of contact for producers.',
+    },
+    {
+      name: 'Ababe Gizachew',
+      jobTitle: 'Production Coordinator',
+      description:
+        'Ababe Gizachew manages scheduling, call sheets, transport timing, accommodation coordination, local crew updates, and daily logistics — keeping the production organised from planning to wrap.',
+    },
+    {
+      name: 'Chalachew Bantiwalu',
+      jobTitle: 'Location Scout & Access Coordinator',
+      description:
+        'Chalachew Bantiwalu evaluates locations for visual quality, access, roads, permissions, seasonality, and cultural sensitivity — helping productions find places that are both cinematic and workable.',
+    },
+    {
+      name: 'Endegena Tsegaye',
+      jobTitle: 'Permits, Access & Compliance Coordinator',
+      description:
+        'Endegena Tsegaye supports filming permission pathways, media accreditation, equipment documentation, drone feasibility notes, and location-specific access planning for international productions in Ethiopia.',
+    },
+    {
+      name: 'Tsega Desta',
+      jobTitle: 'Field Logistics Manager',
+      description:
+        'Tsega Desta coordinates vehicles, drivers, remote routes, fuel planning, camp logistics, and equipment movement for productions across Ethiopia, including remote locations in the Danakil Depression, Omo Valley, and Simien Mountains.',
+    },
+    {
+      name: 'Lemma Alemu',
+      jobTitle: 'Translator & Local Crew Coordinator',
+      description:
+        'Lemma Alemu matches productions with the right translators, interpreters, local crew, drivers, scouts, and field assistants — ensuring each project has the right linguistic and on-ground support.',
+    },
+    {
+      name: 'Mekuria Worku',
+      jobTitle: 'Cultural Liaison & Community Access Coordinator',
+      description:
+        'Mekuria Worku supports respectful access between productions and local communities, managing introductions, consent, local protocol, and cultural sensitivity across Ethiopia\'s diverse filming environments.',
+    },
+  ]
+
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': `${url}#webpage`,
+        url,
+        name: 'The People Behind Sawla Films | Ethiopia Film Fixer Team',
+        description:
+          'Meet the named team behind Sawla Films — production lead Meti Tadele, plus coordinators, permits specialists, location scouts, logistics managers, translators, and cultural liaisons covering productions across Ethiopia.',
+        isPartOf: { '@id': websiteId },
+        about: { '@id': organizationId },
+        inLanguage: 'en',
+      },
+      ...members.map((member) => ({
+        '@type': 'Person',
+        name: member.name,
+        jobTitle: member.jobTitle,
+        description: member.description,
+        worksFor: { '@id': organizationId },
+        url,
+      })),
+    ],
   }
 }
 

@@ -2,10 +2,10 @@
 
 **Slug:** `/blog/filming-permits-ethiopia-producer-checklist`
 **Category:** Permits, Customs & Compliance
-**Author:** Sawla Films Field Production Team
+**Author:** Endegena Tsegaye
 **Target Word Count:** 1,200–1,600
 **Estimated Reading Time:** 7–9 min
-**Last Verified:** 2026-05-29
+**Last Verified:** 2026-01-15
 **Review Cadence:** Quarterly, and before any regulatory or seasonal update.
 
 **Meta Title:** Filming Permits in Ethiopia: Producer Checklist | Sawla Films

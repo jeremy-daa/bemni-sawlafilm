@@ -2,10 +2,10 @@
 
 **Slug:** `/blog/film-gear-customs-clearance-ethiopia`
 **Category:** Permits, Customs & Compliance
-**Author:** Sawla Films Field Production Team
+**Author:** Endegena Tsegaye
 **Target Word Count:** 1,200–1,500
 **Estimated Reading Time:** 7–8 min
-**Last Verified:** 2026-05-29
+**Last Verified:** 2026-02-03
 **Review Cadence:** Quarterly, and before any regulatory or seasonal update.
 
 **Meta Title:** Film Gear Customs Clearance in Ethiopia | Sawla Films

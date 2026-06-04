@@ -2,10 +2,10 @@
 
 **Slug:** `/blog/filming-lalibela-sacred-spaces-low-light`
 **Category:** Location Scouting & Field Guides
-**Author:** Sawla Films Location Desk
+**Author:** Mekuria Worku
 **Target Word Count:** 1,100–1,400
 **Estimated Reading Time:** 6–8 min
-**Last Verified:** 2026-05-29
+**Last Verified:** 2026-03-28
 **Review Cadence:** Quarterly, and before any regulatory or seasonal update.
 
 **Meta Title:** Filming Lalibela: Sacred Spaces & Cultural Protocols

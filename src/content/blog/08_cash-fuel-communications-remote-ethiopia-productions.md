@@ -2,10 +2,10 @@
 
 **Slug:** `/blog/cash-fuel-communications-remote-ethiopia-productions`
 **Category:** Insider Fixer Reports
-**Author:** Sawla Films Producer Support Desk
+**Author:** Tsega Desta
 **Target Word Count:** 1,000–1,300
 **Estimated Reading Time:** 6–7 min
-**Last Verified:** 2026-05-29
+**Last Verified:** 2026-05-08
 **Review Cadence:** Quarterly, and before any regulatory or seasonal update.
 
 **Meta Title:** Remote Ethiopia Production Logistics: Cash, Fuel & Comms

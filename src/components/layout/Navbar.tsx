@@ -12,7 +12,7 @@ const TOP_NAV = [
   { label: 'Services', href: '/ethiopia-film-fixer-services', dropdown: 'services' },
   { label: 'Filming Guide', href: '/ethiopia-filming-guide', dropdown: 'guides' },
   { label: 'Our Work', href: '/case-studies', dropdown: null },
-  { label: 'About', href: '/about', dropdown: null },
+  { label: 'About', href: '/about', dropdown: 'about' },
   { label: 'Blog', href: '/blog', dropdown: null },
   { label: 'Gallery', href: '/gallery', dropdown: null },
   { label: 'FAQ', href: '/faq', dropdown: null },
@@ -181,6 +181,43 @@ export function Navbar() {
                     </div>
                   </div>
                 )}
+
+                {item.dropdown === "about" && activeDD === "about" && (
+                  <div
+                    className={clsx(
+                      "absolute top-[calc(100%+8px)] left-1/2 -translate-x-1/2 w-[220px] border border-white/15 rounded-[4px] shadow-[0_20px_50px_rgba(0,0,0,0.4)] py-3 z-50 transition-all duration-300",
+                      scrolled
+                        ? "bg-[#0A0A0A]/95 backdrop-blur-none"
+                        : "bg-ink/75 backdrop-blur-2xl backdrop-saturate-150"
+                    )}
+                    onMouseEnter={() => showDD("about")}
+                    onMouseLeave={hideDD}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <p className="text-[9px] font-medium text-white/35 tracking-[0.14em] uppercase px-4 pb-2 border-b border-white/[0.06] mb-1">
+                      About Sawla Films
+                    </p>
+                    {[
+                      { label: 'About Sawla Films', href: '/about' },
+                      { label: 'Our Team', href: '/team' },
+                    ].map((link) => (
+                      <Link
+                        key={link.href}
+                        href={link.href}
+                        className="flex items-center gap-2.5 px-4 py-2 hover:bg-white/[0.05] transition-colors group"
+                        onClick={() => setActiveDD(null)}
+                      >
+                        <span
+                          className="w-1 h-1 rounded-full bg-white/25 flex-shrink-0 group-hover:bg-white/60 transition-colors"
+                          aria-hidden="true"
+                        />
+                        <span className="text-[12px] font-light text-white/60 group-hover:text-white transition-colors">
+                          {link.label}
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </li>
             ))}
           </ul>
@@ -244,14 +281,24 @@ export function Navbar() {
       >
         <nav className="mb-6" aria-label="Mobile navigation links">
           {TOP_NAV.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              onClick={closeMobile}
-              className="block font-serif text-[26px] font-light text-white/75 hover:text-white py-2.5 border-b border-white/[0.06] transition-colors"
-            >
-              {item.label}
-            </Link>
+            <div key={item.href}>
+              <Link
+                href={item.href}
+                onClick={closeMobile}
+                className={`block font-serif text-[26px] font-light text-white/75 hover:text-white py-2.5 transition-colors ${item.dropdown === 'about' ? '' : 'border-b border-white/[0.06]'}`}
+              >
+                {item.label}
+              </Link>
+              {item.dropdown === 'about' && (
+                <Link
+                  href="/team"
+                  onClick={closeMobile}
+                  className="block pl-5 font-serif text-[20px] font-light text-white/40 hover:text-white/75 py-2 border-b border-white/[0.06] transition-colors"
+                >
+                  Our Team
+                </Link>
+              )}
+            </div>
           ))}
           <Link
             href="/contact"

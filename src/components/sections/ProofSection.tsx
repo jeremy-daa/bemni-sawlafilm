@@ -6,7 +6,7 @@ import { TESTIMONIALS } from '@/lib/constants'
 
 // Tallest testimonial body drives the fixed card height.
 // Measured empirically — change if you add longer testimonials.
-const CARD_HEIGHT = 420
+const CARD_HEIGHT = 444
 
 export function ProofSection() {
   const [active, setActive] = useState(0)
@@ -129,8 +129,9 @@ export function ProofSection() {
                       {t.body}
                     </p>
                   </blockquote>
-                  <figcaption className="text-[10px] font-medium text-white/70 tracking-[0.06em] border-t border-white/[0.07] pt-3.5 leading-[1.6] uppercase">
-                    {t.role} · {t.country}
+                  <figcaption className="border-t border-white/[0.07] pt-3.5 leading-[1.6]">
+                    <span className="block text-[12px] font-medium text-white/85 mb-0.5">{t.name}</span>
+                    <span className="text-[10px] font-medium text-white/45 tracking-[0.06em] uppercase">{t.role} · {t.country}</span>
                   </figcaption>
                 </figure>
               </div>

@@ -10,6 +10,7 @@ import InteractiveMap          from '@/components/sections/InteractiveMap'
 import { ProcessSection }      from '@/components/sections/ProcessSection'
 import { GuideSection }        from '@/components/sections/GuideSection'
 import { WhySection }          from '@/components/sections/WhySection'
+import { TeamSection }         from '@/components/sections/TeamSection'
 import { CTASection }          from '@/components/sections/CTASection'
 import { BlogPreviewSection }  from '@/components/sections/BlogPreviewSection'
 import { JsonLd }              from '@/components/seo/JsonLd'
@@ -61,10 +62,13 @@ export default async function HomePage() {
       {/* 10. Why choose Sawla Films */}
       <WhySection />
 
-      {/* 11. Blog preview — 3 latest field notes */}
+      {/* 11. Named team — E-E-A-T trust signal */}
+      <TeamSection />
+
+      {/* 12. Blog preview — 3 latest field notes */}
       <BlogPreviewSection />
 
-      {/* 12. Final CTA — feasibility check */}
+      {/* 13. Final CTA — feasibility check */}
       <CTASection />
     </>
   )

@@ -2,10 +2,10 @@
 
 **Slug:** `/blog/how-fixers-solve-problems-ethiopia-field-decisions`
 **Category:** Insider Fixer Reports
-**Author:** Sawla Films Field Production Team
+**Author:** Meti Tadele
 **Target Word Count:** 1,000–1,300
 **Estimated Reading Time:** 6–7 min
-**Last Verified:** 2026-05-29
+**Last Verified:** 2026-05-22
 **Review Cadence:** Quarterly, and before any regulatory or seasonal update.
 
 **Meta Title:** How Ethiopia Fixers Solve Problems on Production Days

@@ -2,10 +2,10 @@
 
 **Slug:** `/blog/wildlife-filming-simien-mountains-endemic-species`
 **Category:** Production Blueprints
-**Author:** Sawla Films Producer Support Desk
+**Author:** Chalachew Bantiwalu
 **Target Word Count:** 1,100–1,500
 **Estimated Reading Time:** 7–8 min
-**Last Verified:** 2026-05-29
+**Last Verified:** 2026-04-10
 **Review Cadence:** Quarterly, and before any regulatory or seasonal update.
 
 **Meta Title:** Wildlife Filming in the Simien Mountains | Sawla Films

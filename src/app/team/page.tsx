@@ -1,49 +1,100 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Eyebrow } from '@/components/ui/Eyebrow'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { teamPageSchema } from '@/lib/schema'
 import { SITE } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Our Team | Ethiopia Film Fixer | Sawla Films',
   description:
-    'Meet the Sawla Films Ethiopia film fixer team: production coordinators, field fixers, regional translators, cultural liaisons, expedition specialists, and logistics coordinators.',
+    'Meet the named team behind Sawla Films — Meti Tadele (Founder & Lead Fixer), plus production coordinator, permits specialist, location scout, field logistics manager, translator, and cultural liaison supporting international productions across Ethiopia.',
   alternates: { canonical: '/team' },
   openGraph: {
     url: '/team',
-  }
+    title: 'The People Behind Sawla Films | Ethiopia Film Fixer Team',
+    description:
+      'Named production leads, coordinators, scouts, permits specialists, logistics managers, translators, and cultural liaisons supporting international film productions across Ethiopia.',
+  },
 }
 
-const TEAM_AREAS = [
+const TEAM_MEMBERS = [
   {
-    title: 'Production coordination',
-    desc: 'Former broadcast production coordinators and field operations specialists who understand international broadcaster standards, call sheet discipline, and multi-region schedule management. The team that builds the plan and holds it together when conditions change.',
-    skills: ['Multi-region scheduling', 'Permit pathway management', 'Budget and logistics alignment', 'Client communication', 'Risk flagging'],
+    name: 'Meti Tadele',
+    role: 'Founder, Lead Fixer & Production Lead',
+    bio: [
+      'Meti leads Sawla Films’ production support work in Ethiopia, bringing years of field experience, local travel knowledge, cultural understanding, and on-the-ground coordination into each project.',
+      'His background in Ethiopian guiding, logistics, photography, and specialist travel gives him a rare understanding of what international crews need when working across complex locations. He understands both the creative pressure of production and the real conditions behind the image — roads, access, timing, people, permits, regional coordination, and the rhythm of filming in Ethiopia.',
+      'For producers, Meti is often the first strategic point of contact: the person who studies the brief, identifies what needs to be verified, maps the local pathway, and builds the right field team around the project.',
+    ],
+    focus: ['Production feasibility', 'Fixer strategy', 'Field coordination', 'Local access', 'Cultural protocol', 'Producer communication', 'Daily problem-solving'],
+    producerValue: 'Meti helps turn an international production brief into a realistic Ethiopia filming plan.',
   },
   {
-    title: 'Field fixers and on-ground coordinators',
-    desc: 'Experienced fixers who have worked across Ethiopia\'s varied filming environments — from Addis Ababa city shoots to Danakil expedition conditions, Omo Valley community filming, Lalibela heritage access, and Simien mountain locations. Selected for judgment, reliability, and calm under pressure.',
-    skills: ['Shoot-day coordination', 'Local liaison and access', 'Call sheet management', 'Field problem solving', 'Crew communication'],
+    name: 'Ababe Gizachew',
+    role: 'Production Coordinator',
+    bio: [
+      'Ababe supports the structure that keeps the shoot organised from planning to wrap.',
+      'This role manages the practical rhythm around each filming day: schedules, call-time logic, hotel movements, transport timing, local crew updates, meal planning, daily notes, and communication between the international team and the Ethiopian field network.',
+      'In Ethiopia, a schedule must be more than a list of times. It must account for traffic, road conditions, local appointments, daylight, religious schedules, regional movement, meals, fuel, and crew recovery.',
+    ],
+    focus: ['Scheduling', 'Call sheets', 'Daily logistics', 'Transport timing', 'Accommodation coordination', 'Meal planning', 'Crew communication'],
+    producerValue: 'Ababe helps make the production schedule realistic, organised, and workable on the ground.',
   },
   {
-    title: 'Regional translators and interpreters',
-    desc: 'Translators and interpreters drawn from across Ethiopia\'s regions, covering Amharic, Tigrinya, Oromo, Somali, Afar, Sidama, and English. Many have extensive experience on international film and documentary productions and understand filming environments, contributor sensitivity, and production expectations.',
-    skills: ['Amharic', 'Tigrinya', 'Oromo', 'Somali', 'Afar', 'Sidama', 'English'],
+    name: 'Chalachew Bantiwalu',
+    role: 'Location Scout & Access Coordinator',
+    bio: [
+      'Chalachew helps productions find locations that are not only beautiful, but workable.',
+      'Ethiopia offers extraordinary visual possibilities: volcanic deserts, historic churches, highland escarpments, coffee landscapes, markets, monasteries, Rift Valley lakes, city life, and remote cultural regions. But every location has a production reality behind it.',
+      'This role evaluates access, roads, permissions, seasonality, light, sound, crowd behaviour, local contacts, cultural sensitivity, and timing. A strong location scout helps the director see the image — and helps the producer understand what it will take to film it.',
+    ],
+    focus: ['Location scouting', 'Access assessment', 'Visual references', 'Route planning', 'Local contact mapping', 'Seasonal conditions', 'Feasibility notes'],
+    producerValue: 'Chalachew helps identify locations that match the creative brief while staying realistic for time, access, and crew movement.',
   },
   {
-    title: 'Cultural liaisons',
-    desc: 'Local team members who bring cultural intelligence, community protocol awareness, and context knowledge that goes beyond language. Particularly important for Omo Valley community work, heritage site filming, religious location access, and any shooting environment where how you approach matters as much as what you are asking.',
-    skills: ['Community engagement', 'Protocol guidance', 'Contributor care', 'Cultural reading', 'Ceremony access'],
+    name: 'Endegena Tsegaye',
+    role: 'Permits, Access & Compliance Coordinator',
+    bio: [
+      'Endegena supports the planning process around filming permissions, access requirements, and production documentation.',
+      'Professional filming in Ethiopia can involve several layers of permission depending on the project, location, equipment, subject matter, drone needs, and crew profile. This department helps producers understand what documents may be needed, what details should be prepared early, and where additional local coordination may be required.',
+      'Sawla Films treats permits as part of production planning — not as a last-minute administrative task. The earlier the production shares its brief, locations, crew details, equipment list, drone needs, and filming intentions, the better the team can map the likely pathway.',
+    ],
+    focus: ['Filming permission pathways', 'Media accreditation support', 'Equipment documentation', 'Drone feasibility notes', 'Location-specific access planning', 'Requirement verification'],
+    producerValue: 'Endegena helps producers prepare the right information early, reducing avoidable delays before arrival.',
   },
   {
-    title: 'Expedition and logistics specialists',
-    desc: 'Through Sawla Tours, our expedition team provides field vehicles, experienced expedition drivers, remote accommodation coordination, fuel logistics, mobile camp support, and practical field coordination for remote shoots across Danakil, Omo, Simien, Gambela, and other challenging territories.',
-    skills: ['4x4 expedition vehicles', 'Remote routing', 'Fuel and supply logistics', 'Camp coordination', 'Field communication'],
+    name: 'Tsega Desta',
+    role: 'Field Logistics Manager',
+    bio: [
+      'Tsega coordinates the practical systems that keep crews moving safely and efficiently.',
+      'Remote filming in Ethiopia depends on strong logistics: vehicles, drivers, routes, fuel, water, accommodation, camps, equipment movement, local payments, communication plans, and backup options.',
+      'This role is especially important for productions working in the Danakil Depression, Omo Valley, Simien Mountains, Bale Mountains, Afar, remote highlands, desert routes, and multi-region filming plans. In remote production, logistics are not background support — they are the foundation of the shoot.',
+    ],
+    focus: ['4×4 vehicles', 'Drivers', 'Fuel planning', 'Remote routes', 'Field support', 'Equipment movement', 'Camp coordination', 'Contingency planning'],
+    producerValue: 'Tsega helps protect the production from the practical risks that can slow or stop a field shoot.',
   },
   {
-    title: 'Security and access coordinators',
-    desc: 'Team members who specialise in access-sensitive environment planning, route awareness, local authority liaison, movement coordination, and practical risk reduction for complex shoots, access-restricted regions, and high-visibility productions.',
-    skills: ['Access planning', 'Local authority liaison', 'Movement coordination', 'Risk awareness', 'Sensitive region planning'],
+    name: 'Lemma Alemu',
+    role: 'Translator & Local Crew Coordinator',
+    bio: [
+      'Lemma helps match each project with the right Ethiopian support team.',
+      'Strong local crew makes international production smoother, faster, and more culturally aware. Depending on the project, Sawla Films can coordinate translators, drivers, assistants, scouts, regional fixers, runners, cultural liaisons, and technical support where available.',
+      'For documentary and interview-based filming, this role is especially important. Translation is not only language — it is tone, timing, trust, context, and cultural understanding.',
+    ],
+    focus: ['Translators', 'Interpreters', 'Local crew', 'Assistants', 'Scouts', 'Drivers', 'Regional fixers', 'Interview support', 'Crew briefing'],
+    producerValue: 'Lemma helps producers work with the right people in the right place, with the right cultural and linguistic support.',
+  },
+  {
+    name: 'Mekuria Worku',
+    role: 'Cultural Liaison & Community Access Coordinator',
+    bio: [
+      'Mekuria supports respectful access between productions and local communities.',
+      'Many productions involve communities, elders, priests, artisans, farmers, market traders, pastoral groups, religious leaders, local officials, private families, or culturally sensitive spaces. These situations require patience, explanation, consent, and trust.',
+      'The Cultural Liaison helps bridge the gap between production goals and local expectations. This role supports introductions, explains filming intentions, helps manage consent, and protects the relationship between the crew and the people being filmed. For Sawla Films, cultural access is not a transaction — it is a responsibility.',
+    ],
+    focus: ['Community introductions', 'Consent', 'Local protocol', 'Cultural sensitivity', 'Sensitive interviews', 'Religious protocol', 'Relationship protection'],
+    producerValue: 'Mekuria helps productions approach people and places with respect, clarity, and cultural understanding.',
   },
 ]
 
@@ -60,6 +111,7 @@ const LANGUAGES = [
 export default function TeamPage() {
   return (
     <div className="min-h-screen">
+      <JsonLd id="team-page-schema" data={teamPageSchema()} />
 
       {/* ── HERO ── */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
@@ -74,60 +126,93 @@ export default function TeamPage() {
               <li className="text-white/50">Team</li>
             </ol>
           </nav>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <Eyebrow className="mb-4">The people behind the production</Eyebrow>
-              <h1 className="font-serif font-light text-white leading-[1.08] tracking-[-0.02em] mb-4" style={{ fontSize: 'clamp(30px,4.2vw,50px)' }}>
-                Our team across Ethiopia
-              </h1>
-              <p className="text-[14px] font-light text-white/55 leading-[1.8] mb-4">
-                Sawla Films draws on a network of production coordinators, field fixers, regional translators, cultural liaisons, logistics specialists, and expedition support built through more than a decade of operating in Ethiopia.
-              </p>
-              <p className="text-[13px] font-light text-white/35 italic mb-7">
-                Every person we work with is selected through direct field experience — not agency lists. We build the team around what the production needs, the region it covers, and the access it requires.
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Link href="/request-a-quote" className="inline-flex items-center gap-2 bg-ember text-white text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3 rounded-[2px] hover:bg-ember-glow transition-all hover:-translate-y-px">
-                  Request a Fixer / Get a Quote
-                </Link>
-              </div>
-            </div>
-            <div className="flex items-center justify-center lg:justify-end">
-              <Image
-                src="/brand/sawla-films-logo.jpg"
-                alt="Sawla Films Ethiopia film fixer"
-                width={220}
-                height={198}
-                className="rounded-[6px] opacity-85"
-              />
+          <div className="max-w-[700px]">
+            <Eyebrow className="mb-4">The people behind the production</Eyebrow>
+            <h1 className="font-serif font-light text-white leading-[1.08] tracking-[-0.02em] mb-4" style={{ fontSize: 'clamp(30px,4.2vw,50px)' }}>
+              The Sawla Films team
+            </h1>
+            <p className="text-[14px] font-light text-white/55 leading-[1.8] mb-4">
+              Sawla Films is built around a practical team structure: production leadership, permits, scouting, logistics, local crew, translation, cultural liaison, drivers, and field support. Each department works together to protect the production, respect the place, and keep the day moving.
+            </p>
+            <p className="text-[13px] font-light text-white/35 italic mb-7">
+              Every person we work with is selected through direct field experience — not agency lists. We build the team around what the production needs, the region it covers, and the access it requires.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/request-a-quote" className="inline-flex items-center gap-2 bg-ember text-white text-[11px] font-medium tracking-[0.08em] uppercase px-6 py-3 rounded-[2px] hover:bg-ember-glow transition-all hover:-translate-y-px">
+                Request a Fixer / Get a Quote
+              </Link>
             </div>
           </div>
         </div>
       </div>
 
-      {/* ── TEAM AREAS ── */}
+      {/* ── NAMED TEAM MEMBERS ── */}
       <section className="bg-cream py-16">
         <div className="max-w-[1240px] mx-auto px-[clamp(20px,4vw,48px)]">
-          <h2 className="font-serif font-light text-ink text-display-md mb-10 tracking-[-0.02em]">
-            Team specialisms
+          <h2 className="font-serif font-light text-ink text-display-md mb-2 tracking-[-0.02em]">
+            The people behind the production
           </h2>
+          <p className="text-[14px] font-light text-steel leading-[1.75] mb-10 max-w-[580px]">
+            Named team members across every department of production support in Ethiopia.
+          </p>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {TEAM_AREAS.map((area, i) => (
-              <div key={area.title} className={`border border-black/[0.07] rounded-[3px] p-6 ${i % 2 === 0 ? 'bg-warm' : 'bg-cream'}`}>
-                <h3 className="flex items-center gap-2.5 text-[14px] font-medium text-ink mb-3">
-                  <span className="w-[3px] h-4 bg-ember rounded-[1px] flex-shrink-0" aria-hidden="true" />
-                  {area.title}
-                </h3>
-                <p className="text-[13px] font-light text-steel leading-[1.75] mb-4">{area.desc}</p>
-                <div className="flex flex-wrap gap-1.5">
-                  {area.skills.map((skill) => (
-                    <span key={skill} className="text-[10px] font-light text-silver border border-black/[0.08] px-2.5 py-1 rounded-[2px] bg-white">
-                      {skill}
+            {TEAM_MEMBERS.map((member, i) => (
+              <div key={member.name} className={`border border-black/[0.07] rounded-[3px] p-6 ${i % 2 === 0 ? 'bg-warm' : 'bg-cream'}`}>
+                <div className="flex items-start gap-3 mb-4">
+                  <span className="w-[3px] self-stretch min-h-[44px] bg-ember rounded-[1px] flex-shrink-0" aria-hidden="true" />
+                  <div>
+                    <h3 className="text-[16px] font-medium text-ink leading-tight mb-1">{member.name}</h3>
+                    <p className="text-[10px] font-medium text-ember tracking-[0.1em] uppercase">{member.role}</p>
+                  </div>
+                </div>
+                <div className="space-y-2.5 mb-4">
+                  {member.bio.map((para, j) => (
+                    <p key={j} className="text-[13px] font-light text-steel leading-[1.75]">{para}</p>
+                  ))}
+                </div>
+                <div className="flex flex-wrap gap-1.5 mb-4">
+                  {member.focus.map((tag) => (
+                    <span key={tag} className="text-[10px] font-light text-silver border border-black/[0.08] px-2.5 py-1 rounded-[2px] bg-white">
+                      {tag}
                     </span>
                   ))}
                 </div>
+                <p className="text-[12px] font-light text-steel/70 italic border-l-2 border-ember/30 pl-3 leading-[1.6]">
+                  {member.producerValue}
+                </p>
               </div>
             ))}
+          </div>
+
+          {/* ── FIELD SUPPORT CREW ── */}
+          <div className="mt-5 border border-black/[0.07] rounded-[3px] p-6 bg-ink">
+            <div className="flex items-start gap-3 mb-5">
+              <span className="w-[3px] self-stretch min-h-[44px] bg-ember rounded-[1px] flex-shrink-0" aria-hidden="true" />
+              <div>
+                <h3 className="text-[16px] font-medium text-white leading-tight mb-1">Expedition Drivers & Field Support Crew</h3>
+                <p className="text-[10px] font-medium text-ember tracking-[0.1em] uppercase">Field & Remote Production</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-2.5">
+                <p className="text-[13px] font-light text-white/60 leading-[1.75]">Our drivers and field support crew are some of the most important people on any production.</p>
+                <p className="text-[13px] font-light text-white/60 leading-[1.75]">In Ethiopia, a skilled driver is not simply someone behind the wheel. Drivers understand roads, timing, terrain, fuel stops, vehicle care, route changes, weather, safety, and the rhythm of moving a crew through complex environments. For remote productions, the driver becomes part of the safety system, logistics system, and schedule system.</p>
+                <p className="text-[13px] font-light text-white/60 leading-[1.75]">Our field support crew assists with equipment movement, vehicle loading, camp support, crew comfort, and practical production needs during long field days.</p>
+              </div>
+              <div>
+                <div className="flex flex-wrap gap-1.5 mb-4">
+                  {['4×4 driving', 'Crew transport', 'Equipment movement', 'Road awareness', 'Field support', 'Vehicle readiness', 'Loading assistance', 'Remote production support'].map((tag) => (
+                    <span key={tag} className="text-[10px] font-light text-white/40 border border-white/[0.1] px-2.5 py-1 rounded-[2px] bg-white/[0.04]">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <p className="text-[12px] font-light text-white/50 italic border-l-2 border-ember/30 pl-3 leading-[1.6]">
+                  Our drivers and field crew help move people, equipment, and production days safely across Ethiopia.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

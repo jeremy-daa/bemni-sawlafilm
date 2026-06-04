@@ -2,10 +2,10 @@
 
 **Slug:** `/blog/filming-danakil-depression-heat-access-convoys`
 **Category:** Location Scouting & Field Guides
-**Author:** Sawla Films Location Desk
+**Author:** Tsega Desta
 **Target Word Count:** 1,200–1,500
 **Estimated Reading Time:** 7–8 min
-**Last Verified:** 2026-05-29
+**Last Verified:** 2026-03-12
 **Review Cadence:** Quarterly, and before any regulatory or seasonal update.
 
 **Meta Title:** Filming the Danakil Depression: Field Logistics Guide
