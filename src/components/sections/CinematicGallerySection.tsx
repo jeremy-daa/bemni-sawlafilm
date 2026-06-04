@@ -27,7 +27,7 @@ export function CinematicGallerySection() {
       span: 'md:col-span-7 aspect-[16/10]',
     },
     {
-      record: records.find((r) => r.slug === 'img-2106' || r.labelName === 'img-2106'),
+      record: records.find((r) => r.slug === 'sawla-films-gelada-monkey-endemic-wildlife-documentary-golden-hour-simien-mountainsjpg' || r.labelName === 'sawla-films-gelada-monkey-endemic-wildlife-documentary-golden-hour-simien-mountainsjpg'),
       title: 'Highland Expeditions',
       location: 'Simien Mountains',
       span: 'md:col-span-5 aspect-[4/5]',
@@ -39,7 +39,7 @@ export function CinematicGallerySection() {
       span: 'md:col-span-5 aspect-[4/5]',
     },
     {
-      record: records.find((r) => r.slug === 'whatsapp-image-2026-05-18-at-16-40-39' || r.labelName === 'whatsapp-image-2026-05-18-at-16-40-39'),
+      record: records.find((r) => r.slug === 'sawla-films-location-scouting-recce-sunset-silhouette-northern-ethiopia-mountainsjpg' || r.labelName === 'sawla-films-location-scouting-recce-sunset-silhouette-northern-ethiopia-mountainsjpg'),
       title: 'Scouting & Recce',
       location: 'Ethiopian Highlands',
       span: 'md:col-span-7 aspect-[16/10]',
