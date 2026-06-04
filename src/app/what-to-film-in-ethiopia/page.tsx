@@ -31,6 +31,7 @@ export default function WhatToFilmPage() {
 
   return (
     <GuidePageLayout
+      slug="what-to-film-in-ethiopia"
       heroImageRecord={imageRecord}
       eyebrow="Ethiopia filming guide"
       h1="What to Film in Ethiopia"

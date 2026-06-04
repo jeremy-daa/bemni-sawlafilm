@@ -6,6 +6,8 @@ import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { ContactForm } from './ContactForm'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { pageSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Contact Sawla Films | Ethiopia Film Fixer',
@@ -42,6 +44,16 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen">
+      <JsonLd
+        id="contact-page-schema"
+        data={pageSchema({
+          type: 'ContactPage',
+          path: '/contact',
+          name: 'Contact Sawla Films',
+          description:
+            'Contact Sawla Films for film fixing, production support, permits, logistics, and crew in Ethiopia. Every enquiry is reviewed personally and production details are NDA-safe by default.',
+        })}
+      />
 
       {/* ── HERO ── */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">

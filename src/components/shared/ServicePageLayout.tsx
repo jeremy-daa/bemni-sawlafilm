@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { PremiumImage } from '@/components/ui/PremiumImage'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { serviceSchema } from '@/lib/schema'
 
 interface RelatedService {
   label: string
@@ -70,6 +72,17 @@ export function ServicePageLayout({
 }: ServicePageLayoutProps) {
   return (
     <div className="min-h-screen">
+      <JsonLd
+        id={`${slug}-service-schema`}
+        data={serviceSchema({
+          slug,
+          name: h1,
+          description: subhead,
+          summaryItems,
+          related,
+          faqs,
+        })}
+      />
 
       {/* ── HERO ─────────────────────────────────────────── */}
       <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">

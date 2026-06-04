@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { pageSchema } from '@/lib/schema'
 
 import { PremiumImage } from '@/components/ui/PremiumImage'
 import galleryData from '@/data/gallery.json'
@@ -61,6 +63,17 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen">
+      <JsonLd
+        id="about-page-schema"
+        data={pageSchema({
+          type: 'AboutPage',
+          path: '/about',
+          name: 'About Sawla Films',
+          description:
+            'Sawla Films is an Ethiopia-based film fixer and production support company helping international documentary, broadcast, factual, commercial, and independent production teams plan and execute shoots with permits, logistics, respectful access, and on-ground coordination.',
+        })}
+      />
+
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">
         {backgroundRecord ? (

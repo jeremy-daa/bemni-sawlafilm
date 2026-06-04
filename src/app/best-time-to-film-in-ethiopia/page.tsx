@@ -31,6 +31,7 @@ export default function BestTimePage() {
 
   return (
     <GuidePageLayout
+      slug="best-time-to-film-in-ethiopia"
       heroImageRecord={imageRecord}
       eyebrow="Ethiopia filming guide"
       h1="Best Time to Film in Ethiopia"

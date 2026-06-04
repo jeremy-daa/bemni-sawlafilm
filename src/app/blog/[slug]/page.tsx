@@ -4,6 +4,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { getPostBySlug, getAllSlugs } from '@/lib/blog'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { blogPostingSchema } from '@/lib/schema'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -37,6 +39,19 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-warm">
+      <JsonLd
+        id="blog-posting-schema"
+        data={blogPostingSchema({
+          slug: post.slug,
+          title: post.title,
+          description: post.producerSummary || post.metaDescription,
+          author: post.author,
+          date: post.lastVerified,
+          image: post.image.srcFull,
+          category: post.category,
+          keywords: post.primaryKeyword,
+        })}
+      />
 
       {/* HERO — full-bleed image with dark overlay */}
       <div className="relative bg-ink pt-[80px] overflow-hidden" style={{ minHeight: '420px' }}>

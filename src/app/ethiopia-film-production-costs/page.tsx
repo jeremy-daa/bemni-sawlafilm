@@ -32,6 +32,7 @@ export default function ProductionCostsPage() {
 
   return (
     <GuidePageLayout
+      slug="ethiopia-film-production-costs"
       eyebrow="Ethiopia filming guide"
       h1="Ethiopia Film Production Costs"
       subhead="What drives budgets for productions filming in Ethiopia — and what to plan for."

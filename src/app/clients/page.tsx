@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
 import { TestimonialsSection } from '@/components/sections/TestimonialsSection'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { pageSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Ethiopia Film Fixer Clients & Selected Credits | Sawla Films',
@@ -37,6 +39,16 @@ const WORK_TYPES = [
 export default function ClientsPage() {
   return (
     <div className="min-h-screen">
+      <JsonLd
+        id="clients-page-schema"
+        data={pageSchema({
+          type: 'CollectionPage',
+          path: '/clients',
+          name: 'Ethiopia Film Fixer Clients and Selected Credits',
+          description:
+            'Selected production experience across Ethiopia for international broadcasters, production companies, and streaming platforms, with NDA-safe references and capabilities in permits, field logistics, access, and shoot-day operations.',
+        })}
+      />
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">

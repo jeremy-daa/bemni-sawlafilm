@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { getAllPosts } from '@/lib/blog'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { pageSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Ethiopia Film Production Blog | Field Guides & Insights | Sawla Films',
@@ -26,6 +28,16 @@ export default async function BlogPage() {
 
   return (
     <div className="min-h-screen">
+      <JsonLd
+        id="blog-collection-schema"
+        data={pageSchema({
+          type: 'CollectionPage',
+          path: '/blog',
+          name: 'Ethiopia Film Production Blog',
+          description:
+            'Practical field guides, permit advice, location intelligence, customs guidance, logistics decisions, and production insights for international crews filming in Ethiopia.',
+        })}
+      />
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">

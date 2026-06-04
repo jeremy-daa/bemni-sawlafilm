@@ -5,6 +5,8 @@ import { PremiumImage } from '@/components/ui/PremiumImage'
 import galleryData from '@/data/gallery.json'
 import { FullMediaRecord } from '@/types/gallery'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { pageSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Ethiopia Film Production Case Studies | Sawla Films',
@@ -90,6 +92,16 @@ export default function CaseStudiesPage() {
 
   return (
     <div className="min-h-screen">
+      <JsonLd
+        id="case-studies-page-schema"
+        data={pageSchema({
+          type: 'CollectionPage',
+          path: '/case-studies',
+          name: 'Selected Ethiopia Production Case Studies',
+          description:
+            'Selected production experience across Ethiopia, including remote expedition logistics, heritage and sacred site access, community filming with consent, multi-authority permits, drone coordination, and shoot-day support.',
+        })}
+      />
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">

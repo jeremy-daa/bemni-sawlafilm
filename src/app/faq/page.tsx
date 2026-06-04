@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Script from 'next/script'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { faqPageSchema } from '@/lib/schema'
 
 import { PremiumImage } from '@/components/ui/PremiumImage'
 import galleryData from '@/data/gallery.json'
@@ -117,19 +118,6 @@ const FAQ_GROUPS = [
   },
 ]
 
-// Build FAQPage schema
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: FAQ_GROUPS.flatMap((group) =>
-    group.items.map((item) => ({
-      '@type': 'Question',
-      name: item.q,
-      acceptedAnswer: { '@type': 'Answer', text: item.a },
-    }))
-  ),
-}
-
 export default function FAQPage() {
   const records = (galleryData.records as (FullMediaRecord & { flaggedForDeletion?: boolean })[])
     .filter(r => !r.flaggedForDeletion)
@@ -148,7 +136,7 @@ export default function FAQPage() {
 
   return (
     <div className="min-h-screen">
-      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <JsonLd id="faq-schema" data={faqPageSchema(FAQ_GROUPS.flatMap((group) => group.items))} />
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">

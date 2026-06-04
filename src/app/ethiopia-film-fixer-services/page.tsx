@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
-import { SITE, SERVICES } from '@/lib/constants'
+import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { serviceHubSchema } from '@/lib/schema'
 
 import { PremiumImage } from '@/components/ui/PremiumImage'
 import galleryData from '@/data/gallery.json'
@@ -54,6 +56,7 @@ export default function ServicesHubPage() {
 
   return (
     <div className="min-h-screen">
+      <JsonLd id="services-hub-schema" data={serviceHubSchema(ALL_SERVICES)} />
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">

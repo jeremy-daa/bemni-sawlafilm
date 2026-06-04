@@ -5,6 +5,8 @@ import { FullMediaRecord } from '@/types/gallery'
 import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { pageSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Ethiopia Filming Guide | Permits, Drone, Weather, Costs & Planning',
@@ -50,6 +52,16 @@ export default function FilmingGuideHubPage() {
 
   return (
     <div className="min-h-screen">
+      <JsonLd
+        id="ethiopia-filming-guide-page-schema"
+        data={pageSchema({
+          type: 'CollectionPage',
+          path: '/ethiopia-filming-guide',
+          name: 'Ethiopia Filming Guide',
+          description:
+            'A practical Ethiopia filming guide for producers covering permits, drone approvals, film equipment import, best filming seasons, production costs, and logistics planning for shoots nationwide.',
+        })}
+      />
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">

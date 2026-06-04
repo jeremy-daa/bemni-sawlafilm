@@ -1,0 +1,1777 @@
+{
+  "http://localhost:3000": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ethiopiafilmfixer.com/#webpage",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer for Permits, Logistics and Production Support",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company helping international crews with permits, access, logistics, customs, drone coordination, local crew, and on-ground fixing across all 12 regional states. Built for international productions that need clarity, control, and calm execution.",
+          "isPartOf": {
+            "@id": "https://www.ethiopiafilmfixer.com/#website"
+          },
+          "about": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": [
+            "LocalBusiness",
+            "ProfessionalService"
+          ],
+          "@id": "https://www.ethiopiafilmfixer.com/#professionalservice",
+          "name": "Sawla Films (Ethiopia Film Fixer)",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "logo": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company helping international crews with permits, access, logistics, customs, drone coordination, local crew, and on-ground fixing across all 12 regional states. Built for international productions that need clarity, control, and calm execution.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "telephone": "+251 927 115 454",
+          "email": "production@ethiopiafilmfixer.com",
+          "priceRange": "Project-specific quote",
+          "currenciesAccepted": "USD, EUR, GBP",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "availableLanguage": [
+            "English",
+            "Amharic",
+            "Oromo",
+            "Tigrinya",
+            "Somali"
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ],
+          "parentOrganization": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Filming Permits & Compliance",
+                "url": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Drone Permits & Aerial Coordination",
+                "url": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Customs & Equipment Import",
+                "url": "https://www.ethiopiafilmfixer.com/customs-clearance-film-equipment-ethiopia"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Production Logistics",
+                "url": "https://www.ethiopiafilmfixer.com/production-logistics-ethiopia"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Location Scouting & Recce",
+                "url": "https://www.ethiopiafilmfixer.com/location-scouting-ethiopia"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Local Crew, Translators & Liaison",
+                "url": "https://www.ethiopiafilmfixer.com/local-crew-translators-ethiopia"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Security & Access Coordination",
+                "url": "https://www.ethiopiafilmfixer.com/filming-security-access-ethiopia"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "On-Ground Fixing",
+                "url": "https://www.ethiopiafilmfixer.com/on-ground-fixer-ethiopia"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "VIP & Celebrity Handling",
+                "url": "https://www.ethiopiafilmfixer.com/vip-celebrity-handling-ethiopia"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "http://localhost:3000/request-a-quote": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Request A Quote",
+          "item": "https://www.ethiopiafilmfixer.com/request-a-quote"
+        }
+      ]
+    }
+  ],
+  "http://localhost:3000/contact": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://www.ethiopiafilmfixer.com/contact"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "@id": "https://www.ethiopiafilmfixer.com/contact#webpage",
+      "url": "https://www.ethiopiafilmfixer.com/contact",
+      "name": "Contact Sawla Films",
+      "description": "Contact Sawla Films for film fixing, production support, permits, logistics, and crew in Ethiopia. Every enquiry is reviewed personally and production details are NDA-safe by default.",
+      "isPartOf": {
+        "@id": "https://www.ethiopiafilmfixer.com/#website"
+      },
+      "about": {
+        "@id": "https://www.ethiopiafilmfixer.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg"
+      },
+      "inLanguage": "en"
+    }
+  ],
+  "http://localhost:3000/privacy-policy": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Privacy Policy",
+          "item": "https://www.ethiopiafilmfixer.com/privacy-policy"
+        }
+      ]
+    }
+  ],
+  "http://localhost:3000/ethiopia-film-fixer-services": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Film Fixer Services in Ethiopia",
+          "item": "https://www.ethiopiafilmfixer.com/ethiopia-film-fixer-services"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://www.ethiopiafilmfixer.com/ethiopia-film-fixer-services#webpage",
+          "url": "https://www.ethiopiafilmfixer.com/ethiopia-film-fixer-services",
+          "name": "Film Fixer Services in Ethiopia",
+          "description": "Sawla Films provides film fixer services in Ethiopia for international productions that need clear approvals, practical logistics, respectful access, and calm on-ground coordination.",
+          "isPartOf": {
+            "@id": "https://www.ethiopiafilmfixer.com/#website"
+          },
+          "about": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.ethiopiafilmfixer.com/ethiopia-film-fixer-services#service",
+          "name": "Film Fixer Services in Ethiopia",
+          "description": "Full-service Ethiopia film fixer support covering permits, drone approvals, customs, production logistics, location scouting, local crew, security-aware access, on-ground fixing, and VIP handling.",
+          "provider": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Sawla Films Ethiopia film fixer services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "position": 1,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Filming Permits & Compliance",
+                  "description": "Federal, regional, and location approvals including heritage sites, restricted areas, and community consent where required.",
+                  "url": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia",
+                  "provider": {
+                    "@id": "https://www.ethiopiafilmfixer.com/#organization"
+                  },
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Ethiopia"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 2,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Drone Permits & Aerial Coordination",
+                  "description": "Drone permission planning, restriction checks, documentation support, and aerial coordination where approvals are required and operationally possible.",
+                  "url": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia",
+                  "provider": {
+                    "@id": "https://www.ethiopiafilmfixer.com/#organization"
+                  },
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Ethiopia"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 3,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Customs & Equipment Import",
+                  "description": "ATA Carnet or temporary import planning, equipment documentation, Bole Airport clearance coordination, and gear tracking.",
+                  "url": "https://www.ethiopiafilmfixer.com/customs-clearance-film-equipment-ethiopia",
+                  "provider": {
+                    "@id": "https://www.ethiopiafilmfixer.com/#organization"
+                  },
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Ethiopia"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 4,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Production Logistics",
+                  "description": "4×4 transport, routing, accommodation, fuel planning, remote field support, and practical contingencies for changing conditions.",
+                  "url": "https://www.ethiopiafilmfixer.com/production-logistics-ethiopia",
+                  "provider": {
+                    "@id": "https://www.ethiopiafilmfixer.com/#organization"
+                  },
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Ethiopia"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 5,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Location Scouting & Recce",
+                  "description": "Permission-aware scouting, recce notes, visual references, access checks, seasonal considerations, and producer-ready briefing materials.",
+                  "url": "https://www.ethiopiafilmfixer.com/location-scouting-ethiopia",
+                  "provider": {
+                    "@id": "https://www.ethiopiafilmfixer.com/#organization"
+                  },
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Ethiopia"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 6,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Local Crew, Translators & Liaison",
+                  "description": "Trusted local crew, fixers, assistants, translators, and cultural liaisons selected for judgment, reliability, and discretion.",
+                  "url": "https://www.ethiopiafilmfixer.com/local-crew-translators-ethiopia",
+                  "provider": {
+                    "@id": "https://www.ethiopiafilmfixer.com/#organization"
+                  },
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Ethiopia"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 7,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Security & Sensitive Region",
+                  "description": "Movement planning, access protocols, authority coordination, and practical risk reduction for complex or access-sensitive locations.",
+                  "url": "https://www.ethiopiafilmfixer.com/filming-security-access-ethiopia",
+                  "provider": {
+                    "@id": "https://www.ethiopiafilmfixer.com/#organization"
+                  },
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Ethiopia"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 8,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "On-Ground Fixing (Shoot Days)",
+                  "description": "Call sheet coordination, local liaison, access management, rapid updates, and real-time problem solving during shoot days.",
+                  "url": "https://www.ethiopiafilmfixer.com/on-ground-fixer-ethiopia",
+                  "provider": {
+                    "@id": "https://www.ethiopiafilmfixer.com/#organization"
+                  },
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Ethiopia"
+                  }
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 9,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "VIP / Celebrity Handling",
+                  "description": "Discreet, privacy-first support for celebrity-led, high-profile, reality, branded, and VIP production requirements.",
+                  "url": "https://www.ethiopiafilmfixer.com/vip-celebrity-handling-ethiopia",
+                  "provider": {
+                    "@id": "https://www.ethiopiafilmfixer.com/#organization"
+                  },
+                  "areaServed": {
+                    "@type": "Country",
+                    "name": "Ethiopia"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "http://localhost:3000/filming-permits-ethiopia": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.ethiopiafilmfixer.com/ethiopia-film-fixer-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Filming Permits in Ethiopia",
+          "item": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia#service",
+          "name": "Filming Permits in Ethiopia",
+          "description": "Approvals and compliance planned early, so your schedule stays realistic.",
+          "serviceType": "Filming Permits in Ethiopia",
+          "provider": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "availableChannel": {
+            "@type": "ServiceChannel",
+            "serviceUrl": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia",
+            "servicePhone": "+251 927 115 454"
+          },
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "International film, documentary, broadcast, commercial, NGO, and independent production teams"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Filming Permits in Ethiopia deliverables",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "position": 1,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Permit mapping by region, location type, subject matter, production category, and planned equipment use."
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 2,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Documentation support, submission coordination, and local follow-up with relevant authorities and custodial contacts."
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 3,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Early risk flags for restricted areas, heritage sites, religious sites, protected landscapes, community filming, drone work, and sensitive topics."
+                }
+              }
+            ]
+          },
+          "isRelatedTo": [
+            {
+              "@type": "Service",
+              "name": "Drone Permits & Aerial Coordination",
+              "url": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia"
+            },
+            {
+              "@type": "Service",
+              "name": "Security & Access Coordination",
+              "url": "https://www.ethiopiafilmfixer.com/filming-security-access-ethiopia"
+            },
+            {
+              "@type": "Service",
+              "name": "Location Scouting & Recce",
+              "url": "https://www.ethiopiafilmfixer.com/location-scouting-ethiopia"
+            },
+            {
+              "@type": "Service",
+              "name": "Production Logistics",
+              "url": "https://www.ethiopiafilmfixer.com/production-logistics-ethiopia"
+            },
+            {
+              "@type": "Service",
+              "name": "On-Ground Fixing",
+              "url": "https://www.ethiopiafilmfixer.com/on-ground-fixer-ethiopia"
+            }
+          ],
+          "url": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia#webpage",
+          "url": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia",
+          "name": "Filming Permits in Ethiopia",
+          "description": "Approvals and compliance planned early, so your schedule stays realistic.",
+          "isPartOf": {
+            "@id": "https://www.ethiopiafilmfixer.com/#website"
+          },
+          "about": {
+            "@id": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia#service"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How early should we apply for filming permits in Ethiopia?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As early as possible once dates and locations are known. Early planning helps identify federal, regional, local, heritage, community, protected-area, or special-access requirements before the schedule becomes difficult to change."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a federal filming permit cover everything?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not always. A federal permit may be an important starting point, but some locations may still require regional, local, custodial, religious, park, community, or security-related coordination."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you support permissions for heritage and religious sites?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Sawla Films can coordinate filming requests with custodial authorities and advise on protocol requirements, timing, respectful access, and any limitations that may affect the shoot."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do drone permits need a separate process?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Usually, drone filming should be planned separately from general filming permits. Drone work may involve additional documentation, restriction checks, flight permissions, and operational planning."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you help if we are still deciding locations?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. A permit feasibility review can be useful before locations are finalized. We can flag which options may be easier, slower, more sensitive, or dependent on additional coordination."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "http://localhost:3000/drone-permits-ethiopia": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.ethiopiafilmfixer.com/ethiopia-film-fixer-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Drone Permits in Ethiopia",
+          "item": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia#service",
+          "name": "Drone Permits in Ethiopia",
+          "description": "Aerial permission planning and practical shoot-day coordination for productions filming in Ethiopia.",
+          "serviceType": "Drone Permits in Ethiopia",
+          "provider": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "availableChannel": {
+            "@type": "ServiceChannel",
+            "serviceUrl": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia",
+            "servicePhone": "+251 927 115 454"
+          },
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "International film, documentary, broadcast, commercial, NGO, and independent production teams"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Drone Permits in Ethiopia deliverables",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "position": 1,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Drone permission planning aligned with your filming route, subject matter, and schedule."
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 2,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Documentation support for drone model, serial numbers, pilot details, intended use, and import or clearance needs."
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 3,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Restriction checks for sensitive locations, controlled areas, heritage sites, national parks, and access-sensitive regions."
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 4,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Aerial operations coordination with production logistics, batteries, security, and shoot-day timing."
+                }
+              },
+              {
+                "@type": "Offer",
+                "position": 5,
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Local pilot, spotter, or aerial support coordination where suitable, available, and appropriate."
+                }
+              }
+            ]
+          },
+          "isRelatedTo": [
+            {
+              "@type": "Service",
+              "name": "Filming Permits & Compliance",
+              "url": "https://www.ethiopiafilmfixer.com/filming-permits-ethiopia"
+            },
+            {
+              "@type": "Service",
+              "name": "Customs & Equipment Import",
+              "url": "https://www.ethiopiafilmfixer.com/customs-clearance-film-equipment-ethiopia"
+            },
+            {
+              "@type": "Service",
+              "name": "Security & Access Coordination",
+              "url": "https://www.ethiopiafilmfixer.com/filming-security-access-ethiopia"
+            },
+            {
+              "@type": "Service",
+              "name": "Production Logistics",
+              "url": "https://www.ethiopiafilmfixer.com/production-logistics-ethiopia"
+            },
+            {
+              "@type": "Service",
+              "name": "On-Ground Fixing",
+              "url": "https://www.ethiopiafilmfixer.com/on-ground-fixer-ethiopia"
+            }
+          ],
+          "url": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia#webpage",
+          "url": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia",
+          "name": "Drone Permits in Ethiopia",
+          "description": "Aerial permission planning and practical shoot-day coordination for productions filming in Ethiopia.",
+          "isPartOf": {
+            "@id": "https://www.ethiopiafilmfixer.com/#website"
+          },
+          "about": {
+            "@id": "https://www.ethiopiafilmfixer.com/drone-permits-ethiopia#service"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Do drone permits differ by region and location type?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Drone feasibility and permission requirements can vary by location, subject matter, airspace sensitivity, access conditions, protected-area rules, local protocol, and current authority guidance. We review each planned location before advising what is realistic."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can drone approval be handled as part of the normal filming permit?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sometimes drone planning can be coordinated alongside the general filming permit process, but it should not be assumed that a standard filming permit automatically covers aerial work. Drone requirements often need separate documentation or review."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How early should we start drone permit planning?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As early as possible once your locations and dates are known. Drone work should be planned before crew travel, equipment import, and final scheduling are locked, especially for remote areas, protected landscapes, urban locations, or sensitive sites."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you guarantee drone approval?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Drone approval depends on the relevant authorities, location conditions, security considerations, documentation, and current guidance. Our role is to plan, coordinate, advise, and reduce avoidable risk."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you coordinate local drone pilots or aerial teams?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, where suitable and available. We can help coordinate local pilots, spotters, or aerial support teams and align them with the wider production schedule."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "http://localhost:3000/case-studies": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Case Studies",
+          "item": "https://www.ethiopiafilmfixer.com/case-studies"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": "https://www.ethiopiafilmfixer.com/case-studies#webpage",
+      "url": "https://www.ethiopiafilmfixer.com/case-studies",
+      "name": "Selected Ethiopia Production Case Studies",
+      "description": "Selected production experience across Ethiopia, including remote expedition logistics, heritage and sacred site access, community filming with consent, multi-authority permits, drone coordination, and shoot-day support.",
+      "isPartOf": {
+        "@id": "https://www.ethiopiafilmfixer.com/#website"
+      },
+      "about": {
+        "@id": "https://www.ethiopiafilmfixer.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg"
+      },
+      "inLanguage": "en"
+    }
+  ],
+  "http://localhost:3000/clients": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Clients and Credits",
+          "item": "https://www.ethiopiafilmfixer.com/clients"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": "https://www.ethiopiafilmfixer.com/clients#webpage",
+      "url": "https://www.ethiopiafilmfixer.com/clients",
+      "name": "Ethiopia Film Fixer Clients and Selected Credits",
+      "description": "Selected production experience across Ethiopia for international broadcasters, production companies, and streaming platforms, with NDA-safe references and capabilities in permits, field logistics, access, and shoot-day operations.",
+      "isPartOf": {
+        "@id": "https://www.ethiopiafilmfixer.com/#website"
+      },
+      "about": {
+        "@id": "https://www.ethiopiafilmfixer.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg"
+      },
+      "inLanguage": "en"
+    }
+  ],
+  "http://localhost:3000/gallery": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gallery",
+          "item": "https://www.ethiopiafilmfixer.com/gallery"
+        }
+      ]
+    }
+  ],
+  "http://localhost:3000/about": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://www.ethiopiafilmfixer.com/about"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "@id": "https://www.ethiopiafilmfixer.com/about#webpage",
+      "url": "https://www.ethiopiafilmfixer.com/about",
+      "name": "About Sawla Films",
+      "description": "Sawla Films is an Ethiopia-based film fixer and production support company helping international documentary, broadcast, factual, commercial, and independent production teams plan and execute shoots with permits, logistics, respectful access, and on-ground coordination.",
+      "isPartOf": {
+        "@id": "https://www.ethiopiafilmfixer.com/#website"
+      },
+      "about": {
+        "@id": "https://www.ethiopiafilmfixer.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg"
+      },
+      "inLanguage": "en"
+    }
+  ],
+  "http://localhost:3000/team": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.ethiopiafilmfixer.com/#organization",
+          "name": "Sawla Films",
+          "alternateName": "Ethiopia Film Fixer",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "email": "production@ethiopiafilmfixer.com",
+          "telephone": "+251 927 115 454",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.ethiopiafilmfixer.com/brand/sawla-films-logo.jpg"
+          },
+          "image": "https://www.ethiopiafilmfixer.com/assets/images/og-default-1200x630.jpg",
+          "description": "Sawla Films is an Ethiopia-based film fixer and production support company for international documentary, broadcast, factual, commercial, NGO, independent, and high-profile productions.",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Addis Ababa, Ethiopia"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Addis Ababa",
+            "addressCountry": "ET"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries",
+              "email": "production@ethiopiafilmfixer.com",
+              "telephone": "+251 927 115 454",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "Production inquiries alternate",
+              "telephone": "+251 970 578 306",
+              "availableLanguage": [
+                "English",
+                "Amharic"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.sawlatours.com/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.ethiopiafilmfixer.com/#website",
+          "url": "https://www.ethiopiafilmfixer.com",
+          "name": "Ethiopia Film Fixer | Sawla Films",
+          "publisher": {
+            "@id": "https://www.ethiopiafilmfixer.com/#organization"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ethiopiafilmfixer.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Team",
+          "item": "https://www.ethiopiafilmfixer.com/team"
+        }
+      ]
+    }
+  ]
+}

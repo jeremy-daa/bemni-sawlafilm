@@ -1,12 +1,15 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
 import Script from 'next/script'
-import { homeMetadata, homeSchema } from '@/lib/metadata'
+import { homeMetadata } from '@/lib/metadata'
 import { Navbar }           from '@/components/layout/Navbar'
 import { Footer }           from '@/components/layout/Footer'
 import { WhatsAppButton }   from '@/components/layout/WhatsAppButton'
 import { ScrollRevealInit } from '@/components/ScrollRevealInit'
 import { CustomCursor }     from '@/components/ui/CustomCursor'
+import { JsonLd }           from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd'
+import { siteIdentitySchema } from '@/lib/schema'
 import '@/styles/globals.css'
 
 /* ── Fonts ─────────────────────────────────────────────────────────────────── */
@@ -60,13 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
 
-        {/* JSON-LD structured data */}
-        <Script
-          id="schema-org"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }}
-          strategy="beforeInteractive"
-        />
+        <JsonLd id="site-identity-schema" data={siteIdentitySchema()} />
       </head>
 
       <body className="bg-cream text-ink antialiased overflow-x-hidden">
@@ -78,6 +75,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Navigation */}
         <Navbar />
+
+        {/* Route-aware structured breadcrumbs for all interior pages */}
+        <BreadcrumbJsonLd />
 
         {/* Page content */}
         <main id="main-content">{children}</main>

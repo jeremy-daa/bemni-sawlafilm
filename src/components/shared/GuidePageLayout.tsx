@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { PremiumImage } from '@/components/ui/PremiumImage'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { guideArticleSchema } from '@/lib/schema'
 
 interface GuideSectionBlock {
   heading: string
@@ -14,6 +16,7 @@ interface FaqItem {
 }
 
 interface GuidePageLayoutProps {
+  slug: string
   h1: string
   subhead: string
   eyebrow?: string
@@ -30,6 +33,7 @@ interface GuidePageLayoutProps {
 }
 
 export function GuidePageLayout({
+  slug,
   h1,
   subhead,
   eyebrow = 'Ethiopia filming guide',
@@ -46,6 +50,15 @@ export function GuidePageLayout({
 }: GuidePageLayoutProps) {
   return (
     <div className="min-h-screen">
+      <JsonLd
+        id={`${slug}-guide-schema`}
+        data={guideArticleSchema({
+          slug,
+          headline: h1,
+          description: subhead,
+          faqs,
+        })}
+      />
 
       {/* HERO */}
       <div className="bg-ink pt-[80px] pb-16 relative overflow-hidden">

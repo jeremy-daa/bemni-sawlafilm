@@ -31,6 +31,7 @@ export default function BringingEquipmentPage() {
 
   return (
     <GuidePageLayout
+      slug="bringing-film-equipment-to-ethiopia"
       heroImageRecord={imageRecord}
       eyebrow="Ethiopia filming guide"
       h1="Bringing Film Equipment to Ethiopia"

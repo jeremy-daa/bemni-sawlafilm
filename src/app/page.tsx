@@ -12,10 +12,19 @@ import { GuideSection }        from '@/components/sections/GuideSection'
 import { WhySection }          from '@/components/sections/WhySection'
 import { CTASection }          from '@/components/sections/CTASection'
 import { BlogPreviewSection }  from '@/components/sections/BlogPreviewSection'
+import { JsonLd }              from '@/components/seo/JsonLd'
+import { homepageSchema }      from '@/lib/schema'
 
 export default async function HomePage() {
   return (
     <>
+      <JsonLd
+        id="homepage-schema"
+        data={homepageSchema(
+          'Sawla Films is an Ethiopia-based film fixer and production support company helping international crews with permits, access, logistics, customs, drone coordination, local crew, and on-ground fixing across all 12 regional states. Built for international productions that need clarity, control, and calm execution.'
+        )}
+      />
+
       {/* 1. Full-bleed video hero */}
       <HeroSection />
 

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Eyebrow } from '@/components/ui/Eyebrow'
 import { SITE } from '@/lib/constants'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { pageSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'How Sawla Films Works | Ethiopia Film Fixer Process',
@@ -122,6 +124,16 @@ const PRINCIPLES = [
 export default function HowWeWorkPage() {
   return (
     <div className="min-h-screen">
+      <JsonLd
+        id="how-we-work-page-schema"
+        data={pageSchema({
+          type: 'WebPage',
+          path: '/how-we-work',
+          name: 'How Sawla Films Works',
+          description:
+            'How Sawla Films approaches film fixing in Ethiopia: feasibility review, access and permit planning, logistics build, and shoot-day fixing from the first planning question to final wrap.',
+        })}
+      />
 
       {/* ── HERO ── */}
       <div className="bg-ink pt-[80px] pb-14 relative overflow-hidden">
