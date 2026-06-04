@@ -8,19 +8,19 @@ import { useNavScroll } from '@/hooks/useNavScroll'
 import { SITE, NAV_SERVICES, NAV_GUIDES } from '@/lib/constants'
 
 const TOP_NAV = [
-  { label: 'Home',          href: '/',                             dropdown: null },
-  { label: 'Services',      href: '/ethiopia-film-fixer-services', dropdown: 'services' },
-  { label: 'Filming Guide', href: '/ethiopia-filming-guide',       dropdown: 'guides' },
-  { label: 'Gallery',       href: '/gallery',                      dropdown: null },
-  { label: 'Our Work',      href: '/case-studies',                 dropdown: null },
-  { label: 'About',         href: '/about',                        dropdown: null },
-  { label: 'FAQ',           href: '/faq',                          dropdown: null },
-  { label: 'Blog',          href: '/blog',                         dropdown: null },
+  { label: 'Home', href: '/', dropdown: null },
+  { label: 'Services', href: '/ethiopia-film-fixer-services', dropdown: 'services' },
+  { label: 'Filming Guide', href: '/ethiopia-filming-guide', dropdown: 'guides' },
+  { label: 'Our Work', href: '/case-studies', dropdown: null },
+  { label: 'About', href: '/about', dropdown: null },
+  { label: 'Blog', href: '/blog', dropdown: null },
+  { label: 'Gallery', href: '/gallery', dropdown: null },
+  { label: 'FAQ', href: '/faq', dropdown: null },
 ]
 
 export function Navbar() {
-  const scrolled   = useNavScroll(40)
-  const [open, setOpen]         = useState(false)
+  const scrolled = useNavScroll(40)
+  const [open, setOpen] = useState(false)
   const [activeDD, setActiveDD] = useState<string | null>(null)
   const ddTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
